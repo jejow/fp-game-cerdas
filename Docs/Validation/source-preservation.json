@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-15T05:02:01.900296+00:00",
+  "status": "PASS",
+  "originalSourceFiles": 8277,
+  "originalFilesFound": 8277,
+  "missing": [],
+  "nonTextSizeChanges": [],
+  "snapshotTextHashesChecked": 6026,
+  "snapshotTextHashesUnchanged": 5894,
+  "intentionalTextChangesByExtension": {
+    ".cs": 4,
+    ".meta": 115,
+    ".xml": 1,
+    ".json": 1,
+    ".uxml": 8,
+    ".uss": 2,
+    ".asset": 1
+  },
+  "sourceZipIntegrity": "PASS",
+  "cloudMaterialRestoredToBeforeMaintenance": true,
+  "scope": "All original Assets/Packages/ProjectSettings files are located after paired metadata moves or archival. Original text snapshots checked by SHA-256; path references and Editor-only validation changes are intentional. Remaining binary sizes preserved. This is not a claim of before/after hashes for all model/texture binaries."
+}

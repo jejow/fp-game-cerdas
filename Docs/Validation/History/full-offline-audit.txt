@@ -1,0 +1,8 @@
+Audit time: 2026-10-08T09:16:33.281041
+Online package dependencies: []
+Online game-code references: []
+IPC-only constructors: OfflineDriverConstructor in OfflineMatch.cs
+Unity Connect, Analytics/Ads startup: disabled
+Addressables catalog and group paths: local
+Legacy serialized connector references: none
+Bot menu XML: valid

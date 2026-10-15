@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-15T04:49:11.630640+00:00",
+  "banks": [
+    {
+      "file": "Audio\\WwiseProject\\GeneratedSoundBanks\\Windows\\DefaultBank.bnk",
+      "sha256": "28eec857c2aa9bcd725c7b248c4256c1586c75ceb7c1ca5212054f250417a8ef",
+      "runtimeCopyMatches": true
+    },
+    {
+      "file": "Audio\\WwiseProject\\GeneratedSoundBanks\\Windows\\Init.bnk",
+      "sha256": "aa2d520a47da4397c25dd762e4147758ba561b96f416c4576fd9c33ac4825efa",
+      "runtimeCopyMatches": true
+    },
+    {
+      "file": "Audio\\WwiseProject\\GeneratedSoundBanks\\Windows\\MainMenu.bnk",
+      "sha256": "a3d77877b30b225c16ba3f461895a746399e8e55ba1d9e15b1af13d37c92e39f",
+      "runtimeCopyMatches": true
+    },
+    {
+      "file": "Audio\\WwiseProject\\GeneratedSoundBanks\\Windows\\VoiceLines.bnk",
+      "sha256": "c215c85a4d334c56129b27000c616b5e9eb79da5b300abc5b4a623d6f0f4c135",
+      "runtimeCopyMatches": true
+    }
+  ],
+  "status": "PASS"
+}

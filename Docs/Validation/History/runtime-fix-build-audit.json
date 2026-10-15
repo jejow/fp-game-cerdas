@@ -1,0 +1,35 @@
+{
+  "buildHeader": [
+    "Finished: 2026-10-08 18:43:42",
+    "Result: Succeeded",
+    "Output: C:/Users/junxi/OneDrive/Documents/Semester 5/Gim Cerdas/Suna/Builds/Offline/Suna.exe",
+    "Size: 5669255963 bytes",
+    "Duration: 01:18:45.0190875",
+    "Errors: 0; warnings: 46"
+  ],
+  "exeUpdatedAt": "2026-10-08T18:27:48.512606",
+  "managedDllCount": 171,
+  "onlineServiceDlls": [],
+  "audioBanks": [
+    {
+      "name": "DefaultBank.bnk",
+      "match": true,
+      "sha256": "28eec857c2aa9bcd725c7b248c4256c1586c75ceb7c1ca5212054f250417a8ef"
+    },
+    {
+      "name": "Init.bnk",
+      "match": true,
+      "sha256": "aa2d520a47da4397c25dd762e4147758ba561b96f416c4576fd9c33ac4825efa"
+    },
+    {
+      "name": "MainMenu.bnk",
+      "match": true,
+      "sha256": "a3d77877b30b225c16ba3f461895a746399e8e55ba1d9e15b1af13d37c92e39f"
+    },
+    {
+      "name": "VoiceLines.bnk",
+      "match": true,
+      "sha256": "c215c85a4d334c56129b27000c616b5e9eb79da5b300abc5b4a623d6f0f4c135"
+    }
+  ]
+}

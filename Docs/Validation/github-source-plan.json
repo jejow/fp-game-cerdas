@@ -1,0 +1,12 @@
+{
+  "owner": "jejow",
+  "repository": "fp-game-cerdas",
+  "private": true,
+  "branch": "main",
+  "expectedSourceFiles": 8581,
+  "expectedSourceBytes": 7372428051,
+  "assetIdentitiesRequiredOnClone": 4369,
+  "generatedIdentitiesExcluded": 29,
+  "lfsManagedFiles": 2039,
+  "requiredAssetMetaFilesStaged": 4369
+}

@@ -1,0 +1,109 @@
+.main-menu-button {
+    align-self: flex-start;
+    font-size: 45px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    width: 581px;
+    height: 86px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: url("project://database/Assets/Game/Art/HUD_General/MENU/Rectangle_tint.png?fileID=2800000&guid=e88327408c844aa4a8e2f94a7847de73&type=3#Rectangle_tint");
+    justify-content: center;
+    align-items: flex-start;
+    -unity-font-definition: url("project://database/Assets/Game/Art/Fonts/Nasalization%20Rg.otf?fileID=12800000&guid=06393c2b6298fae42b401ef0082880d0&type=3#Nasalization Rg");
+    flex-direction: column;
+    -unity-text-align: middle-left;
+    background-color: rgba(0, 0, 0, 0);
+    transition-property: -unity-background-image-tint-color;
+    transition-duration: 0.15s;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    transition-timing-function: ease;
+}
+
+.main-menu-button:hover {
+    left: auto;
+    transition-property: -unity-background-image-tint-color;
+    transition-duration: 0.15s;
+    -unity-background-image-tint-color: rgb(172, 172, 172);
+}
+
+.main-menu-button:active {
+    left: auto;
+    transition-property: -unity-background-image-tint-color;
+    transition-duration: 0.15s;
+    -unity-background-image-tint-color: rgb(233, 233, 233);
+}
+
+.bot-setup {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 5%;
+    bottom: 14%;
+    padding: 32px 44px;
+    background-color: rgba(12, 17, 21, 0.96);
+    border-width: 2px;
+    border-color: rgb(138, 152, 158);
+    color: rgb(242, 245, 246);
+    -unity-font-definition: url("project://database/Assets/Game/Art/Fonts/Nasalization%20Rg.otf?fileID=12800000&guid=06393c2b6298fae42b401ef0082880d0&type=3#Nasalization Rg");
+}
+
+.bot-title { font-size: 42px; -unity-font-style: bold; }
+.bot-subtitle { font-size: 22px; color: rgb(177, 190, 196); margin-bottom: 20px; }
+.bot-scroll { flex-grow: 1; flex-shrink: 1; }
+.bot-map-card { padding: 14px; margin-bottom: 12px; background-color: rgba(69, 88, 98, 0.4); }
+.bot-map-title { font-size: 27px; margin-bottom: 8px; }
+.bot-hint { font-size: 21px; white-space: normal; color: rgb(182, 195, 202); }
+.bot-row { flex-direction: row; align-items: center; margin-bottom: 10px; min-height: 54px; }
+.bot-field-label { width: 35%; font-size: 26px; }
+.bot-field { flex-grow: 1; height: 54px; font-size: 24px; }
+.bot-field .unity-base-field__input {
+    background-color: rgb(35, 46, 53);
+    color: rgb(245, 245, 245);
+    border-color: rgb(98, 115, 124);
+    border-width: 1px;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+.bot-description { margin-left: 35%; margin-bottom: 12px; min-height: 36px; }
+.bot-presets { flex-direction: row; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+.bot-small-button {
+    height: 48px; width: 160px; margin-left: 18px;
+    font-size: 22px; color: rgb(241, 244, 245);
+    background-color: rgb(49, 64, 74); border-radius: 0;
+}
+.bot-summary { font-size: 26px; color: rgb(184, 218, 229); margin-top: 20px; margin-bottom: 16px; }
+.bot-actions { flex-direction: row; justify-content: space-between; flex-shrink: 0; }
+.bot-action-button {
+    width: 32%; height: 68px; font-size: 28px; -unity-font-style: bold;
+    color: rgb(243, 246, 247); background-color: rgb(44, 57, 64); border-radius: 0;
+    border-width: 1px; border-color: rgb(117, 136, 145);
+}
+.bot-start-button { width: 56%; background-color: rgb(42, 106, 123); border-color: rgb(116, 179, 191); }
+.bot-action-button:hover, .bot-small-button:hover { background-color: rgb(75, 111, 127); }
+.bot-action-button:focus, .bot-small-button:focus { border-color: rgb(213, 238, 245); border-width: 2px; }
+#ConnectionFeedback {
+    left: 15%; right: 15%; bottom: 2%; top: auto; width: auto; height: 104px;
+    translate: 0 0; align-self: auto; background-color: rgba(12, 17, 21, 0.96);
+    font-size: 22px;
+    color: rgb(242, 245, 246);
+    -unity-font-definition: url("project://database/Assets/Game/Art/Fonts/Nasalization%20Rg.otf?fileID=12800000&guid=06393c2b6298fae42b401ef0082880d0&type=3#Nasalization Rg");
+}

@@ -1,0 +1,11 @@
+physical site Entity(5294:3): min=float3(-45.285f, -5.64f, -11.24715f); max=float3(-32.515f, -4.64f, 3.327147f); pose=float3(-38.9f, -5.14f, -3.96f); scale=1
+physical site Entity(5295:3): min=float3(-19.355f, -6.56f, 19.42f); max=float3(-8.085f, -5.56f, 30.02f); pose=float3(-13.72f, -6.06f, 24.72f); scale=1
+time=80.07; phase=ActionPhase; position=float3(-38.4f, -4.568521f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=0; tickRate=30; input=float2(0f, 0f)
+time=81.16; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=20; tickRate=30; input=float2(0f, 0f)
+time=82.37; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=44; tickRate=30; input=float2(0f, 0f)
+time=83.64; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=60; tickRate=30; input=float2(0f, 0f)
+time=84.64; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=72; tickRate=30; input=float2(0f, 0f)
+time=85.78; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=88; tickRate=30; input=float2(0f, 0f)
+time=86.80; phase=ActionPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity(2222:7); planting=True; planted=False; plantAge=104; tickRate=30; input=float2(0f, 0f)
+time=88.00; phase=PostPlantPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity.Null; planting=False; planted=True; plantAge=4; tickRate=30; input=float2(0f, 0f)
+time=88.00; phase=PostPlantPhase; position=float3(-38.4f, -4.615f, -5.400002f); health=100; alive=True; onSite=True; owner=Entity.Null; planting=False; planted=True; plantAge=4; tickRate=30; input=float2(0f, 0f)

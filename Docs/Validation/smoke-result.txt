@@ -1,0 +1,83 @@
+PASS
+plant rejected in buy phase
+valid owner can plant on site
+plant cancellation clears character state
+capsule overlapping a low site can plant with its center above the trigger
+plant rejected when the entire capsule is outside the site
+native can defuse in range
+defuse rejected outside range
+defuse cancellation clears state before dropping entity references
+deleted defuser cleanup is safe
+Play Offline opens custom bot setup
+5 vs 5 preset sets four allies and five enemies
+1 vs 1 preset sets one enemy
+Back closes setup without starting a match
+local setup preferences survive reopening the menu
+menu prefab has valid offline settings component
+start button applies Normal setup with 0 allies and 1 enemies
+ServerWorld has exactly one IPC driver and no socket driver
+ClientWorld has exactly one IPC driver and no socket driver
+map navigation baked and spawns connected
+team button closes the selection UI
+team button enables player controls
+corpo receives the harvester at round start
+Corpo match lighting fits the desktop light budget (2/32)
+bot uses server ownership
+bot joins the opposite team
+first round starts in buy phase
+bot moves through the character controller
+human command input moves the character on the local server
+damage pipeline works for bot
+damage pipeline works for human
+combat target has navigable ground and clear line of sight
+bot consumes ammunition through the shooting system
+bot raycast hits the human body collider
+bot reloads an empty gun
+human stands inside the real bomb-site trigger
+human can start a runtime plant
+four-second plant completes through the game systems
+bot defuse awards the native round
+both players respawn for the next round
+bot death awards the human round
+dead bot respawns with health and a loaded gun
+runtime audio Init bank available
+worlds cleaned up on exit
+start button applies Normal setup with 0 allies and 1 enemies
+team button closes the selection UI
+team button enables player controls
+corpo receives the harvester at round start
+Natif match lighting fits the desktop light budget (2/32)
+second match starts with the other team
+corpo bot plants through the game systems
+planted objective timeout awards the corpo bot round
+start button applies Hard setup with 4 allies and 5 enemies
+minimap shows ally bots in its four valid slots and hides unused pins
+custom bot -1 has a character on Corpo
+custom bot -2 has a character on Corpo
+custom bot -3 has a character on Corpo
+custom bot -4 has a character on Corpo
+custom bot -5 has a character on Natif
+custom bot -6 has a character on Natif
+custom bot -7 has a character on Natif
+custom bot -8 has a character on Natif
+custom bot -9 has a character on Natif
+Hard match spawns 4 ally bots, 5 enemy bots, and unique participant IDs
+setup team choice is applied automatically
+custom match starts with team menu closed and player controls enabled
+ServerWorld has exactly one IPC driver and no socket driver
+ClientWorld has exactly one IPC driver and no socket driver
+custom match worlds cleaned up
+start button applies Easy setup with 2 allies and 3 enemies
+minimap shows ally bots in its four valid slots and hides unused pins
+custom bot -1 has a character on Natif
+custom bot -2 has a character on Natif
+custom bot -3 has a character on Corpo
+custom bot -4 has a character on Corpo
+custom bot -5 has a character on Corpo
+Easy match spawns 2 ally bots, 3 enemy bots, and unique participant IDs
+setup team choice is applied automatically
+custom match starts with team menu closed and player controls enabled
+ServerWorld has exactly one IPC driver and no socket driver
+ClientWorld has exactly one IPC driver and no socket driver
+custom match worlds cleaned up
+no runtime errors: 

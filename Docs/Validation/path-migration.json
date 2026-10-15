@@ -1,0 +1,894 @@
+{
+  "moves": [
+    {
+      "source": "Suna/Assets/_Projet",
+      "destination": "Suna/Assets/Game",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Arts",
+      "destination": "Suna/Assets/Game/Art",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/_Scripts",
+      "destination": "Suna/Assets/Game/Scripts/Runtime",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Editor",
+      "destination": "Suna/Assets/Game/Scripts/Editor/Offline",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/ScriptablesObject",
+      "destination": "Suna/Assets/Game/Data",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Eumerations",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Enums",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Authorings",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Authoring",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/MonoBehaviours",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Behaviours",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Load",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Loading",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Enums/SceneLoader.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Loading/SceneLoader.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/NetCode",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Simulation",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Simulation/Offline",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Offline",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Simulation/Temp",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Session",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Session/LoadUtils.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Loading/LoadUtils.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Session/LoadingScreen.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/UI/Loading/LoadingScreen.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Session/NetcodeConnectionEvent.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Simulation/Common/NetcodeConnectionEvent.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Simulation/NetcodePrefabsConverter.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Authoring/NetcodePrefabsConverter.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/ConstantHUD/ConstantHUD.uxml",
+      "destination": "Suna/Assets/Game/UI/ConstantHUD/ConstantHUD.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/Credits/CreditsMenu.uxml",
+      "destination": "Suna/Assets/Game/UI/Credits/CreditsMenu.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/ErrorsMenu/ErrorWindow.uxml",
+      "destination": "Suna/Assets/Game/UI/ErrorsMenu/ErrorWindow.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/MainMenu/main-menu.uss",
+      "destination": "Suna/Assets/Game/UI/MainMenu/main-menu.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/MainMenu/MainMenu.uxml",
+      "destination": "Suna/Assets/Game/UI/MainMenu/MainMenu.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/PauseMenu/pause-menu.uss",
+      "destination": "Suna/Assets/Game/UI/PauseMenu/pause-menu.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/PauseMenu/PauseMenu.uxml",
+      "destination": "Suna/Assets/Game/UI/PauseMenu/PauseMenu.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/SettingsMenu/SettingsMenu.uxml",
+      "destination": "Suna/Assets/Game/UI/SettingsMenu/SettingsMenu.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/StuffShop/shop-style.uss",
+      "destination": "Suna/Assets/Game/UI/StuffShop/shop-style.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/StuffShop/StuffShop.uxml",
+      "destination": "Suna/Assets/Game/UI/StuffShop/StuffShop.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/TeamChoice/team-choice.uss",
+      "destination": "Suna/Assets/Game/UI/TeamChoice/team-choice.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/TeamChoice/TeamChoiceMenu.uxml",
+      "destination": "Suna/Assets/Game/UI/TeamChoice/TeamChoiceMenu.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/WeaponsIcon/WeaponAsset.uxml",
+      "destination": "Suna/Assets/Game/UI/WeaponsIcon/WeaponAsset.uxml",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Shaders",
+      "destination": "Suna/Assets/Game/Rendering/GameplayShaders",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Characters/CharacterColliderBones.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Characters/CharacterColliderBones.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Characters/CharacterColliderData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Characters/CharacterColliderData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Settings/ClientSettingsData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Settings/ClientSettingsData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/UI/UITextureData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/UI/UITextureData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/WeaponMods/CrossData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/WeaponMods/CrossData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/WeaponMods/HandleData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/WeaponMods/HandleData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/WeaponMods/MagazineData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/WeaponMods/MagazineData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/WeaponMods/ScopeData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/WeaponMods/ScopeData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/WeaponMods/SilencerData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/WeaponMods/SilencerData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Characters/ModelAnimator/ModelAnimatorData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Characters/ModelAnimator/ModelAnimatorData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Stuff/Scripts/GrenadeData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Equipment/GrenadeData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Stuff/Scripts/HarvesterData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Equipment/HarvesterData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Stuff/Scripts/MeleeWeaponData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Equipment/MeleeWeaponData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Stuff/Scripts/RangedWeaponData.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Data/Equipment/RangedWeaponData.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/SplashScreen/VideoPlayerSceneHandler.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Loading/VideoPlayerSceneHandler.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/DefaultInputSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Input/DefaultInputSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/DefaultInputSystem.inputactions",
+      "destination": "Suna/Assets/Game/Input/DefaultInputSystem.inputactions",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/HarvesterVfxLink.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Effects/HarvesterVfxLink.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/WeaponVfxLink.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Effects/WeaponVfxLink.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Editor",
+      "destination": "Suna/Assets/Game/Scripts/Editor/NoiseTools",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Tools/Noise",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Noise",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/skybox/VolumetricClouds",
+      "destination": "Suna/Assets/ThirdParty/VolumetricClouds",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Imported Placeholder",
+      "destination": "Suna/Assets/ThirdParty/PlaceholderAssets",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Robot1F_Workshop_3D",
+      "destination": "Suna/Assets/ThirdParty/Robot1F",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Travis Game Assets",
+      "destination": "Suna/Assets/ThirdParty/TravisGameAssets",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Animations",
+      "destination": "Suna/Assets/Game/Art/CharacterAnimations",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/VFX_UZI",
+      "destination": "Suna/Assets/Game/Art/WeaponEffects",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Mid.fbx",
+      "destination": "Suna/Assets/Game/Art/Environment/Mid.fbx",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Sol_mid.prefab",
+      "destination": "Suna/Assets/Game/Prefabs/Environment/Sol_mid.prefab",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/A SUPRIMER OU RANGER/ClientPredictionSmoothingSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Simulation/Client/ClientPredictionSmoothingSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/A SUPRIMER OU RANGER/InputDebug.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Diagnostics/InputDebug.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/A SUPRIMER OU RANGER/SarahIntegration/Adaptive Probe Volume.prefab",
+      "destination": "Suna/Assets/Game/Prefabs/Environment/Adaptive Probe Volume.prefab",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Prefabs/Scenes",
+      "destination": "Suna/Assets/Game/Scenes",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/Netcode/MultiplayerTest.unity",
+      "destination": "Suna/Assets/Game/Scenes/Gameplay.unity",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/Netcode/MultiplayerTest",
+      "destination": "Suna/Assets/Game/Scenes/Gameplay",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/Gameplay/EntityScene.unity",
+      "destination": "Suna/Assets/Game/Scenes/SubScenes/GameplayEntities.unity",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/MidVolume.prefab",
+      "destination": "Suna/Assets/Game/Prefabs/Environment/MidVolume.prefab",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/SandBox",
+      "destination": "Suna/Assets/Development/Sandbox",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/SceneIntegration",
+      "destination": "Suna/Assets/Development/ArtIntegration",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/6767.unity",
+      "destination": "Suna/Assets/Development/Scenes/6767.unity",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/RoundSystemClient.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/RoundSystemClient.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/RoundSystemServer.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/RoundSystemServer.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/CountPlayersSystemServer.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/CountPlayersSystemServer.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/TeamChoiceSystemClient.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/TeamChoiceSystemClient.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/TeamChoiceSystemServer.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/TeamChoiceSystemServer.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/SpawnerSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/SpawnerSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/TriggerResolutionServerSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Round/TriggerResolutionServerSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/HitSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/HitSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/OnDeathSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/OnDeathSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/GrenadeSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/GrenadeSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/GrenadeEffectsSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/GrenadeEffectsSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/TracerRoundSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/TracerRoundSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/VisualRecoilSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Combat/VisualRecoilSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/MoneyRelatedSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Economy/MoneyRelatedSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/ShopSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Economy/ShopSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/AnimationSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Presentation/AnimationSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/CameraSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Presentation/CameraSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/SoundSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Presentation/SoundSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/ClientSettingsSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Presentation/ClientSettingsSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/ServerSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Simulation/ServerSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/ServerRpcCommandSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Simulation/ServerRpcCommandSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/RpcLoggerSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Simulation/RpcLoggerSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/DestroyTagSystem.cs",
+      "destination": "Suna/Assets/Game/Scripts/Runtime/Systems/Simulation/DestroyTagSystem.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Systems/StuffSystemClient.cs",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Scripts/Runtime/Systems/StuffSystemClient.cs",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/DefaultWidgetConfiguration.asset",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/DefaultWidgetConfiguration.asset",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/UserChoices.choices",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/UserChoices.choices",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/A SUPRIMER OU RANGER/UserChoices.choices",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/A SUPRIMER OU RANGER/UserChoices.choices",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Animations/UI/OutGame/GameMode/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Art/Animations/UI/OutGame/GameMode/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Materials/UI/OutGame/GameMode/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Art/Materials/UI/OutGame/GameMode/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Models/UI/OutGame/GameMode/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Art/Models/UI/OutGame/GameMode/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Prefabs/UI/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Prefabs/UI/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/UI/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Data/UI/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/GameMode/desktop.ini",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assets/Game/Scripts/Runtime/UI/GameMode/desktop.ini",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/CSLike 0.0_WwiseProject",
+      "destination": "Suna/Audio/WwiseProject",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/WwiseUnityIntegration_Windows_Src.zip",
+      "destination": "Suna/Tools/ThirdPartySources/WwiseUnityIntegration_Windows_Src.zip",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/WwiseUnityIntegration_Mac_Src.zip",
+      "destination": "Suna/Tools/ThirdPartySources/WwiseUnityIntegration_Mac_Src.zip",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/images",
+      "destination": "Suna/Docs/Images",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/OFFLINE_MODE.md",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/OFFLINE_MODE.md",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/.validation",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/.validation",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/logRunSetup.txt",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/logRunSetup.txt",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/UIElementsSchema",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/UIElementsSchema",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Logs",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Logs",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Ak.Wwise.Api.WAAPI.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Ak.Wwise.Api.WAAPI.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.API.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.API.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.WwiseTypes.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.API.WwiseTypes.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.MonoBehaviour.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.MonoBehaviour.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.ProjectDatabase.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.ProjectDatabase.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.Timeline.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.Timeline.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.Timeline.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AK.Wwise.Unity.Timeline.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Assembly-CSharp-Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assembly-CSharp-Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Assembly-CSharp.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Assembly-CSharp.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/AssemblyDefinition.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/AssemblyDefinition.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/MerryYellow.CodeAssist.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/MerryYellow.CodeAssist.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/NoiseAssembly.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/NoiseAssembly.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Unity.Physics.Custom.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Unity.Physics.Custom.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Unity.Physics.Custom.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Unity.Physics.Custom.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/VFXGraph.OutputEventHandlers.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/VFXGraph.OutputEventHandlers.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/VFXGraph.OutputEventHandlers.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/VFXGraph.OutputEventHandlers.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/VolumetricCloudsURP.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/VolumetricCloudsURP.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/VolumetricCloudsURP.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/VolumetricCloudsURP.Editor.csproj",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Suna.sln",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/Suna.sln",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Builds/OfflineBeforeFullOffline-20261008",
+      "destination": "Suna/Builds/Legacy/OfflineBeforeFullOffline-20261008",
+      "metaMoved": false
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Utilities/UI/SinglePurposeElement/killfeed.uss",
+      "destination": "Suna/Assets/Game/UI/Shared/killfeed.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/Utilities/UI/VisualElements/floating-window.uss",
+      "destination": "Suna/Assets/Game/UI/Shared/floating-window.uss",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Animations/UI",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Art/Animations/UI",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Materials/UI",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Art/Materials/UI",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Models/UI",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Art/Models/UI",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Art/Textures/PhysicalElements/Environments/Rocks/Rock06",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Art/Textures/PhysicalElements/Environments/Rocks/Rock06",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Data/Stuff/Scripts",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Data/Stuff/Scripts",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scenes/Netcode",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Scenes/Netcode",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/Credits",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Scripts/Runtime/UI/Credits",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/GameMode",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Scripts/Runtime/UI/GameMode",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Game/Scripts/Runtime/UI/WeaponsIcon",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Game/Scripts/Runtime/UI/WeaponsIcon",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/A SUPRIMER OU RANGER",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/A SUPRIMER OU RANGER",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Tools",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Tools",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Assets/Multiplayer Widgets",
+      "destination": "_ProjectBackups/Suna-20261015/Archived/EmptyFolders/Assets/Multiplayer Widgets",
+      "metaMoved": true
+    },
+    {
+      "source": "Suna/Library",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Library",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Logs",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Logs",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/UserSettings",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/UserSettings",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Builds/Legacy",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Builds/Legacy",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Ak.Wwise.Api.WAAPI.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Ak.Wwise.Api.WAAPI.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.API.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.API.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.API.WwiseTypes.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.API.WwiseTypes.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.MonoBehaviour.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.MonoBehaviour.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.ProjectDatabase.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.ProjectDatabase.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.Timeline.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.Timeline.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AK.Wwise.Unity.Timeline.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AK.Wwise.Unity.Timeline.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Assembly-CSharp-Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Assembly-CSharp-Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Assembly-CSharp.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Assembly-CSharp.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/AssemblyDefinition.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/AssemblyDefinition.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/MerryYellow.CodeAssist.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/MerryYellow.CodeAssist.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/NoiseAssembly.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/NoiseAssembly.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Suna.sln",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Suna.sln",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Unity.Physics.Custom.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Unity.Physics.Custom.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Unity.Physics.Custom.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Unity.Physics.Custom.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/VFXGraph.OutputEventHandlers.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/VFXGraph.OutputEventHandlers.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/VFXGraph.OutputEventHandlers.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/VFXGraph.OutputEventHandlers.Editor.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/VolumetricCloudsURP.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/VolumetricCloudsURP.csproj",
+      "generatedOrLegacy": true
+    },
+    {
+      "source": "Suna/VolumetricCloudsURP.Editor.csproj",
+      "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/VolumetricCloudsURP.Editor.csproj",
+      "generatedOrLegacy": true
+    }
+  ]
+}

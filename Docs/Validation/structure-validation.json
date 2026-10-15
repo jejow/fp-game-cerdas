@@ -1,0 +1,12 @@
+{
+    "utc": "2026-10-15T04:48:02.5307357Z",
+    "unityVersion": "6000.0.37f1",
+    "status": "PASS",
+    "assetIdentitiesChecked": 4398,
+    "scenesChecked": 4,
+    "missingScripts": 0,
+    "scriptReferencesChecked": 150,
+    "sceneInspection": "Serialized scene script GUIDs; no scene instantiation.",
+    "errors": [],
+    "warnings": []
+}

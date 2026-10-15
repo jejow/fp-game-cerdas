@@ -1,0 +1,3 @@
+Corpo match: runtime lights=2; desktop limit=32
+Corpo match: runtime lights=2; desktop limit=32
+Natif match: runtime lights=2; desktop limit=32

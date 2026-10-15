@@ -1,0 +1,16 @@
+﻿{
+    "Time":  "2026-10-08T11:14:51",
+    "PlayerPID":  2920,
+    "ElapsedSeconds":  111,
+    "OwnedProcessIds":  [
+                            2920,
+                            17308
+                        ],
+    "Tcp":  [
+
+            ],
+    "Udp":  [
+
+            ],
+    "PlayerResponding":  true
+}
