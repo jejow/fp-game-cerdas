@@ -26,6 +26,8 @@ public static class OfflineSmokeBatch
     {
         if (!Application.isBatchMode) throw new InvalidOperationException("This entry point requires Unity batch mode.");
         ProjectStructureValidation.Validate();
+        RobotPresentationValidation.Validate();
+        PresentationSmokeBatch.SetGameViewSize(1600, 900);
         SessionState.SetBool(Active, true);
         SessionState.SetString(StartedAt, DateTime.UtcNow.Ticks.ToString());
         EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);

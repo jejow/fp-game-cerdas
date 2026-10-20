@@ -2,7 +2,7 @@
   "buildHeader": [
     "Finished: 2026-10-08 18:43:42",
     "Result: Succeeded",
-    "Output: C:/Users/junxi/OneDrive/Documents/Semester 5/Gim Cerdas/Suna/Builds/Offline/Suna.exe",
+    "Output: ./Builds/Offline/Suna.exe",
     "Size: 5669255963 bytes",
     "Duration: 01:18:45.0190875",
     "Errors: 0; warnings: 46"

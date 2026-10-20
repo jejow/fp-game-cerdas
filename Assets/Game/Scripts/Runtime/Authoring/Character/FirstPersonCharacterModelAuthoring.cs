@@ -1,7 +1,7 @@
 using Unity.Entities;
 using UnityEngine;
 
-class FirstPersonCharacterModelAuthoring : MonoBehaviour
+public class FirstPersonCharacterModelAuthoring : MonoBehaviour
 {
     public GameObject CorpoModelPrefab;
     public GameObject NatifModelPrefab;

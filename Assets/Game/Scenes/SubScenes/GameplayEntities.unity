@@ -389,7 +389,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1020457550996171417, guid: a9f65ac37e7e7a34f8a436d2926691de, type: 3}
       propertyPath: m_Name
-      value: Colliders Map Thomas
+      value: MapColliders
       objectReference: {fileID: 0}
     - target: {fileID: 1020457550996171417, guid: a9f65ac37e7e7a34f8a436d2926691de, type: 3}
       propertyPath: m_IsActive

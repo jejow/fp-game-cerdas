@@ -421,7 +421,7 @@ public partial struct RoundSystemServer : ISystem
             }
         }
 
-        //FIX (Aurelien) : Destroy all dropped weapons and equipment on the ground
+        //FIX: Destroy all dropped weapons and equipment on the ground
         foreach (var (stuffOwner, stuffEntity) in SystemAPI
             .Query<RefRO<StuffDynamicData>>()
             .WithEntityAccess())

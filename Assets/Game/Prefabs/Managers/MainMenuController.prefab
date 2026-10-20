@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1871753309793016089}
   - component: {fileID: 4180815235735621748}
   - component: {fileID: 203782405400259926}
+  - component: {fileID: 3140267434912119845}
   m_Layer: 5
   m_Name: MainMenuController
   m_TagString: Untagged
@@ -46,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PanelSettings: {fileID: 11400000, guid: c2023facb0ba74e4faf01a8cad90b871, type: 2}
+  m_PanelSettings: {fileID: 11400000, guid: 9dee5c333732e2944926b670b7258950, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 7846cc34036aeb343a0bb98fba5f3acb, type: 3}
   m_SortingOrder: 0
@@ -66,7 +67,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settingsMenuAsset: {fileID: 9197481963319205126, guid: 557c017bc59903445b66d083fc317b9f, type: 3}
-  _creditsMenuAsset: {fileID: 9197481963319205126, guid: dd74821c7db205e4782a7e5f35f9bcf3, type: 3}
   _gameManager: {fileID: 0}
 --- !u!114 &203782405400259926
 MonoBehaviour:
@@ -93,3 +93,19 @@ MonoBehaviour:
         idInternal: 0
         valueGuidInternal: 
         WwiseObjectReference: {fileID: 11400000, guid: 5566db36e86b27b46a70327150a75b3a, type: 2}
+--- !u!114 &3140267434912119845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22900290962360792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad4eaa849f8f714e98ba7ada4e15d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allyBots: 0
+  enemyBots: 1
+  difficulty: 1
+  playerTeam: 0

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-20T05:30:54.653456+00:00",
+  "status": "PASS",
+  "scope": "Staged index; no network access or push.",
+  "sourceFiles": 8641,
+  "lfsPointerFiles": 2031,
+  "uniqueLfsObjectsPresent": 1870,
+  "uniqueLfsBytes": 6840317238,
+  "lfsObjectHashVerification": "PASS",
+  "largestRegularGitBlobBytes": 8760095,
+  "assetIdentitiesChecked": 4404,
+  "unityMetaFilesChecked": 4449,
+  "missingMetaFiles": 0,
+  "orphanMetaFiles": 0,
+  "documentationLinksChecked": 8922,
+  "strongCredentialPatternMatches": 0,
+  "errors": [],
+  "cleanup": {
+    "generatedIdeFilesArchived": 23,
+    "legacyCiWorkflowArchived": true,
+    "generatedFolderMetadataExcluded": 3,
+    "emptySourceFoldersPreserved": 3,
+    "legacyLfsMetadataStoredAsYaml": 3,
+    "unicodeGitLfsPathHandling": "Local core.quotepath=false",
+    "commitCreated": false,
+    "pushPerformed": false,
+    "recoveryArchive": "../_ProjectBackups/Suna-20261020-PrePush"
+  }
+}

@@ -2,7 +2,7 @@
 
 Dibuat oleh `python Tools/Project/update_docs.py`. Termasuk `.meta`; tidak mencakup cache Unity, Git, build biner, atau tiga indeks otomatis ini.
 
-Snapshot: **8578 file**, **868 direktori**.
+Snapshot: **8638 file**, **877 direktori**.
 
 ## `.`
 
@@ -12,25 +12,17 @@ File root atau data pendukung proyek; lihat jenis file dan nama sumber.
 | --- | --- | ---: |
 | [.editorconfig](../.editorconfig) | Data/aset pendukung | 0.3 |
 | [.gitattributes](../.gitattributes) | Data/aset pendukung | 1.3 |
-| [.gitignore](../.gitignore) | Data/aset pendukung | 2.0 |
+| [.gitignore](../.gitignore) | Data/aset pendukung | 2.5 |
 | [.vsconfig](../.vsconfig) | Data/aset pendukung | 0.1 |
-| [README.md](../README.md) | Dokumentasi | 5.5 |
+| [README.md](../README.md) | Dokumentasi | 6.4 |
 
 ## `.github`
 
-Konfigurasi repositori dan workflow GitHub.
+Panduan kode repositori; workflow CI warisan diarsipkan di luar proyek.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [copilot-instructions.md](../.github/copilot-instructions.md) | Dokumentasi | 0.2 |
-
-## `.github/workflows`
-
-Konfigurasi repositori dan workflow GitHub.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [main.yml](../.github/workflows/main.yml) | Data/aset pendukung | 1.0 |
 
 ## `.vscode`
 
@@ -78,7 +70,6 @@ Konfigurasi Addressables, group, alamat aset, dan builder.
 | [DefaultObject.asset.meta](../Assets/AddressableAssetsData/DefaultObject.asset.meta) | Metadata/GUID Unity | 0.2 |
 | [ProfileDataSourceSettings.asset](../Assets/AddressableAssetsData/ProfileDataSourceSettings.asset) | Asset/data Unity | 0.8 |
 | [ProfileDataSourceSettings.asset.meta](../Assets/AddressableAssetsData/ProfileDataSourceSettings.asset.meta) | Metadata/GUID Unity | 0.2 |
-| [Windows.meta](../Assets/AddressableAssetsData/Windows.meta) | Metadata/GUID Unity | 0.2 |
 
 ## `Assets/AddressableAssetsData/AssetGroupTemplates`
 
@@ -153,8 +144,8 @@ Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 | [GameplayTestScene.meta](../Assets/Development/Sandbox/GameplayTestScene.meta) | Metadata/GUID Unity | 0.2 |
 | [GameplayTestScene.unity](../Assets/Development/Sandbox/GameplayTestScene.unity) | Scene Unity | 41.1 |
 | [GameplayTestScene.unity.meta](../Assets/Development/Sandbox/GameplayTestScene.unity.meta) | Metadata/GUID Unity | 0.2 |
-| [Theo.meta](../Assets/Development/Sandbox/Theo.meta) | Metadata/GUID Unity | 0.2 |
-| [Timotee.meta](../Assets/Development/Sandbox/Timotee.meta) | Metadata/GUID Unity | 0.2 |
+| [RoundTests.meta](../Assets/Development/Sandbox/RoundTests.meta) | Metadata/GUID Unity | 0.2 |
+| [UITests.meta](../Assets/Development/Sandbox/UITests.meta) | Metadata/GUID Unity | 0.2 |
 
 ## `Assets/Development/Sandbox/GameplayTestScene`
 
@@ -165,95 +156,95 @@ Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 | [GameplayTestEntitySubScene.unity](../Assets/Development/Sandbox/GameplayTestScene/GameplayTestEntitySubScene.unity) | Scene Unity | 30.7 |
 | [GameplayTestEntitySubScene.unity.meta](../Assets/Development/Sandbox/GameplayTestScene/GameplayTestEntitySubScene.unity.meta) | Metadata/GUID Unity | 0.2 |
 
-## `Assets/Development/Sandbox/Theo`
+## `Assets/Development/Sandbox/RoundTests`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [Materials.meta](../Assets/Development/Sandbox/Theo/Materials.meta) | Metadata/GUID Unity | 0.2 |
-| [Prefabs.meta](../Assets/Development/Sandbox/Theo/Prefabs.meta) | Metadata/GUID Unity | 0.2 |
-| [Scenes.meta](../Assets/Development/Sandbox/Theo/Scenes.meta) | Metadata/GUID Unity | 0.2 |
-| [Scripts.meta](../Assets/Development/Sandbox/Theo/Scripts.meta) | Metadata/GUID Unity | 0.2 |
+| [RoundManagerTest.meta](../Assets/Development/Sandbox/RoundTests/RoundManagerTest.meta) | Metadata/GUID Unity | 0.2 |
+| [RoundManagerTest.unity](../Assets/Development/Sandbox/RoundTests/RoundManagerTest.unity) | Scene Unity | 44.6 |
+| [RoundManagerTest.unity.meta](../Assets/Development/Sandbox/RoundTests/RoundManagerTest.unity.meta) | Metadata/GUID Unity | 0.2 |
 
-## `Assets/Development/Sandbox/Theo/Materials`
-
-Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [TheoDefaultMat.mat](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat.mat) | Material | 10.3 |
-| [TheoDefaultMat.mat.meta](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat.mat.meta) | Metadata/GUID Unity | 0.2 |
-| [TheoDefaultMat_Blue.mat](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Blue.mat) | Material | 10.3 |
-| [TheoDefaultMat_Blue.mat.meta](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Blue.mat.meta) | Metadata/GUID Unity | 0.2 |
-| [TheoDefaultMat_Dark.mat](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Dark.mat) | Material | 10.3 |
-| [TheoDefaultMat_Dark.mat.meta](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Dark.mat.meta) | Metadata/GUID Unity | 0.2 |
-| [TheoDefaultMat_Red.mat](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Red.mat) | Material | 10.3 |
-| [TheoDefaultMat_Red.mat.meta](../Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Red.mat.meta) | Metadata/GUID Unity | 0.2 |
-
-## `Assets/Development/Sandbox/Theo/Prefabs`
+## `Assets/Development/Sandbox/RoundTests/RoundManagerTest`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [Impact.prefab](../Assets/Development/Sandbox/Theo/Prefabs/Impact.prefab) | Prefab | 3.0 |
-| [Impact.prefab.meta](../Assets/Development/Sandbox/Theo/Prefabs/Impact.prefab.meta) | Metadata/GUID Unity | 0.2 |
-| [PlayerView.prefab](../Assets/Development/Sandbox/Theo/Prefabs/PlayerView.prefab) | Prefab | 17.4 |
-| [PlayerView.prefab.meta](../Assets/Development/Sandbox/Theo/Prefabs/PlayerView.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [RoundManagerSubScene.unity](../Assets/Development/Sandbox/RoundTests/RoundManagerTest/RoundManagerSubScene.unity) | Scene Unity | 11.2 |
+| [RoundManagerSubScene.unity.meta](../Assets/Development/Sandbox/RoundTests/RoundManagerTest/RoundManagerSubScene.unity.meta) | Metadata/GUID Unity | 0.2 |
 
-## `Assets/Development/Sandbox/Theo/Scenes`
+## `Assets/Development/Sandbox/UITests`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [AnotherScene.meta](../Assets/Development/Sandbox/Theo/Scenes/AnotherScene.meta) | Metadata/GUID Unity | 0.2 |
-| [AnotherScene.unity](../Assets/Development/Sandbox/Theo/Scenes/AnotherScene.unity) | Scene Unity | 28.2 |
-| [AnotherScene.unity.meta](../Assets/Development/Sandbox/Theo/Scenes/AnotherScene.unity.meta) | Metadata/GUID Unity | 0.2 |
+| [Materials.meta](../Assets/Development/Sandbox/UITests/Materials.meta) | Metadata/GUID Unity | 0.2 |
+| [Prefabs.meta](../Assets/Development/Sandbox/UITests/Prefabs.meta) | Metadata/GUID Unity | 0.2 |
+| [Scenes.meta](../Assets/Development/Sandbox/UITests/Scenes.meta) | Metadata/GUID Unity | 0.2 |
+| [Scripts.meta](../Assets/Development/Sandbox/UITests/Scripts.meta) | Metadata/GUID Unity | 0.2 |
 
-## `Assets/Development/Sandbox/Theo/Scenes/AnotherScene`
-
-Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [HUD.unity](../Assets/Development/Sandbox/Theo/Scenes/AnotherScene/HUD.unity) | Scene Unity | 4.9 |
-| [HUD.unity.meta](../Assets/Development/Sandbox/Theo/Scenes/AnotherScene/HUD.unity.meta) | Metadata/GUID Unity | 0.2 |
-
-## `Assets/Development/Sandbox/Theo/Scripts`
+## `Assets/Development/Sandbox/UITests/Materials`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [TestCameraPivotRecoil.cs](../Assets/Development/Sandbox/Theo/Scripts/TestCameraPivotRecoil.cs) | Kode C# | 1.1 |
-| [TestCameraPivotRecoil.cs.meta](../Assets/Development/Sandbox/Theo/Scripts/TestCameraPivotRecoil.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [TestImpactSphere.cs](../Assets/Development/Sandbox/Theo/Scripts/TestImpactSphere.cs) | Kode C# | 0.2 |
-| [TestImpactSphere.cs.meta](../Assets/Development/Sandbox/Theo/Scripts/TestImpactSphere.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [TestPlayerViewRotation.cs](../Assets/Development/Sandbox/Theo/Scripts/TestPlayerViewRotation.cs) | Kode C# | 1.4 |
-| [TestPlayerViewRotation.cs.meta](../Assets/Development/Sandbox/Theo/Scripts/TestPlayerViewRotation.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [TestShootRecoil.cs](../Assets/Development/Sandbox/Theo/Scripts/TestShootRecoil.cs) | Kode C# | 5.7 |
-| [TestShootRecoil.cs.meta](../Assets/Development/Sandbox/Theo/Scripts/TestShootRecoil.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [DebugDefaultMat.mat](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat.mat) | Material | 10.3 |
+| [DebugDefaultMat.mat.meta](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [DebugDefaultMat_Blue.mat](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Blue.mat) | Material | 10.3 |
+| [DebugDefaultMat_Blue.mat.meta](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Blue.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [DebugDefaultMat_Dark.mat](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Dark.mat) | Material | 10.3 |
+| [DebugDefaultMat_Dark.mat.meta](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Dark.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [DebugDefaultMat_Red.mat](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Red.mat) | Material | 10.3 |
+| [DebugDefaultMat_Red.mat.meta](../Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Red.mat.meta) | Metadata/GUID Unity | 0.2 |
 
-## `Assets/Development/Sandbox/Timotee`
-
-Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [RoundManagerTest.meta](../Assets/Development/Sandbox/Timotee/RoundManagerTest.meta) | Metadata/GUID Unity | 0.2 |
-| [RoundManagerTest.unity](../Assets/Development/Sandbox/Timotee/RoundManagerTest.unity) | Scene Unity | 44.6 |
-| [RoundManagerTest.unity.meta](../Assets/Development/Sandbox/Timotee/RoundManagerTest.unity.meta) | Metadata/GUID Unity | 0.2 |
-
-## `Assets/Development/Sandbox/Timotee/RoundManagerTest`
+## `Assets/Development/Sandbox/UITests/Prefabs`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [RoundManagerSubScene.unity](../Assets/Development/Sandbox/Timotee/RoundManagerTest/RoundManagerSubScene.unity) | Scene Unity | 11.2 |
-| [RoundManagerSubScene.unity.meta](../Assets/Development/Sandbox/Timotee/RoundManagerTest/RoundManagerSubScene.unity.meta) | Metadata/GUID Unity | 0.2 |
+| [Impact.prefab](../Assets/Development/Sandbox/UITests/Prefabs/Impact.prefab) | Prefab | 3.0 |
+| [Impact.prefab.meta](../Assets/Development/Sandbox/UITests/Prefabs/Impact.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [PlayerView.prefab](../Assets/Development/Sandbox/UITests/Prefabs/PlayerView.prefab) | Prefab | 17.4 |
+| [PlayerView.prefab.meta](../Assets/Development/Sandbox/UITests/Prefabs/PlayerView.prefab.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Development/Sandbox/UITests/Scenes`
+
+Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [AnotherScene.meta](../Assets/Development/Sandbox/UITests/Scenes/AnotherScene.meta) | Metadata/GUID Unity | 0.2 |
+| [AnotherScene.unity](../Assets/Development/Sandbox/UITests/Scenes/AnotherScene.unity) | Scene Unity | 28.2 |
+| [AnotherScene.unity.meta](../Assets/Development/Sandbox/UITests/Scenes/AnotherScene.unity.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Development/Sandbox/UITests/Scenes/AnotherScene`
+
+Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [HUD.unity](../Assets/Development/Sandbox/UITests/Scenes/AnotherScene/HUD.unity) | Scene Unity | 4.9 |
+| [HUD.unity.meta](../Assets/Development/Sandbox/UITests/Scenes/AnotherScene/HUD.unity.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Development/Sandbox/UITests/Scripts`
+
+Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [TestCameraPivotRecoil.cs](../Assets/Development/Sandbox/UITests/Scripts/TestCameraPivotRecoil.cs) | Kode C# | 1.1 |
+| [TestCameraPivotRecoil.cs.meta](../Assets/Development/Sandbox/UITests/Scripts/TestCameraPivotRecoil.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [TestImpactSphere.cs](../Assets/Development/Sandbox/UITests/Scripts/TestImpactSphere.cs) | Kode C# | 0.2 |
+| [TestImpactSphere.cs.meta](../Assets/Development/Sandbox/UITests/Scripts/TestImpactSphere.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [TestPlayerViewRotation.cs](../Assets/Development/Sandbox/UITests/Scripts/TestPlayerViewRotation.cs) | Kode C# | 1.4 |
+| [TestPlayerViewRotation.cs.meta](../Assets/Development/Sandbox/UITests/Scripts/TestPlayerViewRotation.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [TestShootRecoil.cs](../Assets/Development/Sandbox/UITests/Scripts/TestShootRecoil.cs) | Kode C# | 5.7 |
+| [TestShootRecoil.cs.meta](../Assets/Development/Sandbox/UITests/Scripts/TestShootRecoil.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Development/Scenes`
 
@@ -289,6 +280,7 @@ Aset visual: model, tekstur, material, animasi, opening, dan VFX.
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [Animations.meta](../Assets/Game/Art/Animations.meta) | Metadata/GUID Unity | 0.2 |
+| [Branding.meta](../Assets/Game/Art/Branding.meta) | Metadata/GUID Unity | 0.2 |
 | [CharacterAnimations.meta](../Assets/Game/Art/CharacterAnimations.meta) | Metadata/GUID Unity | 0.2 |
 | [Cinematic.meta](../Assets/Game/Art/Cinematic.meta) | Metadata/GUID Unity | 0.2 |
 | [Environment.meta](../Assets/Game/Art/Environment.meta) | Metadata/GUID Unity | 0.2 |
@@ -2525,6 +2517,65 @@ Aset visual: model, tekstur, material, animasi, opening, dan VFX.
 | [Walk_Anim.fbx](../Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Walk/Walk_Anim.fbx) | Model/animasi 3D | 370.8 |
 | [Walk_Anim.fbx.meta](../Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Walk/Walk_Anim.fbx.meta) | Metadata/GUID Unity | 3.6 |
 
+## `Assets/Game/Art/Branding`
+
+Aset presentasi STEEL PROTOCOL yang dibuat dari sumber robot proyek.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [Animations.meta](../Assets/Game/Art/Branding/Animations.meta) | Metadata/GUID Unity | 0.2 |
+| [Materials.meta](../Assets/Game/Art/Branding/Materials.meta) | Metadata/GUID Unity | 0.2 |
+| [Meshes.meta](../Assets/Game/Art/Branding/Meshes.meta) | Metadata/GUID Unity | 0.2 |
+| [Portraits.meta](../Assets/Game/Art/Branding/Portraits.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Game/Art/Branding/Animations`
+
+Controller idle robot untuk menu dan potret UI.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [RobotMenuIdle.controller](../Assets/Game/Art/Branding/Animations/RobotMenuIdle.controller) | Animator controller | 2.0 |
+| [RobotMenuIdle.controller.meta](../Assets/Game/Art/Branding/Animations/RobotMenuIdle.controller.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Game/Art/Branding/Materials`
+
+Material armor dua tim, platform, panel, dan lampu ruang persiapan.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [AmberLight.mat](../Assets/Game/Art/Branding/Materials/AmberLight.mat) | Material | 1.7 |
+| [AmberLight.mat.meta](../Assets/Game/Art/Branding/Materials/AmberLight.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [BayFloor.mat](../Assets/Game/Art/Branding/Materials/BayFloor.mat) | Material | 3.6 |
+| [BayFloor.mat.meta](../Assets/Game/Art/Branding/Materials/BayFloor.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [BayPanels.mat](../Assets/Game/Art/Branding/Materials/BayPanels.mat) | Material | 3.6 |
+| [BayPanels.mat.meta](../Assets/Game/Art/Branding/Materials/BayPanels.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [CorpoArmor.mat](../Assets/Game/Art/Branding/Materials/CorpoArmor.mat) | Material | 1.6 |
+| [CorpoArmor.mat.meta](../Assets/Game/Art/Branding/Materials/CorpoArmor.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [CyanLight.mat](../Assets/Game/Art/Branding/Materials/CyanLight.mat) | Material | 1.7 |
+| [CyanLight.mat.meta](../Assets/Game/Art/Branding/Materials/CyanLight.mat.meta) | Metadata/GUID Unity | 0.2 |
+| [NatifArmor.mat](../Assets/Game/Art/Branding/Materials/NatifArmor.mat) | Material | 1.6 |
+| [NatifArmor.mat.meta](../Assets/Game/Art/Branding/Materials/NatifArmor.mat.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Game/Art/Branding/Meshes`
+
+Mesh cincin cahaya platform robot.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [RobotDockRing.asset](../Assets/Game/Art/Branding/Meshes/RobotDockRing.asset) | Asset/data Unity | 14.3 |
+| [RobotDockRing.asset.meta](../Assets/Game/Art/Branding/Meshes/RobotDockRing.asset.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Game/Art/Branding/Portraits`
+
+Potret robot Corpo/Natif untuk pilihan tim, HUD, dan ikon produk.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [CorpoRobot.png](../Assets/Game/Art/Branding/Portraits/CorpoRobot.png) | Gambar/tekstur | 176.8 |
+| [CorpoRobot.png.meta](../Assets/Game/Art/Branding/Portraits/CorpoRobot.png.meta) | Metadata/GUID Unity | 2.6 |
+| [NatifRobot.png](../Assets/Game/Art/Branding/Portraits/NatifRobot.png) | Gambar/tekstur | 177.3 |
+| [NatifRobot.png.meta](../Assets/Game/Art/Branding/Portraits/NatifRobot.png.meta) | Metadata/GUID Unity | 2.6 |
+
 ## `Assets/Game/Art/CharacterAnimations`
 
 Aset visual: model, tekstur, material, animasi, opening, dan VFX.
@@ -4402,7 +4453,7 @@ Aset visual: model, tekstur, material, animasi, opening, dan VFX.
 
 ## `Assets/Game/Art/SplashScreen`
 
-Aset visual: model, tekstur, material, animasi, opening, dan VFX.
+Aset opening asal yang dipertahankan; video/logo lama tidak dipakai scene pembuka.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
@@ -6877,6 +6928,7 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [MainMenuCharacter.prefab](../Assets/Game/Prefabs/Character/MainMenuCharacter.prefab) | Prefab | 64.2 |
 | [MainMenuCharacter.prefab.meta](../Assets/Game/Prefabs/Character/MainMenuCharacter.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Natif.meta](../Assets/Game/Prefabs/Character/Natif.meta) | Metadata/GUID Unity | 0.2 |
+| [Robots.meta](../Assets/Game/Prefabs/Character/Robots.meta) | Metadata/GUID Unity | 0.2 |
 | [UnitTemp.prefab](../Assets/Game/Prefabs/Character/UnitTemp.prefab) | Prefab | 5.3 |
 | [UnitTemp.prefab.meta](../Assets/Game/Prefabs/Character/UnitTemp.prefab.meta) | Metadata/GUID Unity | 0.2 |
 
@@ -6958,6 +7010,21 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [NatifThoraxCollider.prefab](../Assets/Game/Prefabs/Character/Natif/Collider/NatifThoraxCollider.prefab) | Prefab | 2.1 |
 | [NatifThoraxCollider.prefab.meta](../Assets/Game/Prefabs/Character/Natif/Collider/NatifThoraxCollider.prefab.meta) | Metadata/GUID Unity | 0.2 |
 
+## `Assets/Game/Prefabs/Character/Robots`
+
+Empat prefab robot FPS/TPS untuk kedua tim dalam rilis.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [CorpoRobotFps.prefab](../Assets/Game/Prefabs/Character/Robots/CorpoRobotFps.prefab) | Prefab | 48.3 |
+| [CorpoRobotFps.prefab.meta](../Assets/Game/Prefabs/Character/Robots/CorpoRobotFps.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [CorpoRobotTps.prefab](../Assets/Game/Prefabs/Character/Robots/CorpoRobotTps.prefab) | Prefab | 64.1 |
+| [CorpoRobotTps.prefab.meta](../Assets/Game/Prefabs/Character/Robots/CorpoRobotTps.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [NatifRobotFps.prefab](../Assets/Game/Prefabs/Character/Robots/NatifRobotFps.prefab) | Prefab | 48.3 |
+| [NatifRobotFps.prefab.meta](../Assets/Game/Prefabs/Character/Robots/NatifRobotFps.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [NatifRobotTps.prefab](../Assets/Game/Prefabs/Character/Robots/NatifRobotTps.prefab) | Prefab | 64.1 |
+| [NatifRobotTps.prefab.meta](../Assets/Game/Prefabs/Character/Robots/NatifRobotTps.prefab.meta) | Metadata/GUID Unity | 0.2 |
+
 ## `Assets/Game/Prefabs/Colliders`
 
 Prefab gameplay dan presentasi yang dirujuk scene/sistem.
@@ -6974,8 +7041,6 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [Big Pot.prefab.meta](../Assets/Game/Prefabs/Colliders/Big%20Pot.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [COLLIDERS FINAL.prefab](../Assets/Game/Prefabs/Colliders/COLLIDERS%20FINAL.prefab) | Prefab | 1115.8 |
 | [COLLIDERS FINAL.prefab.meta](../Assets/Game/Prefabs/Colliders/COLLIDERS%20FINAL.prefab.meta) | Metadata/GUID Unity | 0.2 |
-| [Collider Thomas 2.prefab](../Assets/Game/Prefabs/Colliders/Collider%20Thomas%202.prefab) | Prefab | 116.6 |
-| [Collider Thomas 2.prefab.meta](../Assets/Game/Prefabs/Colliders/Collider%20Thomas%202.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Colliders A Tim.prefab](../Assets/Game/Prefabs/Colliders/Colliders%20A%20Tim.prefab) | Prefab | 19.7 |
 | [Colliders A Tim.prefab.meta](../Assets/Game/Prefabs/Colliders/Colliders%20A%20Tim.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Column.prefab](../Assets/Game/Prefabs/Colliders/Column.prefab) | Prefab | 2.2 |
@@ -6988,6 +7053,8 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [Lamp Neutral.prefab.meta](../Assets/Game/Prefabs/Colliders/Lamp%20Neutral.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Long Pot.prefab](../Assets/Game/Prefabs/Colliders/Long%20Pot.prefab) | Prefab | 1.6 |
 | [Long Pot.prefab.meta](../Assets/Game/Prefabs/Colliders/Long%20Pot.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [MapColliderSecondary.prefab](../Assets/Game/Prefabs/Colliders/MapColliderSecondary.prefab) | Prefab | 116.6 |
+| [MapColliderSecondary.prefab.meta](../Assets/Game/Prefabs/Colliders/MapColliderSecondary.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Native Shield.prefab](../Assets/Game/Prefabs/Colliders/Native%20Shield.prefab) | Prefab | 9.9 |
 | [Native Shield.prefab.meta](../Assets/Game/Prefabs/Colliders/Native%20Shield.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [O Pot.prefab](../Assets/Game/Prefabs/Colliders/O%20Pot.prefab) | Prefab | 1.6 |
@@ -7000,8 +7067,8 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [Shield.prefab.meta](../Assets/Game/Prefabs/Colliders/Shield.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Site A Walls.prefab](../Assets/Game/Prefabs/Colliders/Site%20A%20Walls.prefab) | Prefab | 72.3 |
 | [Site A Walls.prefab.meta](../Assets/Game/Prefabs/Colliders/Site%20A%20Walls.prefab.meta) | Metadata/GUID Unity | 0.2 |
-| [SiteA Thomas.prefab](../Assets/Game/Prefabs/Colliders/SiteA%20Thomas.prefab) | Prefab | 195.8 |
-| [SiteA Thomas.prefab.meta](../Assets/Game/Prefabs/Colliders/SiteA%20Thomas.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [SiteAColliders.prefab](../Assets/Game/Prefabs/Colliders/SiteAColliders.prefab) | Prefab | 195.8 |
+| [SiteAColliders.prefab.meta](../Assets/Game/Prefabs/Colliders/SiteAColliders.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Slim Pot.prefab](../Assets/Game/Prefabs/Colliders/Slim%20Pot.prefab) | Prefab | 1.6 |
 | [Slim Pot.prefab.meta](../Assets/Game/Prefabs/Colliders/Slim%20Pot.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Small box.prefab](../Assets/Game/Prefabs/Colliders/Small%20box.prefab) | Prefab | 1.6 |
@@ -7038,8 +7105,6 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | --- | --- | ---: |
 | [Barriere bois.prefab](../Assets/Game/Prefabs/Environments/Barriere%20bois.prefab) | Prefab | 3.0 |
 | [Barriere bois.prefab.meta](../Assets/Game/Prefabs/Environments/Barriere%20bois.prefab.meta) | Metadata/GUID Unity | 0.2 |
-| [Colliders Map Thomas.prefab](../Assets/Game/Prefabs/Environments/Colliders%20Map%20Thomas.prefab) | Prefab | 174.5 |
-| [Colliders Map Thomas.prefab.meta](../Assets/Game/Prefabs/Environments/Colliders%20Map%20Thomas.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [CorpoSpawnHitboxes.prefab](../Assets/Game/Prefabs/Environments/CorpoSpawnHitboxes.prefab) | Prefab | 295.3 |
 | [CorpoSpawnHitboxes.prefab.meta](../Assets/Game/Prefabs/Environments/CorpoSpawnHitboxes.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Fontaine.prefab](../Assets/Game/Prefabs/Environments/Fontaine.prefab) | Prefab | 2.6 |
@@ -7072,6 +7137,8 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [MODEL_Rock09_LP.prefab.meta](../Assets/Game/Prefabs/Environments/MODEL_Rock09_LP.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [MODEL_Rock10_LP.prefab](../Assets/Game/Prefabs/Environments/MODEL_Rock10_LP.prefab) | Prefab | 2.6 |
 | [MODEL_Rock10_LP.prefab.meta](../Assets/Game/Prefabs/Environments/MODEL_Rock10_LP.prefab.meta) | Metadata/GUID Unity | 0.2 |
+| [MapColliders.prefab](../Assets/Game/Prefabs/Environments/MapColliders.prefab) | Prefab | 174.5 |
+| [MapColliders.prefab.meta](../Assets/Game/Prefabs/Environments/MapColliders.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [MapVisual.prefab](../Assets/Game/Prefabs/Environments/MapVisual.prefab) | Prefab | 2191.9 |
 | [MapVisual.prefab.meta](../Assets/Game/Prefabs/Environments/MapVisual.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [Poutre_bois.prefab](../Assets/Game/Prefabs/Environments/Poutre_bois.prefab) | Prefab | 3.0 |
@@ -7229,7 +7296,7 @@ Prefab gameplay dan presentasi yang dirujuk scene/sistem.
 | [GameManager.prefab.meta](../Assets/Game/Prefabs/Managers/GameManager.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [LoadManager.prefab](../Assets/Game/Prefabs/Managers/LoadManager.prefab) | Prefab | 7.3 |
 | [LoadManager.prefab.meta](../Assets/Game/Prefabs/Managers/LoadManager.prefab.meta) | Metadata/GUID Unity | 0.2 |
-| [MainMenuController.prefab](../Assets/Game/Prefabs/Managers/MainMenuController.prefab) | Prefab | 3.1 |
+| [MainMenuController.prefab](../Assets/Game/Prefabs/Managers/MainMenuController.prefab) | Prefab | 3.5 |
 | [MainMenuController.prefab.meta](../Assets/Game/Prefabs/Managers/MainMenuController.prefab.meta) | Metadata/GUID Unity | 0.2 |
 | [SoundManager.prefab](../Assets/Game/Prefabs/Managers/SoundManager.prefab) | Prefab | 9.8 |
 | [SoundManager.prefab.meta](../Assets/Game/Prefabs/Managers/SoundManager.prefab.meta) | Metadata/GUID Unity | 0.2 |
@@ -7498,6 +7565,7 @@ Shader, material, dan render target efek gameplay.
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [GameplayShaders.meta](../Assets/Game/Rendering/GameplayShaders.meta) | Metadata/GUID Unity | 0.2 |
+| [Robots.meta](../Assets/Game/Rendering/Robots.meta) | Metadata/GUID Unity | 0.2 |
 
 ## `Assets/Game/Rendering/GameplayShaders`
 
@@ -7540,6 +7608,15 @@ Shader, material, dan render target efek gameplay.
 | [Tiling Parallax.mat](../Assets/Game/Rendering/GameplayShaders/Tiling%20Parallax.mat) | Material | 2.4 |
 | [Tiling Parallax.mat.meta](../Assets/Game/Rendering/GameplayShaders/Tiling%20Parallax.mat.meta) | Metadata/GUID Unity | 0.2 |
 
+## `Assets/Game/Rendering/Robots`
+
+Shader URP untuk pewarnaan armor robot tanpa mengubah tekstur asal.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [RobotArmor.shader](../Assets/Game/Rendering/Robots/RobotArmor.shader) | Shader | 6.2 |
+| [RobotArmor.shader.meta](../Assets/Game/Rendering/Robots/RobotArmor.shader.meta) | Metadata/GUID Unity | 0.2 |
+
 ## `Assets/Game/Scenes`
 
 Scene utama dan data presentasi pendamping.
@@ -7550,9 +7627,9 @@ Scene utama dan data presentasi pendamping.
 | [Gameplay.unity](../Assets/Game/Scenes/Gameplay.unity) | Scene Unity | 8375.8 |
 | [Gameplay.unity.meta](../Assets/Game/Scenes/Gameplay.unity.meta) | Metadata/GUID Unity | 0.2 |
 | [MainMenu.meta](../Assets/Game/Scenes/MainMenu.meta) | Metadata/GUID Unity | 0.2 |
-| [MainMenu.unity](../Assets/Game/Scenes/MainMenu.unity) | Scene Unity | 48.7 |
+| [MainMenu.unity](../Assets/Game/Scenes/MainMenu.unity) | Scene Unity | 181.8 |
 | [MainMenu.unity.meta](../Assets/Game/Scenes/MainMenu.unity.meta) | Metadata/GUID Unity | 0.2 |
-| [SplashScreen.unity](../Assets/Game/Scenes/SplashScreen.unity) | Scene Unity | 21.3 |
+| [SplashScreen.unity](../Assets/Game/Scenes/SplashScreen.unity) | Scene Unity | 7.6 |
 | [SplashScreen.unity.meta](../Assets/Game/Scenes/SplashScreen.unity.meta) | Metadata/GUID Unity | 0.2 |
 | [SubScenes.meta](../Assets/Game/Scenes/SubScenes.meta) | Metadata/GUID Unity | 0.2 |
 
@@ -8969,19 +9046,25 @@ Validasi pertandingan, batch runner, build, dan sinkronisasi bank audio.
 | --- | --- | ---: |
 | [OfflineAudioSetup.cs](../Assets/Game/Scripts/Editor/Offline/OfflineAudioSetup.cs) | Kode C# | 2.0 |
 | [OfflineAudioSetup.cs.meta](../Assets/Game/Scripts/Editor/Offline/OfflineAudioSetup.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [OfflineMatchValidation.cs](../Assets/Game/Scripts/Editor/Offline/OfflineMatchValidation.cs) | Kode C# | 60.3 |
+| [OfflineMatchValidation.cs](../Assets/Game/Scripts/Editor/Offline/OfflineMatchValidation.cs) | Kode C# | 62.8 |
 | [OfflineMatchValidation.cs.meta](../Assets/Game/Scripts/Editor/Offline/OfflineMatchValidation.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [OfflineSmokeBatch.cs](../Assets/Game/Scripts/Editor/Offline/OfflineSmokeBatch.cs) | Kode C# | 2.2 |
+| [OfflineSmokeBatch.cs](../Assets/Game/Scripts/Editor/Offline/OfflineSmokeBatch.cs) | Kode C# | 2.3 |
 | [OfflineSmokeBatch.cs.meta](../Assets/Game/Scripts/Editor/Offline/OfflineSmokeBatch.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Editor/Project`
 
-Validasi struktur, scene build, dan identitas aset.
+Validasi struktur/GUID; pembuatan aset presentasi robot dan pengujian menu.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
+| [PresentationSmokeBatch.cs](../Assets/Game/Scripts/Editor/Project/PresentationSmokeBatch.cs) | Kode C# | 11.2 |
+| [PresentationSmokeBatch.cs.meta](../Assets/Game/Scripts/Editor/Project/PresentationSmokeBatch.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [ProjectStructureValidation.cs](../Assets/Game/Scripts/Editor/Project/ProjectStructureValidation.cs) | Kode C# | 6.7 |
 | [ProjectStructureValidation.cs.meta](../Assets/Game/Scripts/Editor/Project/ProjectStructureValidation.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [RobotPresentationSetup.cs](../Assets/Game/Scripts/Editor/Project/RobotPresentationSetup.cs) | Kode C# | 22.3 |
+| [RobotPresentationSetup.cs.meta](../Assets/Game/Scripts/Editor/Project/RobotPresentationSetup.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [RobotPresentationValidation.cs](../Assets/Game/Scripts/Editor/Project/RobotPresentationValidation.cs) | Kode C# | 5.8 |
+| [RobotPresentationValidation.cs.meta](../Assets/Game/Scripts/Editor/Project/RobotPresentationValidation.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Runtime`
 
@@ -9116,7 +9199,7 @@ Komponen GameObject untuk kamera, decal, audio, dan presentasi.
 | --- | --- | ---: |
 | [SoundList.cs](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundList.cs) | Kode C# | 1.2 |
 | [SoundList.cs.meta](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundList.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [SoundManager.cs](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundManager.cs) | Kode C# | 2.8 |
+| [SoundManager.cs](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundManager.cs) | Kode C# | 2.9 |
 | [SoundManager.cs.meta](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundManager.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [SoundTest.cs](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundTest.cs) | Kode C# | 0.3 |
 | [SoundTest.cs.meta](../Assets/Game/Scripts/Runtime/Behaviours/Sound/SoundTest.cs.meta) | Metadata/GUID Unity | 0.1 |
@@ -9696,6 +9779,7 @@ Controller tampilan UI Toolkit.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
+| [Branding.meta](../Assets/Game/Scripts/Runtime/UI/Branding.meta) | Metadata/GUID Unity | 0.2 |
 | [ConstantHUD.meta](../Assets/Game/Scripts/Runtime/UI/ConstantHUD.meta) | Metadata/GUID Unity | 0.2 |
 | [ErrorsMenu.meta](../Assets/Game/Scripts/Runtime/UI/ErrorsMenu.meta) | Metadata/GUID Unity | 0.2 |
 | [Loading.meta](../Assets/Game/Scripts/Runtime/UI/Loading.meta) | Metadata/GUID Unity | 0.2 |
@@ -9706,6 +9790,15 @@ Controller tampilan UI Toolkit.
 | [TeamChoice.meta](../Assets/Game/Scripts/Runtime/UI/TeamChoice.meta) | Metadata/GUID Unity | 0.2 |
 | [UICentralController.cs](../Assets/Game/Scripts/Runtime/UI/UICentralController.cs) | Kode C# | 7.7 |
 | [UICentralController.cs.meta](../Assets/Game/Scripts/Runtime/UI/UICentralController.cs.meta) | Metadata/GUID Unity | 0.1 |
+
+## `Assets/Game/Scripts/Runtime/UI/Branding`
+
+Identitas STEEL PROTOCOL yang dibagikan opening dan menu.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [GameIdentity.cs](../Assets/Game/Scripts/Runtime/UI/Branding/GameIdentity.cs) | Kode C# | 0.6 |
+| [GameIdentity.cs.meta](../Assets/Game/Scripts/Runtime/UI/Branding/GameIdentity.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Runtime/UI/ConstantHUD`
 
@@ -9727,12 +9820,14 @@ Controller tampilan UI Toolkit.
 
 ## `Assets/Game/Scripts/Runtime/UI/Loading`
 
-Controller tampilan UI Toolkit.
+Opening robot, progres pemuatan menu, dan UI loading pertandingan.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [LoadingScreen.cs](../Assets/Game/Scripts/Runtime/UI/Loading/LoadingScreen.cs) | Kode C# | 1.5 |
 | [LoadingScreen.cs.meta](../Assets/Game/Scripts/Runtime/UI/Loading/LoadingScreen.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [OpeningScreenController.cs](../Assets/Game/Scripts/Runtime/UI/Loading/OpeningScreenController.cs) | Kode C# | 2.9 |
+| [OpeningScreenController.cs.meta](../Assets/Game/Scripts/Runtime/UI/Loading/OpeningScreenController.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Runtime/UI/MainMenu`
 
@@ -9740,8 +9835,10 @@ Controller tampilan UI Toolkit.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [MainMenuController.cs](../Assets/Game/Scripts/Runtime/UI/MainMenu/MainMenuController.cs) | Kode C# | 8.2 |
+| [MainMenuController.cs](../Assets/Game/Scripts/Runtime/UI/MainMenu/MainMenuController.cs) | Kode C# | 7.7 |
 | [MainMenuController.cs.meta](../Assets/Game/Scripts/Runtime/UI/MainMenu/MainMenuController.cs.meta) | Metadata/GUID Unity | 0.1 |
+| [MenuRobotDisplay.cs](../Assets/Game/Scripts/Runtime/UI/MainMenu/MenuRobotDisplay.cs) | Kode C# | 0.4 |
+| [MenuRobotDisplay.cs.meta](../Assets/Game/Scripts/Runtime/UI/MainMenu/MenuRobotDisplay.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Runtime/UI/PauseMenu`
 
@@ -9749,7 +9846,7 @@ Controller tampilan UI Toolkit.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [PauseMenuController.cs](../Assets/Game/Scripts/Runtime/UI/PauseMenu/PauseMenuController.cs) | Kode C# | 3.2 |
+| [PauseMenuController.cs](../Assets/Game/Scripts/Runtime/UI/PauseMenu/PauseMenuController.cs) | Kode C# | 3.1 |
 | [PauseMenuController.cs.meta](../Assets/Game/Scripts/Runtime/UI/PauseMenu/PauseMenuController.cs.meta) | Metadata/GUID Unity | 0.1 |
 
 ## `Assets/Game/Scripts/Runtime/UI/SettingsMenu`
@@ -9850,7 +9947,7 @@ Fungsi dan komponen pendukung yang digunakan bersama.
 | [SafeVisualElement.cs](../Assets/Game/Scripts/Runtime/Utilities/UI/SafeVisualElement.cs) | Kode C# | 0.4 |
 | [SafeVisualElement.cs.meta](../Assets/Game/Scripts/Runtime/Utilities/UI/SafeVisualElement.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [SinglePurposeElement.meta](../Assets/Game/Scripts/Runtime/Utilities/UI/SinglePurposeElement.meta) | Metadata/GUID Unity | 0.2 |
-| [UIDocumentUtils.cs](../Assets/Game/Scripts/Runtime/Utilities/UI/UIDocumentUtils.cs) | Kode C# | 8.8 |
+| [UIDocumentUtils.cs](../Assets/Game/Scripts/Runtime/Utilities/UI/UIDocumentUtils.cs) | Kode C# | 9.2 |
 | [UIDocumentUtils.cs.meta](../Assets/Game/Scripts/Runtime/Utilities/UI/UIDocumentUtils.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [VisualElements.meta](../Assets/Game/Scripts/Runtime/Utilities/UI/VisualElements.meta) | Metadata/GUID Unity | 0.2 |
 
@@ -9880,9 +9977,10 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
+| [Branding.meta](../Assets/Game/UI/Branding.meta) | Metadata/GUID Unity | 0.2 |
 | [ConstantHUD.meta](../Assets/Game/UI/ConstantHUD.meta) | Metadata/GUID Unity | 0.2 |
-| [Credits.meta](../Assets/Game/UI/Credits.meta) | Metadata/GUID Unity | 0.2 |
 | [ErrorsMenu.meta](../Assets/Game/UI/ErrorsMenu.meta) | Metadata/GUID Unity | 0.2 |
+| [Loading.meta](../Assets/Game/UI/Loading.meta) | Metadata/GUID Unity | 0.2 |
 | [MainMenu.meta](../Assets/Game/UI/MainMenu.meta) | Metadata/GUID Unity | 0.2 |
 | [PauseMenu.meta](../Assets/Game/UI/PauseMenu.meta) | Metadata/GUID Unity | 0.2 |
 | [SettingsMenu.meta](../Assets/Game/UI/SettingsMenu.meta) | Metadata/GUID Unity | 0.2 |
@@ -9890,6 +9988,17 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 | [StuffShop.meta](../Assets/Game/UI/StuffShop.meta) | Metadata/GUID Unity | 0.2 |
 | [TeamChoice.meta](../Assets/Game/UI/TeamChoice.meta) | Metadata/GUID Unity | 0.2 |
 | [WeaponsIcon.meta](../Assets/Game/UI/WeaponsIcon.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Game/UI/Branding`
+
+Style identitas dan pengaturan skala panel menu/opening.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [MenuPanelSettings.asset](../Assets/Game/UI/Branding/MenuPanelSettings.asset) | Asset/data Unity | 1.4 |
+| [MenuPanelSettings.asset.meta](../Assets/Game/UI/Branding/MenuPanelSettings.asset.meta) | Metadata/GUID Unity | 0.2 |
+| [identity.uss](../Assets/Game/UI/Branding/identity.uss) | Style UI | 0.9 |
+| [identity.uss.meta](../Assets/Game/UI/Branding/identity.uss.meta) | Metadata/GUID Unity | 0.3 |
 
 ## `Assets/Game/UI/ConstantHUD`
 
@@ -9900,15 +10009,6 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 | [ConstantHUD.uxml](../Assets/Game/UI/ConstantHUD/ConstantHUD.uxml) | Layout UI | 31.1 |
 | [ConstantHUD.uxml.meta](../Assets/Game/UI/ConstantHUD/ConstantHUD.uxml.meta) | Metadata/GUID Unity | 0.3 |
 
-## `Assets/Game/UI/Credits`
-
-Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [CreditsMenu.uxml](../Assets/Game/UI/Credits/CreditsMenu.uxml) | Layout UI | 15.1 |
-| [CreditsMenu.uxml.meta](../Assets/Game/UI/Credits/CreditsMenu.uxml.meta) | Metadata/GUID Unity | 0.3 |
-
 ## `Assets/Game/UI/ErrorsMenu`
 
 Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
@@ -9918,15 +10018,26 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 | [ErrorWindow.uxml](../Assets/Game/UI/ErrorsMenu/ErrorWindow.uxml) | Layout UI | 0.4 |
 | [ErrorWindow.uxml.meta](../Assets/Game/UI/ErrorsMenu/ErrorWindow.uxml.meta) | Metadata/GUID Unity | 0.3 |
 
+## `Assets/Game/UI/Loading`
+
+Layout dan style layar boot/loading pertama.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [OpeningScreen.uxml](../Assets/Game/UI/Loading/OpeningScreen.uxml) | Layout UI | 1.6 |
+| [OpeningScreen.uxml.meta](../Assets/Game/UI/Loading/OpeningScreen.uxml.meta) | Metadata/GUID Unity | 0.3 |
+| [opening-screen.uss](../Assets/Game/UI/Loading/opening-screen.uss) | Style UI | 1.1 |
+| [opening-screen.uss.meta](../Assets/Game/UI/Loading/opening-screen.uss.meta) | Metadata/GUID Unity | 0.3 |
+
 ## `Assets/Game/UI/MainMenu`
 
 Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [MainMenu.uxml](../Assets/Game/UI/MainMenu/MainMenu.uxml) | Layout UI | 4.6 |
+| [MainMenu.uxml](../Assets/Game/UI/MainMenu/MainMenu.uxml) | Layout UI | 4.7 |
 | [MainMenu.uxml.meta](../Assets/Game/UI/MainMenu/MainMenu.uxml.meta) | Metadata/GUID Unity | 0.3 |
-| [main-menu.uss](../Assets/Game/UI/MainMenu/main-menu.uss) | Style UI | 4.6 |
+| [main-menu.uss](../Assets/Game/UI/MainMenu/main-menu.uss) | Style UI | 4.9 |
 | [main-menu.uss.meta](../Assets/Game/UI/MainMenu/main-menu.uss.meta) | Metadata/GUID Unity | 0.3 |
 
 ## `Assets/Game/UI/PauseMenu`
@@ -9946,8 +10057,10 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [SettingsMenu.uxml](../Assets/Game/UI/SettingsMenu/SettingsMenu.uxml) | Layout UI | 3.6 |
+| [SettingsMenu.uxml](../Assets/Game/UI/SettingsMenu/SettingsMenu.uxml) | Layout UI | 1.9 |
 | [SettingsMenu.uxml.meta](../Assets/Game/UI/SettingsMenu/SettingsMenu.uxml.meta) | Metadata/GUID Unity | 0.3 |
+| [settings-menu.uss](../Assets/Game/UI/SettingsMenu/settings-menu.uss) | Style UI | 1.6 |
+| [settings-menu.uss.meta](../Assets/Game/UI/SettingsMenu/settings-menu.uss.meta) | Metadata/GUID Unity | 0.3 |
 
 ## `Assets/Game/UI/Shared`
 
@@ -9977,9 +10090,9 @@ Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [TeamChoiceMenu.uxml](../Assets/Game/UI/TeamChoice/TeamChoiceMenu.uxml) | Layout UI | 6.9 |
+| [TeamChoiceMenu.uxml](../Assets/Game/UI/TeamChoice/TeamChoiceMenu.uxml) | Layout UI | 1.5 |
 | [TeamChoiceMenu.uxml.meta](../Assets/Game/UI/TeamChoice/TeamChoiceMenu.uxml.meta) | Metadata/GUID Unity | 0.3 |
-| [team-choice.uss](../Assets/Game/UI/TeamChoice/team-choice.uss) | Style UI | 0.6 |
+| [team-choice.uss](../Assets/Game/UI/TeamChoice/team-choice.uss) | Style UI | 1.6 |
 | [team-choice.uss.meta](../Assets/Game/UI/TeamChoice/team-choice.uss.meta) | Metadata/GUID Unity | 0.3 |
 
 ## `Assets/Game/UI/WeaponsIcon`
@@ -10684,7 +10797,6 @@ Pengaturan URP, kualitas rendering, dan volume global.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [Build Profiles.meta](../Assets/Settings/Build%20Profiles.meta) | Metadata/GUID Unity | 0.2 |
 | [DefaultVolumeProfile.asset](../Assets/Settings/DefaultVolumeProfile.asset) | Asset/data Unity | 34.6 |
 | [DefaultVolumeProfile.asset.meta](../Assets/Settings/DefaultVolumeProfile.asset.meta) | Metadata/GUID Unity | 0.2 |
 | [Mobile_RPAsset.asset](../Assets/Settings/Mobile_RPAsset.asset) | Asset/data Unity | 4.4 |
@@ -10884,7 +10996,6 @@ Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan.
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [Characters.meta](../Assets/ThirdParty/PlaceholderAssets/Characters.meta) | Metadata/GUID Unity | 0.2 |
-| [Maps.meta](../Assets/ThirdParty/PlaceholderAssets/Maps.meta) | Metadata/GUID Unity | 0.2 |
 | [Weapons.meta](../Assets/ThirdParty/PlaceholderAssets/Weapons.meta) | Metadata/GUID Unity | 0.2 |
 
 ## `Assets/ThirdParty/PlaceholderAssets/Characters`
@@ -11687,6 +11798,14 @@ Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan.
 | [HIE_Hit_04_PointGlow_01.mat.meta](../Assets/ThirdParty/TravisGameAssets/Hit%20Impact%20Effects/Materials/Hits/HIE_Hit_04_PointGlow_01.mat.meta) | Metadata/GUID Unity | 0.4 |
 | [HIE_Hit_04_Shockwave_01.mat](../Assets/ThirdParty/TravisGameAssets/Hit%20Impact%20Effects/Materials/Hits/HIE_Hit_04_Shockwave_01.mat) | Material | 3.9 |
 | [HIE_Hit_04_Shockwave_01.mat.meta](../Assets/ThirdParty/TravisGameAssets/Hit%20Impact%20Effects/Materials/Hits/HIE_Hit_04_Shockwave_01.mat.meta) | Metadata/GUID Unity | 0.4 |
+
+## `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Pipeline Upgrade`
+
+Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [.gitkeep](../Assets/ThirdParty/TravisGameAssets/Hit%20Impact%20Effects/Pipeline%20Upgrade/.gitkeep) | Data/aset pendukung | 0.0 |
 
 ## `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Prefabs`
 
@@ -12957,7 +13076,7 @@ Integrasi Wwise, plugin native, reference asset, dan alat audio Editor.
 | [WwiseAuxBusReference.cs.meta](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseAuxBusReference.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [WwiseBankReference.cs](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseBankReference.cs) | Kode C# | 2.8 |
 | [WwiseBankReference.cs.meta](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseBankReference.cs.meta) | Metadata/GUID Unity | 0.1 |
-| [WwiseEventReference.cs](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseEventReference.cs) | Kode C# | 9.3 |
+| [WwiseEventReference.cs](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseEventReference.cs) | Kode C# | 9.5 |
 | [WwiseEventReference.cs.meta](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseEventReference.cs.meta) | Metadata/GUID Unity | 0.1 |
 | [WwiseObjectReference.cs](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseObjectReference.cs) | Kode C# | 14.1 |
 | [WwiseObjectReference.cs.meta](../Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseObjectReference.cs.meta) | Metadata/GUID Unity | 0.1 |
@@ -13126,6 +13245,14 @@ Integrasi Wwise, plugin native, reference asset, dan alat audio Editor.
 | File | Jenis | KiB |
 | --- | --- | ---: |
 | [ProjectData.meta](../Assets/Wwise/Editor/ProjectData.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Wwise/Editor/ProjectData`
+
+Integrasi Wwise, plugin native, reference asset, dan alat audio Editor.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [.gitkeep](../Assets/Wwise/Editor/ProjectData/.gitkeep) | Data/aset pendukung | 0.0 |
 
 ## `Assets/Wwise/Gizmos`
 
@@ -13504,6 +13631,14 @@ Integrasi Wwise, plugin native, reference asset, dan alat audio Editor.
 | [Soundbank.meta](../Assets/Wwise/ScriptableObjects/Soundbank.meta) | Metadata/GUID Unity | 0.2 |
 | [Windows.asset](../Assets/Wwise/ScriptableObjects/Windows.asset) | Asset/data Unity | 5.8 |
 | [Windows.asset.meta](../Assets/Wwise/ScriptableObjects/Windows.asset.meta) | Metadata/GUID Unity | 0.2 |
+
+## `Assets/Wwise/ScriptableObjects/AuxBus`
+
+Integrasi Wwise, plugin native, reference asset, dan alat audio Editor.
+
+| File | Jenis | KiB |
+| --- | --- | ---: |
+| [.gitkeep](../Assets/Wwise/ScriptableObjects/AuxBus/.gitkeep) | Data/aset pendukung | 0.0 |
 
 ## `Assets/Wwise/ScriptableObjects/Event`
 
@@ -14221,7 +14356,7 @@ File root atau data pendukung proyek; lihat jenis file dan nama sumber.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [README.md](../Builds/README.md) | Dokumentasi | 0.5 |
+| [README.md](../Builds/README.md) | Dokumentasi | 0.6 |
 
 ## `Docs`
 
@@ -14229,47 +14364,15 @@ Panduan proyek, arsitektur, indeks, dan hasil validasi.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [ARCHITECTURE.md](../Docs/ARCHITECTURE.md) | Dokumentasi | 3.9 |
-| [BUILD_AND_TEST.md](../Docs/BUILD_AND_TEST.md) | Dokumentasi | 3.1 |
-| [CREDITS.md](../Docs/CREDITS.md) | Dokumentasi | 1.1 |
-| [GETTING_STARTED.md](../Docs/GETTING_STARTED.md) | Dokumentasi | 2.1 |
-| [GITHUB.md](../Docs/GITHUB.md) | Dokumentasi | 2.3 |
-| [MAINTENANCE.md](../Docs/MAINTENANCE.md) | Dokumentasi | 6.1 |
-| [OFFLINE_MODE.md](../Docs/OFFLINE_MODE.md) | Dokumentasi | 1.1 |
+| [ARCHITECTURE.md](../Docs/ARCHITECTURE.md) | Dokumentasi | 4.1 |
+| [BUILD_AND_TEST.md](../Docs/BUILD_AND_TEST.md) | Dokumentasi | 3.7 |
+| [GETTING_STARTED.md](../Docs/GETTING_STARTED.md) | Dokumentasi | 2.3 |
+| [GITHUB.md](../Docs/GITHUB.md) | Dokumentasi | 4.0 |
+| [MAINTENANCE.md](../Docs/MAINTENANCE.md) | Dokumentasi | 10.9 |
+| [OFFLINE_MODE.md](../Docs/OFFLINE_MODE.md) | Dokumentasi | 1.2 |
+| [PRESENTATION.md](../Docs/PRESENTATION.md) | Dokumentasi | 8.3 |
 | [PROJECT_STRUCTURE.md](../Docs/PROJECT_STRUCTURE.md) | Dokumentasi | 6.1 |
-
-## `Docs/Credits`
-
-Dokumentasi dan kontribusi proyek asal.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [ORIGINAL_README.md](../Docs/Credits/ORIGINAL_README.md) | Dokumentasi | 24.2 |
-
-## `Docs/Images`
-
-Gambar untuk dokumentasi dan kredit asal.
-
-| File | Jenis | KiB |
-| --- | --- | ---: |
-| [A_Site.png](../Docs/Images/A_Site.png) | Gambar/tekstur | 2098.7 |
-| [AdrienCLAUDE.jpg](../Docs/Images/AdrienCLAUDE.jpg) | Gambar/tekstur | 21.4 |
-| [AurelienREY.JPG](../Docs/Images/AurelienREY.JPG) | Gambar/tekstur | 6423.9 |
-| [B_Site.png](../Docs/Images/B_Site.png) | Gambar/tekstur | 2799.3 |
-| [BriceCARPINTEIRO.jpg](../Docs/Images/BriceCARPINTEIRO.jpg) | Gambar/tekstur | 390.3 |
-| [Bridge.png](../Docs/Images/Bridge.png) | Gambar/tekstur | 1947.6 |
-| [CamilleGUINOT.jpg](../Docs/Images/CamilleGUINOT.jpg) | Gambar/tekstur | 97.5 |
-| [Gameplay.png](../Docs/Images/Gameplay.png) | Gambar/tekstur | 5987.0 |
-| [LeonnelHAMMEL.jpg](../Docs/Images/LeonnelHAMMEL.jpg) | Gambar/tekstur | 95.8 |
-| [Native_Spawn.png](../Docs/Images/Native_Spawn.png) | Gambar/tekstur | 1714.3 |
-| [PlaceholderUser.png](../Docs/Images/PlaceholderUser.png) | Gambar/tekstur | 2.0 |
-| [SUNA_logo.png](../Docs/Images/SUNA_logo.png) | Gambar/tekstur | 69.1 |
-| [SUNA_poster_small.png](../Docs/Images/SUNA_poster_small.png) | Gambar/tekstur | 8868.5 |
-| [SarahBAST.png](../Docs/Images/SarahBAST.png) | Gambar/tekstur | 2728.4 |
-| [SebMENGUAL.png](../Docs/Images/SebMENGUAL.png) | Gambar/tekstur | 1320.1 |
-| [TheoARCA.jpg](../Docs/Images/TheoARCA.jpg) | Gambar/tekstur | 791.6 |
-| [ThomasCOYNE.jpg](../Docs/Images/ThomasCOYNE.jpg) | Gambar/tekstur | 13.1 |
-| [TimoteeBABOULIN.jpg](../Docs/Images/TimoteeBABOULIN.jpg) | Gambar/tekstur | 1820.7 |
+| [THIRD_PARTY_NOTICES.md](../Docs/THIRD_PARTY_NOTICES.md) | Dokumentasi | 0.9 |
 
 ## `Docs/Validation`
 
@@ -14277,17 +14380,36 @@ Manifest identitas aset dan laporan pemeriksaan penataan.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
+| [attribution-cleanup.json](../Docs/Validation/attribution-cleanup.json) | Data/konfigurasi JSON | 2.6 |
 | [audio-banks.json](../Docs/Validation/audio-banks.json) | Data/konfigurasi JSON | 0.9 |
-| [cleanup-summary.json](../Docs/Validation/cleanup-summary.json) | Data/konfigurasi JSON | 9.9 |
-| [expected-asset-guids.json](../Docs/Validation/expected-asset-guids.json) | Data/konfigurasi JSON | 692.9 |
+| [audio-metadata-cleanup.json](../Docs/Validation/audio-metadata-cleanup.json) | Data/konfigurasi JSON | 1.5 |
+| [bot-setup-20261019.png](../Docs/Validation/bot-setup-20261019.png) | Gambar/tekstur | 315.9 |
+| [bot-setup-20261020.png](../Docs/Validation/bot-setup-20261020.png) | Gambar/tekstur | 316.3 |
+| [bot-setup-720p-20261019.png](../Docs/Validation/bot-setup-720p-20261019.png) | Gambar/tekstur | 229.3 |
+| [bot-setup-720p-20261020.png](../Docs/Validation/bot-setup-720p-20261020.png) | Gambar/tekstur | 230.0 |
+| [cleanup-summary.json](../Docs/Validation/cleanup-summary.json) | Data/konfigurasi JSON | 8.2 |
+| [expected-asset-guids.json](../Docs/Validation/expected-asset-guids.json) | Data/konfigurasi JSON | 697.5 |
 | [gameplay-20261015.png](../Docs/Validation/gameplay-20261015.png) | Gambar/tekstur | 191.2 |
+| [generated-audio-attribution-audit.json](../Docs/Validation/generated-audio-attribution-audit.json) | Data/konfigurasi JSON | 0.2 |
 | [github-source-plan.json](../Docs/Validation/github-source-plan.json) | Data/konfigurasi JSON | 0.3 |
 | [live-light-counts.txt](../Docs/Validation/live-light-counts.txt) | Catatan/hasil validasi | 0.1 |
+| [main-menu-20261020.png](../Docs/Validation/main-menu-20261020.png) | Gambar/tekstur | 500.5 |
+| [main-menu-720p-20261020.png](../Docs/Validation/main-menu-720p-20261020.png) | Gambar/tekstur | 358.3 |
 | [maintenance-summary.json](../Docs/Validation/maintenance-summary.json) | Data/konfigurasi JSON | 1.5 |
+| [model-metadata-cleanup.json](../Docs/Validation/model-metadata-cleanup.json) | Data/konfigurasi JSON | 22.4 |
 | [objective-state.txt](../Docs/Validation/objective-state.txt) | Catatan/hasil validasi | 2.2 |
+| [opening-20261019.png](../Docs/Validation/opening-20261019.png) | Gambar/tekstur | 52.7 |
+| [opening-20261020.png](../Docs/Validation/opening-20261020.png) | Gambar/tekstur | 52.7 |
 | [path-migration.json](../Docs/Validation/path-migration.json) | Data/konfigurasi JSON | 34.2 |
 | [pre-existing-reference.json](../Docs/Validation/pre-existing-reference.json) | Data/konfigurasi JSON | 0.3 |
-| [smoke-final.log](../Docs/Validation/smoke-final.log) | Log validasi | 1252.5 |
+| [presentation-implementation.json](../Docs/Validation/presentation-implementation.json) | Data/konfigurasi JSON | 1.1 |
+| [presentation-smoke.json](../Docs/Validation/presentation-smoke.json) | Data/konfigurasi JSON | 1.1 |
+| [presentation-validation.json](../Docs/Validation/presentation-validation.json) | Data/konfigurasi JSON | 0.1 |
+| [repository-preflight.json](../Docs/Validation/repository-preflight.json) | Data/konfigurasi JSON | 0.9 |
+| [robot-gameplay-20261019.png](../Docs/Validation/robot-gameplay-20261019.png) | Gambar/tekstur | 1509.8 |
+| [robot-gameplay-smoke.txt](../Docs/Validation/robot-gameplay-smoke.txt) | Catatan/hasil validasi | 3.9 |
+| [robot-team-choice-20261019.png](../Docs/Validation/robot-team-choice-20261019.png) | Gambar/tekstur | 410.0 |
+| [settings-20261020.png](../Docs/Validation/settings-20261020.png) | Gambar/tekstur | 291.9 |
 | [smoke-result.txt](../Docs/Validation/smoke-result.txt) | Catatan/hasil validasi | 3.6 |
 | [source-preservation.json](../Docs/Validation/source-preservation.json) | Data/konfigurasi JSON | 0.8 |
 | [structure-validation.json](../Docs/Validation/structure-validation.json) | Data/konfigurasi JSON | 0.3 |
@@ -14303,7 +14425,7 @@ Bukti pengujian historis, bukan hasil uji yang baru dijalankan.
 | [full-offline-network-observation-1.json](../Docs/Validation/History/full-offline-network-observation-1.json) | Data/konfigurasi JSON | 0.3 |
 | [full-offline-network-observation-2.json](../Docs/Validation/History/full-offline-network-observation-2.json) | Data/konfigurasi JSON | 0.3 |
 | [offline-gameplay.png](../Docs/Validation/History/offline-gameplay.png) | Gambar/tekstur | 510.5 |
-| [runtime-fix-build-audit.json](../Docs/Validation/History/runtime-fix-build-audit.json) | Data/konfigurasi JSON | 1.0 |
+| [runtime-fix-build-audit.json](../Docs/Validation/History/runtime-fix-build-audit.json) | Data/konfigurasi JSON | 0.9 |
 | [runtime-fix-build-result.txt](../Docs/Validation/History/runtime-fix-build-result.txt) | Catatan/hasil validasi | 0.0 |
 | [runtime-fix-smoke-result.txt](../Docs/Validation/History/runtime-fix-smoke-result.txt) | Catatan/hasil validasi | 3.6 |
 | [runtime-fix-verification-summary.json](../Docs/Validation/History/runtime-fix-verification-summary.json) | Data/konfigurasi JSON | 10.6 |
@@ -14581,7 +14703,7 @@ Konfigurasi Unity proyek yang dibagikan.
 | [PackageManagerSettings.asset](../ProjectSettings/PackageManagerSettings.asset) | Asset/data Unity | 1.0 |
 | [Physics2DSettings.asset](../ProjectSettings/Physics2DSettings.asset) | Asset/data Unity | 2.0 |
 | [PresetManager.asset](../ProjectSettings/PresetManager.asset) | Asset/data Unity | 0.1 |
-| [ProjectSettings.asset](../ProjectSettings/ProjectSettings.asset) | Asset/data Unity | 25.4 |
+| [ProjectSettings.asset](../ProjectSettings/ProjectSettings.asset) | Asset/data Unity | 25.3 |
 | [ProjectVersion.txt](../ProjectSettings/ProjectVersion.txt) | Catatan/hasil validasi | 0.1 |
 | [QualitySettings.asset](../ProjectSettings/QualitySettings.asset) | Asset/data Unity | 1.8 |
 | [SceneTemplateSettings.json](../ProjectSettings/SceneTemplateSettings.json) | Data/konfigurasi JSON | 3.6 |
@@ -14644,7 +14766,7 @@ Alat pendukung maintenance di luar kompilasi Unity.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [README.md](../Tools/README.md) | Dokumentasi | 0.5 |
+| [README.md](../Tools/README.md) | Dokumentasi | 0.7 |
 
 ## `Tools/Project`
 
@@ -14652,8 +14774,9 @@ Perintah pembaruan dokumentasi dan pemeriksaan proyek.
 
 | File | Jenis | KiB |
 | --- | --- | ---: |
-| [Invoke-Unity.ps1](../Tools/Project/Invoke-Unity.ps1) | Alat PowerShell | 1.6 |
-| [update_docs.py](../Tools/Project/update_docs.py) | Alat Python | 14.0 |
+| [Invoke-Unity.ps1](../Tools/Project/Invoke-Unity.ps1) | Alat PowerShell | 2.1 |
+| [check_repository.py](../Tools/Project/check_repository.py) | Alat Python | 8.8 |
+| [update_docs.py](../Tools/Project/update_docs.py) | Alat Python | 15.7 |
 
 ## `Tools/ThirdPartySources`
 

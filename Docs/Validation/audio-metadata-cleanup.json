@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-20T04:34:42.948352+00:00",
+  "status": "PASS",
+  "filesChanged": 4,
+  "changes": [
+    {
+      "file": "Audio/WwiseProject/Originals/SFX/machete_swing.wav",
+      "clearedFields": [
+        "IENG"
+      ],
+      "audioContentSha256": "1f4d24b95a95147d7bed1bb44e2502274180e48b5e7b761c22f6332bce9892c5",
+      "audioContentUnchanged": true,
+      "fileSizeUnchanged": true
+    },
+    {
+      "file": "Audio/WwiseProject/Originals/SFX/shotgun_cock_back.wav",
+      "clearedFields": [
+        "IART",
+        "ID3:TPE1"
+      ],
+      "audioContentSha256": "626aa6d495a73b545d2bb1617c4e74e892079c7639d2a6b629f3d3070e887ef7",
+      "audioContentUnchanged": true,
+      "fileSizeUnchanged": true
+    },
+    {
+      "file": "Audio/WwiseProject/Originals/SFX/shotgun_cock_forward.wav",
+      "clearedFields": [
+        "IART",
+        "ID3:TPE1"
+      ],
+      "audioContentSha256": "ba1dadcda341685d415d51b87fbfd3594ef6d39e2cc3d35796634b060cad7a22",
+      "audioContentUnchanged": true,
+      "fileSizeUnchanged": true
+    },
+    {
+      "file": "Audio/WwiseProject/Originals/SFX/shotgun_shoot.wav",
+      "clearedFields": [
+        "IART",
+        "ID3:TPE1"
+      ],
+      "audioContentSha256": "7a965cd172a23c0f648c036e6525c1eab738ea3bd68dc97cd7a2a2a21c226cae",
+      "audioContentUnchanged": true,
+      "fileSizeUnchanged": true
+    }
+  ],
+  "copyrightAndLicenseNoticesPreserved": true,
+  "id3FilesChecked": 211,
+  "id3ArtistFramesCleared": 3
+}

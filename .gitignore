@@ -103,3 +103,31 @@ __pycache__/
 desktop.ini
 Thumbs.db
 .DS_Store
+
+# Local archives, diagnostic output, and editor-only state.
+/_ProjectBackups/
+/_Local/
+/.idea/
+/.codex/
+*.log
+*.dmp
+*.stackdump
+*.bak
+*.orig
+*.rej
+
+# Credentials and local environment settings.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.ulf
+
+# Empty generated folders have no portable source assets.
+/Assets/AddressableAssetsData/Windows.meta
+/Assets/Settings/Build Profiles.meta
+/Assets/ThirdParty/PlaceholderAssets/Maps.meta

@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('Validate', 'Smoke', 'Build')]
+    [ValidateSet('Validate', 'Presentation', 'Smoke', 'Build')]
     [string]$Action = 'Validate',
     [string]$UnityPath = 'C:\Program Files\Unity 6000.0.37f1\Editor\Unity.exe'
 )
@@ -7,20 +7,30 @@ param(
 $ErrorActionPreference = 'Stop'
 $projectRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..'))
 if (-not (Test-Path -LiteralPath $UnityPath)) { throw "Unity executable not found. Supply -UnityPath explicitly." }
-if (Test-Path -LiteralPath (Join-Path $projectRoot 'Temp\UnityLockfile')) {
+$activeEditor = Get-CimInstance Win32_Process -Filter "Name = 'Unity.exe'" | Where-Object {
+    $_.CommandLine -and $_.CommandLine.Replace('/', '\').IndexOf($projectRoot, [StringComparison]::OrdinalIgnoreCase) -ge 0
+}
+if ($activeEditor) {
     throw 'Close this project in Unity before running a second Editor process.'
+}
+$lockPath = Join-Path $projectRoot 'Temp\UnityLockfile'
+if (Test-Path -LiteralPath $lockPath) {
+    # An interrupted batch Editor can leave its lock file after the process has gone.
+    Remove-Item -LiteralPath $lockPath -ErrorAction Stop
 }
 $logFolder = Join-Path $projectRoot 'Logs\ProjectMaintenance'
 [IO.Directory]::CreateDirectory($logFolder) | Out-Null
 $method = switch ($Action) {
-    'Validate' { 'ProjectStructureValidation.ValidateBatch' }
+    'Validate' { 'RobotPresentationValidation.ValidateBatch' }
+    'Presentation' { 'PresentationSmokeBatch.Run' }
     'Smoke' { 'OfflineSmokeBatch.Run' }
     'Build' { 'OfflineMatchValidation.BuildValidationPlayerBatch' }
 }
 $log = Join-Path $logFolder ($Action.ToLowerInvariant() + '.log')
 $arguments = @('-batchmode', '-projectPath', ('"' + $projectRoot + '"'), '-executeMethod', $method, '-logFile', ('"' + $log + '"'))
-if ($Action -eq 'Smoke') { $arguments += @('-wwiseEnableWithNoGraphics', '-diag-job-temp-memory-leak-validation') }
-if ($Action -ne 'Smoke') { $arguments += '-quit' }
+if ($Action -in @('Smoke', 'Presentation')) { $arguments += @('-wwiseEnableWithNoGraphics', '-diag-job-temp-memory-leak-validation') }
+if ($Action -eq 'Smoke') { $arguments += @('-job-worker-count', '2') }
+if ($Action -notin @('Smoke', 'Presentation')) { $arguments += '-quit' }
 $process = Start-Process -FilePath $UnityPath -ArgumentList $arguments -PassThru -WindowStyle Hidden
 Write-Output "Unity PID: $($process.Id). Log: $log"
 $process.WaitForExit()

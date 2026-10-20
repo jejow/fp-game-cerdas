@@ -4,7 +4,7 @@
 
 `SplashScreen -> MainMenu -> Custom Bot Match -> Gameplay -> MainMenu`.
 
-`VideoPlayerSceneHandler` meneruskan opening ke scene berikutnya. `LoadManager` menangani perpindahan scene. `MainMenuController` membaca pilihan menu, lalu `GameManager` meneruskan permintaan ke `OfflineMatch`.
+`OpeningScreenController` menampilkan identitas robot, memuat MainMenu secara asinkron, dan menyediakan Skip. `LoadManager` menangani perpindahan scene. `MainMenuController` membaca pilihan menu, lalu `GameManager` meneruskan permintaan ke `OfflineMatch`.
 
 `OfflineMatchOptions` menyimpan pengaturan lokal melalui PlayerPrefs. `OfflineMatch` membuat world simulasi, memasang driver IPC, memuat Gameplay dan entity subscene, menyiapkan navigasi, lalu membersihkan pertandingan ketika kembali ke menu. `SessionData` menyediakan status/progres bagi `LoadingScreen`.
 
@@ -18,7 +18,7 @@
 | Offline | Sesi lokal, bot, navigasi, opsi, transisi audio, pemeriksaan standalone eksplisit. |
 | Simulation | Bootstrap world, peserta client/server lokal, RPC internal, utilitas NetCode. |
 | Session | Penghubung menu ke pertandingan dan data progres sesi. |
-| Loading | Pemuatan scene dan pengendali video opening. |
+| Loading | Pemuatan scene; opening memakai controller UI tersendiri. |
 | UI | Controller UI Toolkit; UXML/USS berada di Game/UI. |
 | Data | Definisi C# ScriptableObject; instance berada di Game/Data. |
 | Behaviours | Pengendali kamera, decal, suara, dan GameObject pendukung. |
@@ -54,4 +54,4 @@ Entities, NetCode, dan Transport digunakan dalam satu proses melalui IPC. Nama w
 
 Assembly khusus noise, volumetric clouds, samples, dan Wwise tetap bersama `.asmdef` serta GUID-nya. Kode game utama tetap mengikuti assembly yang sudah digunakan sebelumnya.
 
-Penataan tidak mengganti branding, model karakter, avatar, opening, background, atau voice line.
+Perubahan presentasi 19 Oktober memakai identitas STEEL PROTOCOL, opening UI, menu ruang persiapan robot, dan model robot kedua tim termasuk FPS. Rincian ada di [PRESENTATION.md](PRESENTATION.md). Audio sumber dan aturan pertandingan tetap dipakai.

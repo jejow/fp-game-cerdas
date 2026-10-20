@@ -306,7 +306,7 @@ public static class OfflineMatchValidation
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
                 scenes = EditorBuildSettings.scenes.Where(scene => scene.enabled).Select(scene => scene.path).ToArray(),
-                locationPathName = Path.Combine(Path.GetDirectoryName(Application.dataPath), "Builds/Offline/Suna.exe"),
+            locationPathName = Path.Combine(Path.GetDirectoryName(Application.dataPath), "Builds/Offline", GameIdentity.ExecutableName),
                 target = BuildTarget.StandaloneWindows64,
                 subtarget = (int)StandaloneBuildSubtarget.Player,
                 options = BuildOptions.None
@@ -575,6 +575,7 @@ public static class OfflineMatchValidation
         while (!OfflineMatch.HasSpawnedTeams(ClientTransportHelper.ServerWorld.EntityManager)) await Awaitable.NextFrameAsync(token);
         // Allow loadout queues, body colliders, and ghost replication to settle.
         for (int i = 0; i < 90; i++) await Awaitable.NextFrameAsync(token);
+        CheckRobotModels();
         Check(!controller.IsUIActive(), "team button closes the selection UI");
         Check(ClientTransportHelper.ClientWorld.GetExistingSystemManaged<CharacterInputSystem>().Enabled, "team button enables player controls");
         var em = ClientTransportHelper.ServerWorld.EntityManager;
@@ -591,6 +592,48 @@ public static class OfflineMatchValidation
         using var submit = NavigationSubmitEvent.GetPooled();
         submit.target = button;
         button.SendEvent(submit);
+    }
+
+    private static void CheckRobotModels()
+    {
+        var em = ClientTransportHelper.ClientWorld.EntityManager;
+        int visibleFirstPerson = 0, fullBodies = 0;
+        bool robotMeshes = true, robotMaterials = true;
+        void Inspect(GameObject model)
+        {
+            int bodyMeshes = 0;
+            foreach (var renderer in model.GetComponentsInChildren<SkinnedMeshRenderer>(true))
+            {
+                string mesh = AssetDatabase.GetAssetPath(renderer.sharedMesh);
+                // Equipped weapons can have their own skinned mesh below WeaponSlot.
+                if (!mesh.Contains("/Characters/")) continue;
+                bodyMeshes++;
+                robotMeshes &= mesh.Contains("/Characters/Corpo/") && !mesh.Contains("/Characters/Natif/");
+                robotMaterials &= renderer.sharedMaterials.Length > 0 && renderer.sharedMaterials[0].shader.name == "Game/Robot Armor";
+            }
+            robotMeshes &= bodyMeshes > 0;
+        }
+        using (var query = em.CreateEntityQuery(typeof(FirstPersonCharacterModelReference)))
+        using (var models = query.ToEntityArray(Allocator.Temp))
+            foreach (var entity in models)
+            {
+                var model = em.GetComponentObject<FirstPersonCharacterModelReference>(entity).ModelGameObject;
+                if (model == null) continue;
+                if (model.activeInHierarchy) visibleFirstPerson++;
+                Inspect(model);
+            }
+        using (var query = em.CreateEntityQuery(typeof(ThirdPersonCharacterModelReference)))
+        using (var models = query.ToEntityArray(Allocator.Temp))
+            foreach (var entity in models)
+            {
+                var model = em.GetComponentObject<ThirdPersonCharacterModelReference>(entity).ModelGameObject;
+                if (model == null) continue;
+                fullBodies++;
+                Inspect(model);
+            }
+        Check(visibleFirstPerson == 1, "one local player has visible robot FPS arms");
+        Check(fullBodies >= 2 && robotMeshes, "both teams instantiate robot bodies without human character meshes");
+        Check(robotMaterials, "live FPS arms and bot bodies use their robot team materials");
     }
 
     private static async Task StartFromBotMenuAsync(OfflineMatchOptions options, CancellationToken token, bool checkMenu = false)
@@ -627,6 +670,11 @@ public static class OfflineMatchValidation
         root.Q<DropdownField>("BotDifficulty").index = (int)options.Difficulty;
         ClickButton(root, "StartOffline");
         await menu.StartingMatch;
+        if (checkMenu)
+        {
+            ScreenCapture.CaptureScreenshot(Path.Combine(Folder, "robot-team-choice.png"));
+            for (int i = 0; i < 3; i++) await Awaitable.NextFrameAsync(token);
+        }
         Check(OfflineMatch.IsActive && OfflineMatch.Difficulty == options.Difficulty && OfflineMatch.BotCount == options.AllyBots + options.EnemyBots,
             $"start button applies {options.Difficulty} setup with {options.AllyBots} allies and {options.EnemyBots} enemies");
     }

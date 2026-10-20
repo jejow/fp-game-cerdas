@@ -1,0 +1,494 @@
+{
+  "utc": "2026-10-20T04:31:42.809928+00:00",
+  "status": "PASS",
+  "filesAudited": 533,
+  "stringsInspected": 1353852,
+  "filesChanged": 69,
+  "fieldsChanged": 170,
+  "changes": [
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Corpo/Fps/Idle/Knife/Animation_Corpo_FPS_KnifeNeutral_Idle.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "fc77d4accd47df583d966a4c6ce0296d8c489db6e80a4bcb67a53a47d71bf0b1"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Corpo/Tps/Change/Knife/Deploy_Knife.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "bc88b6584cf0527765390814f0459dfe4d6c50ff9287bd29376dc0cac4a33749"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Corpo/Tps/Throw/Throw_Grenade_Flash.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "2ef60d20a0aefde8bf5262e0eaf20449dfc979ca8784c341704b49fd9820baff"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Corpo/Tps/Throw/Throw_Grenade_Gas.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "e886221eab36706b4ce1a385541a2dfe288b6669abe842191b362b66f30a63d3"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Corpo/Tps/Throw/Throw_Grenade_Smoke.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "ab0543b6eb60254d001b60c099b959f3eb748b42dda856c8b07e38fbad35859d"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Change/Weapon/ANIM_Native_FPS_Banduka_Deployment.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "0e692d6d75bc7c474a95e23cec2daf041635a735fd46deea59a93e9adcfd0029"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Change/Weapon/ANIM_Native_FPS_SKAR18_Deployment.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "05a91a988a4456933ff9211b08fdc69921cfc137a1f366a5aaf49cec4f3a38ea"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Idle/Weapon/ANIM_Native_FPS_Banduka_Idle.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "0de3124eea5c93c98c033960182fd53a6ede072098f95557f9c14a3539ec9061"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Idle/Weapon/ANIM_Native_FPS_SKAR18_Idle.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "6946817dc93d96bcaed56d427b17cf9872534676bf381ab2a9ed993937f69c11"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/JumpAntic/Weapon/ANIM_Native_FPS_Banduka_JumpAntic.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "1b4dff9999d16c2b88255dc997ec12a90e5b72585249db4f049367121530c1ef"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/JumpAntic/Weapon/ANIM_Native_FPS_SKAR18_JumpAntic.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "4699b6e68a3a951ae1123cbc02b0bff2affe9be39ad16bd2e78ec9f343b900a7"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/JumpLand/Weapon/ANIM_Native_FPS_Banduka_JumpLand.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "00bc85c66a83a592ea7841ce033995b2128af923f0ceef1453ba7eef300d04b1"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/JumpLand/Weapon/ANIM_Native_FPS_SKAR18_JumpLand.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "4281389c25b19fd410de996719d21812810a0bae7cbd49430f7f8109de9aa3d0"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Reload/Weapon/ANIM_Native_FPS_Banduka_Reload.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "2a9e5c6f1a467c578512bf2f5250c7d405a8758f7654327a1c2c5c25fce0f5e3"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Reload/Weapon/ANIM_Native_FPS_SKAR18_Reload.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "b2f0aa44e2eaf579880ec76b89d918c9e57d1e0deb3e8b223f26e3052988ec3e"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/Banduka/ANIM_Native_FPS_Banduka_WalkBackward.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "2a6ed7f63235cab5ba7d848652e1e38b6e48acb3dff0c53b7107ff9aafbdc54a"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/Banduka/ANIM_Native_FPS_Banduka_WalkForward.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "c19426ea3675a74f2d91212b3ac85d4e94ae4450f5587d77fdd2e69d9e3f599e"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/Banduka/ANIM_Native_FPS_Banduka_WalkLeft.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "51562ef0f38f05e9f81b889fec7d2b7817082c51a3090e73a184c41c80f63dc6"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/Banduka/ANIM_Native_FPS_Banduka_WalkRight.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "9a4a671f7365b7586db24cad313c5e8d405d2baee9e87312f15e81fca308cc4a"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/SKAR18/ANIM_Native_FPS_SKAR18_WalkBackward.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "16463fcbb8f631b681cd8f22c48ed32d75f623d6e643de5436a0ef7b63b3d4e2"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/SKAR18/ANIM_Native_FPS_SKAR18_WalkForward.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "b454fee1e66a535ee040cca5cbd289f060e20f82132b3cdaaf32489bc4304cd4"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/SKAR18/ANIM_Native_FPS_SKAR18_WalkLeft.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "2b1c79df680d095b47821e994f28810088885c2e68c921b9007c790d8a86bedf"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Fps/Walk/Weapon/SKAR18/ANIM_Native_FPS_SKAR18_WalkRight.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "7dce3cc8f4216830345d9f4862bdafa99d4c42d104d9d56b919d95614f09727c"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Change/Grenade/GrenadeFlash_WeaponChange_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "12cbbe66672bd7d455c00f082063fd1863965feb9636c0cf4e36eed3a6e9d8fb"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Change/Grenade/GrenadeGas_WeaponChange_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "ae67cc930aa1d9f52463595956f1ab8a8daa1fc3bf6657e4f04fa74a3e12e59d"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Change/Grenade/GrenadeSmoke_WeaponChange_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "44e91eb3e46ae1b24368516c33e2d908ca63d759e9f851021eff0608a05c3ea2"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Change/Weapon/Fakir_WeaponChange_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "16bf17d1d05cba5bbf2eb10ae1c4a798aae04791c2b308e40c0cadc9f997440d"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Change/Weapon/LP17_WeaponChange_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "76c0862296e58936e3b367a0855f3f53cf9a87bf7167cd28433a5bcc0e5d30e4"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Death/Death_Native_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "5b771adb541d7aaf5bede382e62e5dbf72b149de6791c1bb2513579f8342c7d4"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Walk/BackwardWalk_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "7a9e5926de512d171eff8f3e00f771d58522728f34f8cc9cb927562cd9eddb20"
+    },
+    {
+      "file": "Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Walk/Walk_Anim.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "5d81f2fbc38ac1ef9d2c1c4ab966236b87d3967f3df6553ee749cf8cb7a165db"
+    },
+    {
+      "file": "Assets/Game/Art/CharacterAnimations/SKE_CORPO_RIG_TPS.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "57069b92df7bafacfd73bc426502d0ae93160b628beac0e12e3dc792821ae34e"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Characters/Corpo/SKE_Corpo_TPS.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "76fde69fd7ca44e9d8df7131fe1e486c558337c969f113d6aa6ead8878421449"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/Fontaine.fbx",
+      "metadataFieldsChanged": 2,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "bc3fe9f99cfeaaaed2ee5c3b4525f3846c7b02a1f3e131e2c8d84d287eb9387a"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/MAP_Build1_uncombined.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "ec6409579ad5bb2b5e9e7af7b1e29705dfaeab8313e9810ae468ce7c05f3fe9d"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/MESH_bridge_combined.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "3a813fd90c299c0e96802f1e812ebddfa3a93b88b445acc95236dd27c581d43d"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/Poutre_bois.fbx",
+      "metadataFieldsChanged": 2,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "992fa91fa9334340f2385ca1c86116e705b28dbe1542a3171496ef982ea4ab7a"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/SOL.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "240a4aab327a3aec8f8c2f43706ad1754acd9536ce5d4ae6030a749eda3eb5b9"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/STATIC_Barricade_Beton.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "28b2e113ffe8c950c6f12fa76e55c35673b96b99819a6a53e53c331421550baf"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/STATIC_Ceiling.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "581f46746e47c9558cd7f97acc9edaa32dfe5c2f1efe94447021bcb47ca54e0e"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/STATIC_MiniBridge.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "8153a4a35e5d5e41df99b4948e0a162e2c532226d905181356bc8be79e2551aa"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/Wall/murs_combine.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "a37531d6a912155d8cfa9556664b90bb1e2b4f0ef42f360ea36d44f6663d81f3"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/bambou.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "83daa536d3b207781db512a2a8f8e7ba90b1c1e787982d76d318dde6bc647ca2"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/bambou_feuilles.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "3cbc73687244feba5dc0aeaacbd506918087d73043d2d81649f360fb09f610d3"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/bambous.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "5f395e0c2da66fb717860ebff0d81aecc716645ddd0aca53104cc545620d5e2c"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/barrieres_bomb.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "159785b2864a4340cf83bd976bddd51ac2a5266a5e97f6706f776f002d0b25ed"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/escalier.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "f305c658d086d3a724738183265d3e88da46aa4ceb33d5accfa4d6cb83521d3d"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/escalier_bomb.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "64ac0434c51ac2712c52aaeed3c9ff2305d2d3e2118ac60bab593e93b9a254c2"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/gros_toit.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "5565af427d328db8e42120aaebf4db700e53447b5a5f3a8a2518ef95dd3cf7ca"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/layout_final.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "bc59c69a87c36c8168963d77bc3db7d20eb1bb5e565209f35c5c44b0590a1d92"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/layout_final_combine_3.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "2150c7407e886342b2319e5d82829fc3f57b83363d627f98c83ad54fac96a2f6"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/layout_sol.fbx",
+      "metadataFieldsChanged": 2,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "97861f66f1ef38a28ee943d8e974096038041ab7924868e709dc64ae61285fef"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/map_inteS2.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "be463ea061cd6344f7df61bf0b17965697e2806c0ba1f177b2ac316a5368dc59"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/mid_stairs.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "eed2aba074d49fabee9df137e68995b3ebe7c606acff1f8f2de92cc308bb6da5"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/mur_b12.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "3465b63ac15bb2fbc47c1a920d1426f1488e1b7e4967fc8b0b86c23916dbc2fc"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/murs_finaux.fbx",
+      "metadataFieldsChanged": 2,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "f5c873e85d98c91ff16c5590d5a840b25e44d1740236f1e12aa76152797e655e"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/passerelle.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "8fa5d2545d174d46e7208f69682eb25dd3fd672220b0a56319e3f3a65c565bde"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/passerelle170.fbx",
+      "metadataFieldsChanged": 2,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "d596a225cf3620dfd1253c9930f241a497403727e4452c2cafd16a38561def92"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/planche.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "086bba9055cdebcec0a4c5182101fa70a66cb150c0c5c874c9a6cbaf38d44466"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/planches_bomb.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "80133b7546a536b64b5ee19ea38e579c556b3d22029622f1495e733c3d647bd2"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/planches_mid.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "8ed4f7b3c096e546d0809bab8bb93e2b98baba58ddd9e47b877e443aa73df04d"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/tour_basique.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "82f401886a43150bcffbe7e5113b9412ae9acdfd44223d1b1edb91dcd45746ff"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Environments/tour_effondree.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "82f401886a43150bcffbe7e5113b9412ae9acdfd44223d1b1edb91dcd45746ff"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Harvester/SKELETAL_Recolteur1.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "b4a9760181f0efd14f07d5f6b6b65af9a3825f9cb594339a1041f993e6a4069f"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Stuff/Projectiles/STATIC_Grenade_Special.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "f7fdbef0af1bf22e25bc43cf8900f3e1f3a4d4e3e6a4d82d16ce86d11d8dd35a"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Stuff/Weapons/Mag/MAG_CorpoRifle1.fbx",
+      "metadataFieldsChanged": 1,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "e0fe6de442a33937b83f8fbd84b92df2b53ca76243d5ec5b2441f2a6c8c76fb3"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Stuff/Weapons/Viseurs/Viseur_ACOG_corrig\u00e9.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "65fce960bc0c4f66c12329c0f539c6eb746ca2809c39c6c961b7d906c903e534"
+    },
+    {
+      "file": "Assets/Game/Art/Models/PhysicalElements/Stuff/Weapons/Viseurs/viseur_holo.fbx",
+      "metadataFieldsChanged": 4,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "9cb00cf2062d9d98ec45ff3319b4a1cff9abc69643161e1b34ddb4edb4230f18"
+    },
+    {
+      "file": "Assets/Game/Art/Textures/PhysicalElements/TEX_Bambous/bambous.fbx",
+      "metadataFieldsChanged": 5,
+      "fileSizeUnchanged": true,
+      "nonMetadataBytesUnchanged": true,
+      "nonMetadataSha256": "5f395e0c2da66fb717860ebff0d81aecc716645ddd0aca53104cc545620d5e2c"
+    }
+  ],
+  "copyrightAndLicenseNoticesPreserved": true
+}

@@ -1,143 +1,143 @@
-﻿{
+{
     "utc":  "2026-10-15T05:00:49.6994145Z",
     "status":  "PASS",
-    "archiveRoot":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation",
+    "archiveRoot":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation",
     "movedTargets":  27,
     "permanentDeletion":  false,
     "results":  [
                     {
                         "relativePath":  "Library",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Library",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Library",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Logs",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Logs",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Logs",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "UserSettings",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\UserSettings",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\UserSettings",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Builds/Legacy",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Builds\\Legacy",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Builds\\Legacy",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Ak.Wwise.Api.WAAPI.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Ak.Wwise.Api.WAAPI.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Ak.Wwise.Api.WAAPI.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.API.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.API.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.API.WwiseTypes.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.WwiseTypes.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.API.WwiseTypes.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.MonoBehaviour.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.MonoBehaviour.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.MonoBehaviour.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.MonoBehaviour.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.ProjectDatabase.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.ProjectDatabase.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.ProjectDatabase.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.Timeline.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.Timeline.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.Timeline.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AK.Wwise.Unity.Timeline.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.Timeline.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AK.Wwise.Unity.Timeline.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Assembly-CSharp-Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Assembly-CSharp-Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Assembly-CSharp-Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Assembly-CSharp.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Assembly-CSharp.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Assembly-CSharp.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "AssemblyDefinition.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AssemblyDefinition.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\AssemblyDefinition.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "MerryYellow.CodeAssist.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\MerryYellow.CodeAssist.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\MerryYellow.CodeAssist.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "NoiseAssembly.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\NoiseAssembly.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\NoiseAssembly.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Suna.sln",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Suna.sln",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Suna.sln",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Unity.Physics.Custom.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.Physics.Custom.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.Physics.Custom.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Unity.Physics.Custom.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.Physics.Custom.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.Physics.Custom.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.RenderPipelines.Universal.Config.Editor.Tests.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "Unity.RenderPipelines.Universal.Config.Runtime.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\Unity.RenderPipelines.Universal.Config.Runtime.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "VFXGraph.OutputEventHandlers.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VFXGraph.OutputEventHandlers.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VFXGraph.OutputEventHandlers.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "VFXGraph.OutputEventHandlers.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VFXGraph.OutputEventHandlers.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VFXGraph.OutputEventHandlers.Editor.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "VolumetricCloudsURP.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VolumetricCloudsURP.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VolumetricCloudsURP.csproj",
                         "status":  "ARCHIVED"
                     },
                     {
                         "relativePath":  "VolumetricCloudsURP.Editor.csproj",
-                        "archivedTo":  "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VolumetricCloudsURP.Editor.csproj",
+                        "archivedTo":  "../_ProjectBackups\\Suna-20261015\\GeneratedAfterValidation\\VolumetricCloudsURP.Editor.csproj",
                         "status":  "ARCHIVED"
                     }
                 ]

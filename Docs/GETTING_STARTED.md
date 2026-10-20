@@ -1,4 +1,4 @@
-# Membuka dan memainkan Suna
+# Membuka dan memainkan STEEL PROTOCOL
 
 ## Unity Editor
 
@@ -8,7 +8,7 @@ Mulai dari `Assets/Game/Scenes/MainMenu.unity` dan tekan Play. Untuk melihat ope
 
 | Scene | Peran |
 | --- | --- |
-| `SplashScreen.unity` | Video/logo opening, kemudian menu. |
+| `SplashScreen.unity` | Layar boot robot, progres pemuatan, kemudian menu; Enter/Space/Escape untuk Skip. |
 | `MainMenu.unity` | Menu utama, pengaturan, dan konfigurasi bot. |
 | `Gameplay.unity` | Scene pertandingan. |
 | `SubScenes/GameplayEntities.unity` | Data ECS yang dimuat bersama pertandingan. |
@@ -21,6 +21,7 @@ Pilih **Play Offline > Custom Bot Match**, tentukan tim, jumlah bot, dan kesulit
 
 | Tombol | Fungsi default |
 | --- | --- |
+| Esc | Pause saat pertandingan; Skip pada opening. |
 | W/A/S/D | Bergerak |
 | Mouse kiri / kanan | Menembak / membidik |
 | Space | Melompat |
@@ -36,6 +37,6 @@ Sumber binding: `Assets/Game/Input/DefaultInputSystem.inputactions`. Membeli sen
 
 ## Executable
 
-Setelah membuat build, jalankan `Builds/Offline/Suna.exe` dari foldernya. Bagikan seluruh folder karena executable membutuhkan data, DLL, runtime, dan bank audio pendamping.
+Setelah membuat build, jalankan `Builds/Offline/SteelProtocol.exe` dari foldernya. Bagikan seluruh folder karena executable membutuhkan data, DLL, runtime, dan bank audio pendamping.
 
 Executable cadangan lama ada di `../_ProjectBackups/Suna-20261015/GeneratedAfterValidation/Builds/Legacy/OfflineBeforeFullOffline-20261008/Suna.exe` jika folder cadangan masih disimpan bersama proyek. Build terbaru pada `Builds/Offline` sudah tidak ada ketika penataan dimulai. Buat rilis dari sumber sekarang mengikuti [BUILD_AND_TEST.md](BUILD_AND_TEST.md).

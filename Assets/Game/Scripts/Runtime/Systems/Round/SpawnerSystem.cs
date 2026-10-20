@@ -93,7 +93,7 @@ public partial struct OnDieJob : IJobEntity
             commandBuffer.SetComponentEnabled<CharacterIsEnable>(sortKey, entity, false);
             commandBuffer.SetComponentEnabled<IsInstanciateDefaultStuff>(sortKey, entity, true); //Enable the default stuff instantiation at respawn
 
-            //FIX (Aurelien) : Now that the player is dead, we drop some of his stuff, the rest gets destroyed
+            //FIX: Now that the player is dead, we drop some of his stuff, the rest gets destroyed
 
             shootStartPositionDeltaLookup.TryGetComponent(entity, out var shootStartPositionDelta);
             localTransformLookup.TryGetComponent(entity, out var localTransform);
@@ -294,7 +294,7 @@ public partial struct RespawnSystem : ISystem
                 transform.ValueRW.Position = buffer[index % buffer.Length];
                 currentHealth.ValueRW.Value = 100;
 
-                ////FIX (Aurelien) : When the player dies, he respawns with nothing (if he dropped his stuff)
+                ////FIX: When the player dies, he respawns with nothing (if he dropped his stuff)
 
                 //if(SystemAPI.GetBuffer<CharacterStuffList>(characterEntity).ElementAt((int)StuffSlot.SecondaryWeapon).entity == Entity.Null) //Avoid duplicating gun if for some reason the player already has one
                 //{

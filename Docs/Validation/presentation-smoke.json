@@ -1,0 +1,27 @@
+{
+    "utc": "2026-10-20T04:24:09.8566733Z",
+    "status": "PASS",
+    "checks": [
+        "Opening starts from the first build scene.",
+        "Opening UI is attached to a rendering panel.",
+        "Opening displays STEEL PROTOCOL.",
+        "Opening has no original logo video.",
+        "Skip reaches the functional main menu.",
+        "Main menu displays the chosen title.",
+        "Menu contains only robot character meshes.",
+        "Menu robot renders its armor without the gameplay outline overlay.",
+        "Main menu controls fit at 1600 x 900.",
+        "Play Offline opens robot match setup.",
+        "Start Match fits inside the setup panel.",
+        "Settings opens from the new menu.",
+        "Settings Save control fits on screen.",
+        "Settings keeps its panel stylesheet after instantiation.",
+        "Settings Save and Close returns to the menu.",
+        "Main menu has no contributor page entry.",
+        "Menu UI contains no contributor list.",
+        "Main menu controls fit at 1280 x 720.",
+        "Robot match setup remains usable at 1280 x 720.",
+        "Presentation produces no runtime errors."
+    ],
+    "errors": []
+}

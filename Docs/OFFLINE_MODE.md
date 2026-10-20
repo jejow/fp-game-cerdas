@@ -12,7 +12,7 @@ Alur permainan: **Play Offline > Custom Bot Match > Start Match**.
 
 Corpo memasang bom; Natif mempertahankan lokasi dan menjinakkan bom. Setiap tim maksimal lima peserta termasuk pemain. Pilihan tersimpan lokal melalui PlayerPrefs dan mengatur jumlah peserta sebenarnya.
 
-Kode utama ada di `Assets/Game/Scripts/Runtime/Offline`. ECS/NetCode/Transport dipakai sebagai mesin simulasi melalui IPC. HUD, toko, minimap, model, dan audio mempertahankan aset yang sudah ada.
+Kode utama ada di `Assets/Game/Scripts/Runtime/Offline`. ECS/NetCode/Transport dipakai sebagai mesin simulasi melalui IPC. HUD, toko, minimap, dan audio memakai sistem yang sudah ada. Model kedua tim serta tangan FPS memakai robot; identitas dan visual dijelaskan di [PRESENTATION.md](PRESENTATION.md).
 
 Aturan objektif diperiksa melalui **Tools > Offline > Validate objective rules**. Pengujian pertandingan tersedia pada **Tools > Offline > Run offline match smoke test**. Cara menjalankan batch ada di [BUILD_AND_TEST.md](BUILD_AND_TEST.md).
 

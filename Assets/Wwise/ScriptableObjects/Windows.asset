@@ -94,7 +94,7 @@ MonoBehaviour:
         m_NumberOfChannels: 0
     m_StreamingLookAheadRatio: 1
     m_SampleRate: 48000
-    m_NumberOfRefillsInVoice: 4
+    m_NumberOfRefillsInVoice: 6
     m_SpatialAudioSettings:
       m_MaxSoundPropagationDepth: 8
       m_MovementThreshold: 0.25

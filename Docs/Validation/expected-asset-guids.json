@@ -12650,7 +12650,7 @@
     },
     {
       "guid": "aadaad984958b7249ad8ecf40b3f93ab",
-      "path": "Assets/Game/Prefabs/Colliders/Collider Thomas 2.prefab"
+      "path": "Assets/Game/Prefabs/Colliders/MapColliderSecondary.prefab"
     },
     {
       "guid": "65ba91d25d9c4b745a2188e0bb9fa7f9",
@@ -12710,7 +12710,7 @@
     },
     {
       "guid": "4c8b18aff0ea5c445af739af8fd80d8b",
-      "path": "Assets/Game/Prefabs/Colliders/SiteA Thomas.prefab"
+      "path": "Assets/Game/Prefabs/Colliders/SiteAColliders.prefab"
     },
     {
       "guid": "b8464a21a41229941a5401c00ec9544f",
@@ -12762,7 +12762,7 @@
     },
     {
       "guid": "a9f65ac37e7e7a34f8a436d2926691de",
-      "path": "Assets/Game/Prefabs/Environments/Colliders Map Thomas.prefab"
+      "path": "Assets/Game/Prefabs/Environments/MapColliders.prefab"
     },
     {
       "guid": "9f0e6d1ebc486394ea73c384371e6c3c",
@@ -15846,11 +15846,11 @@
     },
     {
       "guid": "8bc7d4dc75f0de64ea1c2b745fb14cbd",
-      "path": "Assets/Development/Sandbox/Theo"
+      "path": "Assets/Development/Sandbox/UITests"
     },
     {
       "guid": "eeb2505ad063a1b4dae2fb7cabd7ff07",
-      "path": "Assets/Development/Sandbox/Timotee"
+      "path": "Assets/Development/Sandbox/RoundTests"
     },
     {
       "guid": "e827cd81f4087e4418d83dab547d577e",
@@ -15858,83 +15858,83 @@
     },
     {
       "guid": "286fd4420da377d4b95c8affbfeba17e",
-      "path": "Assets/Development/Sandbox/Theo/Materials"
+      "path": "Assets/Development/Sandbox/UITests/Materials"
     },
     {
       "guid": "64bba9cdca516c741b0464f55fc42c9a",
-      "path": "Assets/Development/Sandbox/Theo/Prefabs"
+      "path": "Assets/Development/Sandbox/UITests/Prefabs"
     },
     {
       "guid": "980e6144a11f47642b75c0b18bce5e8d",
-      "path": "Assets/Development/Sandbox/Theo/Scenes"
+      "path": "Assets/Development/Sandbox/UITests/Scenes"
     },
     {
       "guid": "ce24a4b2aeb42ac4c8866494aae7cd7f",
-      "path": "Assets/Development/Sandbox/Theo/Scripts"
+      "path": "Assets/Development/Sandbox/UITests/Scripts"
     },
     {
       "guid": "61892d9ca10031e42b3eadd9f9a0c375",
-      "path": "Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat.mat"
+      "path": "Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat.mat"
     },
     {
       "guid": "3ef834123ac07f440a0388406aca8c8e",
-      "path": "Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Blue.mat"
+      "path": "Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Blue.mat"
     },
     {
       "guid": "b1306d40d237863408712d5cf9d8d2f6",
-      "path": "Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Dark.mat"
+      "path": "Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Dark.mat"
     },
     {
       "guid": "f7f95a8179209a545a29cc7f33053b4b",
-      "path": "Assets/Development/Sandbox/Theo/Materials/TheoDefaultMat_Red.mat"
+      "path": "Assets/Development/Sandbox/UITests/Materials/DebugDefaultMat_Red.mat"
     },
     {
       "guid": "78414fa1b52c23d40be7ed3f0bcdacf8",
-      "path": "Assets/Development/Sandbox/Theo/Prefabs/Impact.prefab"
+      "path": "Assets/Development/Sandbox/UITests/Prefabs/Impact.prefab"
     },
     {
       "guid": "cd439b180eb8af04da835ea13eadf8e1",
-      "path": "Assets/Development/Sandbox/Theo/Prefabs/PlayerView.prefab"
+      "path": "Assets/Development/Sandbox/UITests/Prefabs/PlayerView.prefab"
     },
     {
       "guid": "84be183431754874dae4cd885aaad550",
-      "path": "Assets/Development/Sandbox/Theo/Scenes/AnotherScene"
+      "path": "Assets/Development/Sandbox/UITests/Scenes/AnotherScene"
     },
     {
       "guid": "e8e6c023c606dab499812651b5c39583",
-      "path": "Assets/Development/Sandbox/Theo/Scenes/AnotherScene.unity"
+      "path": "Assets/Development/Sandbox/UITests/Scenes/AnotherScene.unity"
     },
     {
       "guid": "4003ecb618ee4c14ab3a59da066c8655",
-      "path": "Assets/Development/Sandbox/Theo/Scenes/AnotherScene/HUD.unity"
+      "path": "Assets/Development/Sandbox/UITests/Scenes/AnotherScene/HUD.unity"
     },
     {
       "guid": "26974b6361d14ab4a82372075adebc97",
-      "path": "Assets/Development/Sandbox/Theo/Scripts/TestCameraPivotRecoil.cs"
+      "path": "Assets/Development/Sandbox/UITests/Scripts/TestCameraPivotRecoil.cs"
     },
     {
       "guid": "42a0e8957c53cdd48a0dd6c20bd3731a",
-      "path": "Assets/Development/Sandbox/Theo/Scripts/TestImpactSphere.cs"
+      "path": "Assets/Development/Sandbox/UITests/Scripts/TestImpactSphere.cs"
     },
     {
       "guid": "794d5f5bfd95f154ca472a3c04023fbb",
-      "path": "Assets/Development/Sandbox/Theo/Scripts/TestPlayerViewRotation.cs"
+      "path": "Assets/Development/Sandbox/UITests/Scripts/TestPlayerViewRotation.cs"
     },
     {
       "guid": "0b256be49b61f6e48850d3106452a59c",
-      "path": "Assets/Development/Sandbox/Theo/Scripts/TestShootRecoil.cs"
+      "path": "Assets/Development/Sandbox/UITests/Scripts/TestShootRecoil.cs"
     },
     {
       "guid": "07c39bf514497d34e8ae7f8d7cb69c0a",
-      "path": "Assets/Development/Sandbox/Timotee/RoundManagerTest"
+      "path": "Assets/Development/Sandbox/RoundTests/RoundManagerTest"
     },
     {
       "guid": "27de2a4a0edd80d4a9451554fd3e5f13",
-      "path": "Assets/Development/Sandbox/Timotee/RoundManagerTest.unity"
+      "path": "Assets/Development/Sandbox/RoundTests/RoundManagerTest.unity"
     },
     {
       "guid": "bcb786f31dd247d448f642971a572dbf",
-      "path": "Assets/Development/Sandbox/Timotee/RoundManagerTest/RoundManagerSubScene.unity"
+      "path": "Assets/Development/Sandbox/RoundTests/RoundManagerTest/RoundManagerSubScene.unity"
     },
     {
       "guid": "652b268800cbaff41bc38d23816b7e01",
@@ -17281,10 +17281,6 @@
       "path": "Assets/Game/Scripts/Runtime/UI/ConstantHUD/HUDController.cs"
     },
     {
-      "guid": "dd74821c7db205e4782a7e5f35f9bcf3",
-      "path": "Assets/Game/UI/Credits/CreditsMenu.uxml"
-    },
-    {
       "guid": "a18f39eb6e024d845aa7b1ca1e8975d0",
       "path": "Assets/Game/UI/ErrorsMenu/ErrorWindow.uxml"
     },
@@ -17475,6 +17471,150 @@
     {
       "guid": "6c0cfd95b7c97254fa7e6be1fd4aa1a8",
       "path": "Assets/Game/Scripts/Runtime/Utilities/UI/VisualElements/FloatingWindow.cs"
+    },
+    {
+      "guid": "16d1cd4daf5cc3440b930f7bf1408921",
+      "path": "Assets/Game/Art/Branding"
+    },
+    {
+      "guid": "199cb4ff8f1390147b67a4fbe9410b17",
+      "path": "Assets/Game/Art/Branding/Animations"
+    },
+    {
+      "guid": "6d69a584b5d487845bed68dc4b34dac2",
+      "path": "Assets/Game/Art/Branding/Animations/RobotMenuIdle.controller"
+    },
+    {
+      "guid": "02d1b5393bbcbff47b765b49a6afabd6",
+      "path": "Assets/Game/Art/Branding/Materials"
+    },
+    {
+      "guid": "6cb99d01282653a49831db6a1a4963db",
+      "path": "Assets/Game/Art/Branding/Materials/AmberLight.mat"
+    },
+    {
+      "guid": "aa9b55960acbe8a46a8ac9c4f33670c6",
+      "path": "Assets/Game/Art/Branding/Materials/BayFloor.mat"
+    },
+    {
+      "guid": "46ec961a67e2c6243ad8b28fa894683b",
+      "path": "Assets/Game/Art/Branding/Materials/BayPanels.mat"
+    },
+    {
+      "guid": "c98cb7a12d4a6464fb0d78b0419a140c",
+      "path": "Assets/Game/Art/Branding/Materials/CorpoArmor.mat"
+    },
+    {
+      "guid": "3338879da145c1b4ea56953bc53c0cfa",
+      "path": "Assets/Game/Art/Branding/Materials/CyanLight.mat"
+    },
+    {
+      "guid": "381e100709f6f0d44acece6815bcb022",
+      "path": "Assets/Game/Art/Branding/Materials/NatifArmor.mat"
+    },
+    {
+      "guid": "37009f44285be254bb3f13d3cc1512ed",
+      "path": "Assets/Game/Art/Branding/Meshes"
+    },
+    {
+      "guid": "ace31a6f336f6fd42a9fa7beb298850d",
+      "path": "Assets/Game/Art/Branding/Meshes/RobotDockRing.asset"
+    },
+    {
+      "guid": "c8f041e91ab7d384284b869ddf12f5b6",
+      "path": "Assets/Game/Art/Branding/Portraits"
+    },
+    {
+      "guid": "56ff80f62a8dff644ac19c94781910b4",
+      "path": "Assets/Game/Art/Branding/Portraits/CorpoRobot.png"
+    },
+    {
+      "guid": "f60112d3ac82109499449668326ad9e4",
+      "path": "Assets/Game/Art/Branding/Portraits/NatifRobot.png"
+    },
+    {
+      "guid": "73eacd117da19874780dd3fd86347443",
+      "path": "Assets/Game/Prefabs/Character/Robots"
+    },
+    {
+      "guid": "0f0e240dd7cbbd14c931ca3a0fded8ae",
+      "path": "Assets/Game/Prefabs/Character/Robots/CorpoRobotFps.prefab"
+    },
+    {
+      "guid": "1799066cb91a0bb4da1d430d16d409cb",
+      "path": "Assets/Game/Prefabs/Character/Robots/CorpoRobotTps.prefab"
+    },
+    {
+      "guid": "73971e5644b2d6441b3485dd84ffe5a6",
+      "path": "Assets/Game/Prefabs/Character/Robots/NatifRobotFps.prefab"
+    },
+    {
+      "guid": "c26fe2c7bb2ef8940a8799f350788daa",
+      "path": "Assets/Game/Prefabs/Character/Robots/NatifRobotTps.prefab"
+    },
+    {
+      "guid": "bcabfaa4de43e9c43a8fcae91e03071b",
+      "path": "Assets/Game/Rendering/Robots"
+    },
+    {
+      "guid": "6fea4ad34dc3a274aa373af54500e3f0",
+      "path": "Assets/Game/Rendering/Robots/RobotArmor.shader"
+    },
+    {
+      "guid": "90069ab41e34a40499e459d0652dc6e3",
+      "path": "Assets/Game/Scripts/Editor/Project/PresentationSmokeBatch.cs"
+    },
+    {
+      "guid": "319468ba168c2ec4d9aed591abfaf7ce",
+      "path": "Assets/Game/Scripts/Editor/Project/RobotPresentationSetup.cs"
+    },
+    {
+      "guid": "a8b2223c2e99166498e77ac2427c02e5",
+      "path": "Assets/Game/Scripts/Editor/Project/RobotPresentationValidation.cs"
+    },
+    {
+      "guid": "735699c2b6cd69e4c98ab408a5e7e3f5",
+      "path": "Assets/Game/Scripts/Runtime/UI/Branding"
+    },
+    {
+      "guid": "58fa627c5d10de64bb6ace7471a93f3a",
+      "path": "Assets/Game/Scripts/Runtime/UI/Branding/GameIdentity.cs"
+    },
+    {
+      "guid": "bf0b2f70437785748887c12ec2d85387",
+      "path": "Assets/Game/Scripts/Runtime/UI/Loading/OpeningScreenController.cs"
+    },
+    {
+      "guid": "8a1ac501fbe0543498e969ce24ef2ce1",
+      "path": "Assets/Game/Scripts/Runtime/UI/MainMenu/MenuRobotDisplay.cs"
+    },
+    {
+      "guid": "294d567efe1706344bb6afbdd8a0c17f",
+      "path": "Assets/Game/UI/Branding"
+    },
+    {
+      "guid": "9dee5c333732e2944926b670b7258950",
+      "path": "Assets/Game/UI/Branding/MenuPanelSettings.asset"
+    },
+    {
+      "guid": "9f083a33016f9c04fb1308a3658da701",
+      "path": "Assets/Game/UI/Branding/identity.uss"
+    },
+    {
+      "guid": "7d16175d471034d4298d835fe04360ee",
+      "path": "Assets/Game/UI/Loading"
+    },
+    {
+      "guid": "ed6f05697a2c15343a3764fc85ed52f3",
+      "path": "Assets/Game/UI/Loading/OpeningScreen.uxml"
+    },
+    {
+      "guid": "0304a9b48373c74419f4ec85d2fdaf77",
+      "path": "Assets/Game/UI/Loading/opening-screen.uss"
+    },
+    {
+      "guid": "c267e6f3cecdef144846eb8aca1b9606",
+      "path": "Assets/Game/UI/SettingsMenu/settings-menu.uss"
     }
   ],
   "generatedAssetsExcludedFromCloneValidation": [
@@ -17595,5 +17735,7 @@
       "path": "Assets/Wwise/ScriptableObjects/AuxBus"
     }
   ],
-  "note": "Generated/cache identities are preserved locally but not required after a fresh clone."
+  "note": "Generated/cache identities are preserved locally but not required after a fresh clone.",
+  "presentationAssetsAddedUTC": "2026-10-19T14:39:22.352325+00:00",
+  "presentationAssetIdentityCount": 37
 }

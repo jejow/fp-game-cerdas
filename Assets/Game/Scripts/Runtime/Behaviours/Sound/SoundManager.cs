@@ -85,7 +85,8 @@ public class SoundManager : Singleton<SoundManager>
 
     private void EnsureFallbackBanks()
     {
-        if (volumeRTPC != null || fallbackBanksLoaded || !AkUnitySoundEngine.IsInitialized()) return;
+        // A configured volume RTPC does not mean that the scene's sound banks are loaded.
+        if (fallbackBanksLoaded || !AkUnitySoundEngine.IsInitialized()) return;
         AkBankManager.LoadBank("DefaultBank", false, false);
         AkBankManager.LoadBank("MainMenu", false, false);
         AkBankManager.LoadBank("VoiceLines", false, false);

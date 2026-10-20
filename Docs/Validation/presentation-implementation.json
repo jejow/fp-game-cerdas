@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-19T15:27:38.092517+00:00",
+  "title": "STEEL PROTOCOL",
+  "status": "PASS",
+  "unityVersion": "6000.0.37f1",
+  "assetIdentitiesChecked": 4406,
+  "missingScripts": 0,
+  "presentationChecks": 27,
+  "uiChecks": 21,
+  "gameplayChecks": 88,
+  "runtimeErrors": 0,
+  "gameplayRuntimeErrors": 0,
+  "testJobWorkers": 2,
+  "audioRefillBuffers": 6,
+  "executableBuilt": false,
+  "githubWork": "Deferred by user",
+  "fpsSampleImport": "Excluded by user",
+  "visualSource": "Existing mechanical Corpo rig and animations for both factions, including FPS arms, with new armor materials and robot portraits.",
+  "backup": "../_ProjectBackups/Suna-20261019-Rebranding/Before",
+  "notes": [
+    "Initial validation findings fixed: opening panel reference, UXML stylesheet ownership, offline menu defaults, audio bank loading, and audio buffering.",
+    "Some completed batch Editors stalled at Mono shutdown and were stopped after saving results; the final gameplay batch exited normally.",
+    "Unrelated automatic cloud-material animation changes restored to the initial source values."
+  ]
+}

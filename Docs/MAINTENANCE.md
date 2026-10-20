@@ -110,3 +110,52 @@ background, opening, karakter robot, dan voice line belum diterapkan.
 Executable terbaru sudah tidak ada ketika pekerjaan dimulai; build cadangan lama
 tetap diberi label Legacy di cadangan luar proyek. Build dari sumber sekarang
 mengikuti panduan build.
+
+## Perubahan STEEL PROTOCOL - 19 Oktober 2026
+
+Identitas, opening, background/menu, Settings, pilihan tim, dan visual karakter diperbarui. Kedua tim, pemain lokal, tangan FPS, dan bot memakai robot. Struktur sumber dipertahankan; kode baru mengikuti folder Runtime/UI, Editor/Project, UI, Art/Branding, dan Rendering/Robots. Indeks file/direktori/kode diperbarui. Fitur/Map 001 FPS Sample tidak dipindahkan dan pekerjaan GitHub ditunda.
+
+Sumber sebelum perubahan ada di `../_ProjectBackups/Suna-20261019-Rebranding/Before`. Aset manusia dan opening asal tetap disimpan sebagai referensi, tanpa dipakai sebagai karakter/opening rilis. Cache Library yang sebelumnya diarsipkan dipakai kembali untuk validasi; cache tetap lokal dan dikecualikan dari Git.
+
+Validasi terbaru serta rincian hasil ada di [PRESENTATION.md](PRESENTATION.md). Sebagian proses batch pada mesin ini sempat tertahan di `Cleanup mono` setelah seluruh hasil ditulis dan aset disimpan; proses tersebut dihentikan pada fase shutdown. Uji gameplay terakhir menulis PASS dan Editor keluar normal. Bukti gagal sementara disimpan di cadangan di luar proyek.
+
+## Pembersihan atribusi personal, 20 Oktober 2026
+
+Halaman/tombol Credits, layout/style, field controller, dan referensi prefab dihapus. Dokumentasi lama, foto profil, dan tangkapan layar yang memuat daftar kontributor dipindahkan ke cadangan di luar proyek. File lisensi, header hak cipta vendor, dan pemberitahuan font/pustaka dipertahankan; daftar sumber berada di [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Nama personal pada komentar kode, nama objek/prefab collider, dan folder sandbox dibersihkan. Aset yang diganti nama tetap memakai GUID dan metadata Unity yang sama. Path mesin pada laporan portabel diganti path relatif. Indeks direktori/file/kode dibangkitkan ulang setelah pemindahan.
+
+Audit metadata memeriksa 533 FBX, 929 gambar, dan 211 WAV. Sebanyak 69 FBX dibersihkan pada 170 field metadata, dengan seluruh byte non-metadata tetap identik. Empat WAV dibersihkan pada tag pembuat RIFF/ID3; format dan sampel suara diverifikasi identik dengan SHA-256. Rincian ada di [model](Validation/model-metadata-cleanup.json) dan [audio](Validation/audio-metadata-cleanup.json).
+
+Uji menu mencakup 20 pemeriksaan Play Mode, tanpa error runtime. Validasi presentasi mencakup 30 pemeriksaan. Selama uji pertama, callback database Wwise mencatat MissingReferenceException setelah event asset dilepas; callback kini memeriksa referensi yang sudah tidak valid. Uji ulang lulus. Sebagian proses Editor batch selesai menguji tetapi tertahan pada penutupan Mono; laporan disimpan sebelum proses batch ditutup.
+
+Perubahan ini tidak menghasilkan executable baru dan tidak mengunggah perubahan ke GitHub. Cadangan sumber, file yang dikeluarkan dari proyek, serta log pemeriksaan lengkap ada di `../_ProjectBackups/Suna-20261020-CreditCleanup`.
+
+Validasi akhir Unity selesai dengan kode keluar 0: 4.404 identitas aset, empat scene, dan nol Missing Script. Nama netral yang dipakai untuk sandbox adalah `RoundTests` dan `UITests`; material prototipe memakai awalan `DebugDefaultMat`. Referensi GUID seluruh aset yang diganti nama dipertahankan. Path sumber historis yang memuat nama personal ikut dianonimkan. Laporan lengkap: [pembersihan atribusi](Validation/attribution-cleanup.json).
+
+## Persiapan commit/push, 20 Oktober 2026
+
+Aturan ignore ditambah untuk arsip lokal, log, dump, file cadangan, environment,
+kredensial penandatanganan, serta lisensi Unity lokal. Sebanyak 23 file solusi
+dan proyek IDE otomatis dipindahkan ke cadangan di luar repositori. Workflow CI
+warisan yang belum disiapkan untuk rilis ini juga diarsipkan.
+
+Git LFS pada Windows kini membaca nama file beraksen melalui pengaturan lokal
+`core.quotepath=false`. Format baris pada 14 file diselaraskan dengan versi
+sebelumnya tanpa mengubah teks ternormalisasi. Urutan manifest dikembalikan
+mengikuti GUID sumber lama; seluruh 4.404 pemetaan identitas tetap sama.
+
+Tiga metadata folder hasil otomatis dikeluarkan dari sumber Git, sesuai
+pengecualian manifest. Tiga folder sumber kosong diberi `.gitkeep` agar GUID
+yang dipertahankan bisa direkonstruksi pada clone. Checker staging tersedia di
+`Tools/Project/check_repository.py`; panduan ada di [GITHUB.md](GITHUB.md).
+Cadangan dan log pemeriksaan lokal ada di
+`../_ProjectBackups/Suna-20261020-PrePush`.
+
+Pemeriksaan staging juga memperbaiki tiga metadata simbol Mac Wwise yang masih
+tercatat sebagai pointer LFS pada index lama. Isi YAML lokal dimasukkan ulang
+sebagai file Git biasa sesuai aturan `.meta`; nilai GUID tidak diubah.
+Pemeriksaan sumber memverifikasi 8.641 file staging, 4.404 identitas aset, 2.031
+pointer LFS, dan 1.870 objek LFS unik. Tidak ada metadata hilang/yatim, tautan
+dokumentasi rusak, atau pola kredensial kuat yang terdeteksi. Hash objek LFS
+lulus pemeriksaan penuh. Perubahan disiapkan pada staging tanpa commit/push.

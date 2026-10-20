@@ -311,7 +311,7 @@
       "metaMoved": true
     },
     {
-      "source": "Suna/Assets/A SUPRIMER OU RANGER/SarahIntegration/Adaptive Probe Volume.prefab",
+      "source": "Suna/Assets/A SUPRIMER OU RANGER/Integration/Adaptive Probe Volume.prefab",
       "destination": "Suna/Assets/Game/Prefabs/Environment/Adaptive Probe Volume.prefab",
       "metaMoved": true
     },
@@ -890,5 +890,6 @@
       "destination": "_ProjectBackups/Suna-20261015/GeneratedAfterValidation/VolumetricCloudsURP.Editor.csproj",
       "generatedOrLegacy": true
     }
-  ]
+  ],
+  "personalSourcePathsAnonymized": true
 }

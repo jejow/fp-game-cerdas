@@ -1,7 +1,7 @@
 # Repositori GitHub
 
 Repositori proyek: **jejow/fp-game-cerdas**. Branch utama adalah `main`. Nama game
-di dalam Unity tetap Suna; nama repositori merupakan identitas final project.
+di dalam Unity adalah STEEL PROTOCOL; folder sumber proyek tetap bernama Suna.
 
 ## Mengambil sumber lengkap
 
@@ -38,7 +38,7 @@ sebelum pemeriksaan/build pertama. GUID cache dan data hasil otomatis tidak dija
 syarat identitas aset ketika memeriksa hasil clone.
 
 Riwayat repositori asal disimpan lokal dalam cadangan. Repositori baru dimulai dari
-snapshot sumber yang sudah ditata. Kredit dan dokumen asal tetap tersedia di Docs.
+snapshot sumber yang sudah ditata. Pemberitahuan lisensi pihak ketiga tersedia di Docs dan sumber vendor masing-masing.
 
 ## Menyimpan perubahan berikutnya
 
@@ -51,8 +51,46 @@ git push
 
 Git LFS mengunggah aset yang berubah melalui hook push. Pertahankan `.gitattributes`
 dan `.gitignore`. Jangan memasukkan token GitHub atau file kredensial ke proyek.
-Alur GitHub Actions warisan masih membutuhkan secrets lisensi Unity; panduan build
-lokal ada di [BUILD_AND_TEST.md](BUILD_AND_TEST.md).
+Workflow CI warisan diarsipkan di luar repositori saat pembersihan. Salah satu
+aksinya, `actions/upload-artifact@v3`, sudah dihentikan menurut [pemberitahuan GitHub](https://github.com/actions/upload-artifact#actionsupload-artifact).
+Build lokal tersedia di [BUILD_AND_TEST.md](BUILD_AND_TEST.md); sumber ini tidak
+menjalankan build otomatis ketika di-push.
 
 Referensi mekanisme penyimpanan aset:
 [GitHub Docs tentang Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage).
+
+## Pemeriksaan sebelum commit dan push
+
+Jalankan dari root proyek setelah meninjau perubahan:
+
+```powershell
+python Tools/Project/update_docs.py
+git add -A
+python Tools/Project/check_repository.py --lfs-fsck
+git diff --cached --stat
+git commit -m "Prepare STEEL PROTOCOL offline project"
+git push origin main
+```
+
+Pemeriksaan membaca staging, sehingga file yang ditinjau sama dengan file yang
+akan masuk commit. Script memeriksa pasangan metadata/GUID, aset LFS beserta
+objek lokalnya, file otomatis atau privat, dan tautan dokumentasi. Hasil PASS
+adalah pemeriksaan lokal; login, izin akses, dan layanan remote diperiksa Git
+saat push dijalankan. Script tidak melakukan commit atau push.
+
+File `.env`, kredensial penandatanganan, lisensi Unity lokal, log, cache, cadangan,
+serta hasil build dikecualikan. File lisensi sumber pihak ketiga tetap disertakan.
+Tiga folder sumber yang kosong memakai `.gitkeep` untuk mempertahankan folder
+beserta GUID-nya ketika di-clone. Metadata untuk folder hasil otomatis tidak
+disertakan; pengecualiannya tercatat pada manifest validasi aset.
+
+Pada Windows, jika tampilan path non-ASCII mengganggu Git LFS, gunakan konfigurasi
+lokal repositori berikut:
+
+```powershell
+git config --local core.quotepath false
+```
+
+Pembersihan 20 Oktober menyimpan file IDE otomatis serta CI lama di
+`../_ProjectBackups/Suna-20261020-PrePush`. Cache impor Unity tetap lokal dan
+dikecualikan dari Git agar pembukaan proyek berikutnya tetap cepat.

@@ -89,7 +89,7 @@ partial struct ClientThirdPersonCharacterModelSystem : ISystem
 
             GameObject actualVisualGO = modelGameObject.GetComponentInChildren<SkinnedMeshRenderer>().gameObject;
 
-            // === Aurelien ===
+            // Set visibility layers for friendly and enemy units.
             if (clientLocalTeamSide == teamSide)
             {
 #if UNITY_EDITOR
@@ -112,7 +112,6 @@ partial struct ClientThirdPersonCharacterModelSystem : ISystem
 #endif
                 actualVisualGO.layer = 14;
             }
-            // === Aurelien ===
 
             if (modelPrefab == null) continue;
 

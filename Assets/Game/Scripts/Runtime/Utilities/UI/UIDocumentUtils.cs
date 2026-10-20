@@ -3,6 +3,16 @@ using UnityEngine.UIElements;
 
 public class UIDocumentUtils
 {
+    /// <summary>Keeps stylesheet ownership when mounting a UXML asset in another document.</summary>
+    public static TemplateContainer InstantiateFullSize(VisualTreeAsset asset)
+    {
+        var instance = asset.Instantiate();
+        instance.style.flexGrow = 1;
+        instance.style.width = Length.Percent(100);
+        instance.style.height = Length.Percent(100);
+        return instance;
+    }
+
     static public void SetMargin<T>(ref T element, float value = 0) where T : VisualElement
     {
         SetMargin(ref element, Vector4.one * value);

@@ -1,0 +1,11 @@
+.opening { flex-grow: 1; background-color: rgb(7, 13, 20); align-items: center; justify-content: center; }
+.opening-eyebrow { position: absolute; top: 8%; font-size: 16px; color: rgb(107, 130, 145); }
+.opening-center { align-items: center; margin-bottom: 50px; }
+.opening-title { font-size: 92px; margin-top: 28px; margin-bottom: 8px; }
+.opening-bottom { position: absolute; left: 23%; right: 23%; bottom: 10%; }
+.opening-status-row { flex-direction: row; justify-content: space-between; font-size: 17px; color: rgb(155, 176, 188); margin-bottom: 14px; }
+.opening-track { height: 3px; background-color: rgb(29, 46, 57); }
+.opening-fill { height: 100%; width: 0; background-color: rgb(92, 219, 234); }
+.opening-footer { margin-top: 24px; flex-direction: row; align-items: center; justify-content: space-between; color: rgb(104, 128, 143); font-size: 12px; }
+#SkipOpening { color: rgb(172, 195, 207); background-color: rgba(0, 0, 0, 0); border-width: 0; font-size: 13px; padding: 12px; }
+#SkipOpening:hover, #SkipOpening:focus { color: rgb(108, 230, 244); background-color: rgb(19, 35, 46); }

@@ -14,9 +14,8 @@ using Cursor = UnityEngine.Cursor;
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private VisualTreeAsset _settingsMenuAsset;
-    [SerializeField] private VisualTreeAsset _creditsMenuAsset;
     [SerializeField] private GameManager _gameManager;
-    private VisualElement _root, _logo, _mainMenuElements, _container, _creditsMenu, _botMenu, _feedback, _fill;
+    private VisualElement _root, _logo, _mainMenuElements, _container, _botMenu, _feedback, _fill;
     private Label _feedbackLabel, _matchSummary, _botDescription;
     private DropdownField _team, _allies, _enemies, _difficulty;
     private Button _startButton, _backButton;
@@ -27,16 +26,16 @@ public class MainMenuController : MonoBehaviour
     private void Awake()
     {
         _root = GetComponent<UIDocument>().rootVisualElement;
+        GameIdentity.ApplyTo(_root);
         _container = _root.Q("Container");
         _mainMenuElements = _root.Q("MainMenuElements");
         _logo = _root.Q("Logo");
         _root.Q<Button>("PlayButton").clicked += OpenBotSetup;
         _root.Q<Button>("SettingsButton").clicked += OnSettings;
-        _root.Q<Button>("CreditsButton").clicked += OnCredits;
         _root.Q<Button>("QuitButton").clicked += OnQuit;
         _botMenu = _root.Q("BotSetup");
         _team = _root.Q<DropdownField>("PlayerTeam");
-        _team.choices = new() { "Corpo — Plant the bomb", "Natif — Defuse the bomb" };
+        _team.choices = new() { "Corpo robots — Plant the bomb", "Natif robots — Defuse the bomb" };
         _allies = _root.Q<DropdownField>("AllyBots");
         _allies.choices = Enumerable.Range(0, OfflineMatchOptions.MaxAllyBots + 1).Select(x => x.ToString()).ToList();
         _enemies = _root.Q<DropdownField>("EnemyBots");
@@ -75,12 +74,6 @@ public class MainMenuController : MonoBehaviour
     {
         if (_starting || Keyboard.current == null || !Keyboard.current.escapeKey.wasPressedThisFrame) return;
         if (_botMenu.style.display == DisplayStyle.Flex) CloseBotSetup();
-        else if (_creditsMenu != null)
-        {
-            _creditsMenu.RemoveFromHierarchy();
-            _creditsMenu = null;
-            ShowMainMenu(true);
-        }
     }
 
     private void OnDestroy()
@@ -203,17 +196,8 @@ public class MainMenuController : MonoBehaviour
         CloseSettings();
         _container.Clear();
         var controller = gameObject.AddComponent<SettingsMenuController>();
-        controller.root = _settingsMenuAsset.Instantiate().Children().First();
+        controller.root = UIDocumentUtils.InstantiateFullSize(_settingsMenuAsset);
         _container.Add(controller.root);
-    }
-
-    private void OnCredits()
-    {
-        CloseSettings();
-        _container.Clear();
-        _creditsMenu = _creditsMenuAsset.Instantiate().Children().First();
-        _root.Add(_creditsMenu);
-        ShowMainMenu(false);
     }
 
     private void OnQuit()

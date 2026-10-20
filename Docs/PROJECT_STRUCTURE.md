@@ -12,13 +12,13 @@ subdirektori dan [FILE_INDEX.md](FILE_INDEX.md) mencatat setiap file sumber/aset
 | `Assets` | Semua aset yang dikenali Unity beserta metadata GUID-nya. |
 | `Audio/WwiseProject` | Proyek authoring Wwise, audio asli, work unit, dan bank hasil generasi. |
 | `Builds` | Hasil build player yang dibuat dari sumber ini; baca README di dalamnya. |
-| `Docs` | Panduan, arsitektur, referensi kode, indeks file, kredit, dan bukti validasi. |
+| `Docs` | Panduan, arsitektur, referensi kode, indeks file, pemberitahuan vendor, dan bukti validasi. |
 | `Packages/manifest.json` | Dependensi langsung serta package embedded. |
 | `Packages/packages-lock.json` | Versi dan dependensi hasil resolusi Unity Package Manager. |
 | `ProjectSettings` | Build scenes, kualitas, input, rendering, dan pengaturan Unity. |
 | `Tools/Project` | Generator dokumentasi dan perintah batch Unity. |
 | `Tools/ThirdPartySources` | Arsip source integrasi Wwise dari sumber asli proyek. |
-| `.github` | Workflow dan pengaturan repositori. |
+| `.github` | Panduan kode repositori. Konfigurasi CI warisan diarsipkan di luar proyek. |
 | `.vscode`, `.vsconfig` | Konfigurasi editor kode yang dipertahankan. |
 | `.gitattributes`, `.gitignore` | Aturan Git dan pengecualian hasil otomatis. |
 | `README.md` | Pintu masuk dokumentasi dan langkah menjalankan game. |

@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-20T04:49:22.620290+00:00",
+  "status": "PASS",
+  "product": "STEEL PROTOCOL",
+  "unityVersion": "6000.0.37f1",
+  "sourceAudit": {
+    "portableFilePathsChecked": 8640,
+    "textFilesChecked": 4708,
+    "knownContributorNameMatchesOutsideProtectedSources": 0,
+    "optionalAuthorTagsRemaining": 0,
+    "generatedCachesAndGitHistoryIncluded": false
+  },
+  "removedContent": [
+    "Contributor page and menu entry, layout/style, controller field and prefab reference.",
+    "Original contributor profiles, photos, and old credit-page screenshots.",
+    "Personal names in code comments, sandbox/material/prefab/object names, and portable report paths."
+  ],
+  "assetNames": {
+    "foldersRenamed": 2,
+    "colliderPrefabsRenamed": 3,
+    "debugMaterialsRenamed": 4,
+    "renamedIdentityManifestPaths": 25,
+    "guidsPreserved": true
+  },
+  "modelMetadata": {
+    "filesInspected": 533,
+    "binaryStringPropertiesInspected": 1353852,
+    "filesChanged": 69,
+    "fieldsCleared": 170,
+    "allNonMetadataBytesUnchanged": true
+  },
+  "imageMetadata": {
+    "rasterHeadersInspected": 929,
+    "photoshopDocumentsInspected": 3,
+    "exrHeadersInspected": 133,
+    "imagePixelsChanged": false
+  },
+  "audioMetadata": {
+    "wavFilesInspected": 211,
+    "wavFilesChanged": 4,
+    "id3ArtistFramesCleared": 3,
+    "audioSampleAndFormatHashesUnchanged": true,
+    "sourceAndBankFilesChecked": 219,
+    "remainingPersonalTagMatches": 0
+  },
+  "verification": {
+    "assetIdentitiesChecked": 4404,
+    "scenesChecked": 4,
+    "missingScripts": 0,
+    "presentationChecks": 30,
+    "uiPlayModeChecks": 20,
+    "uiRuntimeErrors": 0,
+    "documentationLinksChecked": 8918,
+    "brokenDocumentationLinks": 0,
+    "uxmlLayoutsChecked": 9,
+    "editorValidationUtc": "2026-10-20T04:47:19.0351700Z"
+  },
+  "retainedNotices": "Vendor license, copyright, and required attribution notices remain with their libraries, fonts, and assets. See Docs/THIRD_PARTY_NOTICES.md.",
+  "recoveryArchive": "../_ProjectBackups/Suna-20261020-CreditCleanup",
+  "executableBuilt": false,
+  "githubWork": "Deferred by user",
+  "notes": [
+    "A stale Wwise Editor callback found by the UI suite was fixed by discarding an unloaded event reference; runtime errors remain test failures.",
+    "Full Editor logs and removed content are kept in the external recovery archive. Some completed batch runs stalled during Mono shutdown and were closed after saving reports.",
+    "Gameplay verification from 19 October is historical; this change reran menu Play Mode checks and final Unity structure/presentation validation."
+  ]
+}

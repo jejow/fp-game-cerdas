@@ -1,7 +1,6 @@
 '''
 Created on Mar 12, 2013
 
-@author: bli
 '''
 
 import sys, os, argparse

@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="../Branding/identity.uss" />
+    <Style src="opening-screen.uss" />
+    <ui:VisualElement name="Opening" class="opening identity-font">
+        <ui:Label text="AUTONOMOUS COMBAT DIVISION" class="opening-eyebrow" />
+        <ui:VisualElement class="opening-center">
+            <ui:VisualElement name="RobotMark" class="robot-mark">
+                <ui:VisualElement class="robot-eyes">
+                    <ui:VisualElement class="robot-eye" />
+                    <ui:VisualElement class="robot-eye" />
+                </ui:VisualElement>
+                <ui:VisualElement class="robot-jaw" />
+            </ui:VisualElement>
+            <ui:Label text="STEEL PROTOCOL" class="game-title opening-title" />
+            <ui:Label text="TACTICAL ROBOT COMBAT" class="game-tagline" />
+        </ui:VisualElement>
+        <ui:VisualElement class="opening-bottom">
+            <ui:VisualElement class="opening-status-row">
+                <ui:Label name="OpeningStatus" text="INITIALIZING" />
+                <ui:Label name="OpeningPercentage" text="00%" />
+            </ui:VisualElement>
+            <ui:VisualElement class="opening-track">
+                <ui:VisualElement name="OpeningFill" class="opening-fill" />
+            </ui:VisualElement>
+            <ui:VisualElement class="opening-footer">
+                <ui:Label text="OFFLINE OPERATIONS / ROBOT UNITS ONLY" />
+                <ui:Button name="SkipOpening" text="SKIP INTRO  [ ENTER ]" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

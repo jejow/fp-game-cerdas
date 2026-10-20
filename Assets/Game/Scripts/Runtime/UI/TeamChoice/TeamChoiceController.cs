@@ -34,8 +34,8 @@ public class TeamChoiceController : MonoBehaviour, IUIController
         int natifCount = PlayerHelpers.GetClientPlayersByTeam(TeamSideType.Natif).Count;
         int corpoCount = PlayerHelpers.GetClientPlayersByTeam(TeamSideType.Corpo).Count;
 
-        corpoNumberLabel.text = $"{corpoCount} player(s)";
-        natifNumberLabel.text = $"{natifCount} player(s)";
+        corpoNumberLabel.text = $"{corpoCount} unit(s)";
+        natifNumberLabel.text = $"{natifCount} unit(s)";
     }
 
     private void OnEnable()

@@ -6,7 +6,7 @@
 2. Pilih **Tools > Offline > Sync existing audio banks** bila bank Windows belum ada.
 3. Pilih **Tools > Offline > Build Windows validation player**.
 4. Periksa `Logs/OfflineVerification/build-details.txt` dan `build-result.txt`.
-5. Jalankan `Builds/Offline/Suna.exe` bersama semua isi foldernya.
+5. Jalankan `Builds/Offline/SteelProtocol.exe` bersama semua isi foldernya.
 
 Builder memakai `BuildOptions.None` untuk Windows 64-bit. Daftar scene aktif adalah
 SplashScreen, MainMenu, Gameplay dalam urutan tersebut. Build hanya diterima bila
@@ -58,3 +58,9 @@ tetap memerlukan pemeriksaan langsung. Penataan ini menguji sumber pada Editor;
 hasil historis build/standalone di `Validation/History` mempertahankan tanggal aslinya.
 
 Perbarui indeks setelah mengubah struktur dengan `python Tools/Project/update_docs.py`.
+
+## Pemeriksaan presentasi STEEL PROTOCOL
+
+Jalankan `Tools/Project/Invoke-Unity.ps1 -Action Presentation` untuk menguji opening, Skip, menu, settings, ketiadaan halaman kontributor, dan layout 1600 x 900 serta 1280 x 720. Laporan serta tangkapan layar berada di `Docs/Validation`. `-Action Validate` memeriksa struktur dan referensi robot; `-Action Smoke` juga memeriksa visual robot pada pertandingan kedua tim. Lihat [PRESENTATION.md](PRESENTATION.md).
+
+Runner Smoke membatasi Unity pada dua job worker. Antrean buffer Wwise kini enam refill; log error tetap aktif dan uji menuntut nol error runtime. Laporan terbaru: [88 pemeriksaan gameplay](Validation/robot-gameplay-smoke.txt).

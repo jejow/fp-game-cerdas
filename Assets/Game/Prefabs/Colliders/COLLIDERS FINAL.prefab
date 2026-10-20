@@ -25996,7 +25996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8516323797423898115, guid: 4c8b18aff0ea5c445af739af8fd80d8b, type: 3}
       propertyPath: m_Name
-      value: SiteA Thomas
+      value: SiteAColliders
       objectReference: {fileID: 0}
     - target: {fileID: 8516323797423898115, guid: 4c8b18aff0ea5c445af739af8fd80d8b, type: 3}
       propertyPath: m_IsActive

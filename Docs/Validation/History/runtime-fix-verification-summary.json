@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-08T13:30:20.781667",
-  "project": "C:\\Users\\junxi\\OneDrive\\Documents\\Semester 5\\Gim Cerdas\\Suna",
+  "project": ".",
   "changes": [
     "Cache ECS queries and lookups; consume round RPC during loading/game over",
     "Schedule site trigger processing after physics using ITriggerEventsJob",

@@ -1,5 +1,4 @@
 using GameNetwork.Utils;
-using System.Linq;
 using Unity.Entities;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -61,7 +60,7 @@ public class PauseMenuController : MonoBehaviour, IUIController
 
         // Instantiate Settings Menu
         settingsMenuController = gameObject.AddComponent<SettingsMenuController>();
-        settingsMenuController.root = _settingsMenuAsset.Instantiate().Children().First();
+        settingsMenuController.root = UI.InstantiateFullSize(_settingsMenuAsset);
         _container.Add(settingsMenuController.root);
     }
 

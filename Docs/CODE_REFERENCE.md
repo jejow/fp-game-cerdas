@@ -2,19 +2,19 @@
 
 Mencakup kode game, alat Editor milik proyek, dan script sandbox. Kode vendor/package tercantum dalam indeks file dan tidak digabung dengan kode game.
 
-Total: **227 file C#** dalam **57 kelompok direktori**.
+Total: **233 file C#** dalam **58 kelompok direktori**.
 Nama tipe dan namespace lama dipertahankan. Tipe pada tabel adalah ringkasan deklarasi; buka file untuk API lengkap.
 
-## `Assets/Development/Sandbox/Theo/Scripts`
+## `Assets/Development/Sandbox/UITests/Scripts`
 
 Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama.
 
 | File | Peran | Tipe yang dideklarasikan |
 | --- | --- | --- |
-| [TestCameraPivotRecoil.cs](../Assets/Development/Sandbox/Theo/Scripts/TestCameraPivotRecoil.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestCameraPivotRecoil` |
-| [TestImpactSphere.cs](../Assets/Development/Sandbox/Theo/Scripts/TestImpactSphere.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestImpactSphere` |
-| [TestPlayerViewRotation.cs](../Assets/Development/Sandbox/Theo/Scripts/TestPlayerViewRotation.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestPlayerViewRotation` |
-| [TestShootRecoil.cs](../Assets/Development/Sandbox/Theo/Scripts/TestShootRecoil.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestShootRecoil` |
+| [TestCameraPivotRecoil.cs](../Assets/Development/Sandbox/UITests/Scripts/TestCameraPivotRecoil.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestCameraPivotRecoil` |
+| [TestImpactSphere.cs](../Assets/Development/Sandbox/UITests/Scripts/TestImpactSphere.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestImpactSphere` |
+| [TestPlayerViewRotation.cs](../Assets/Development/Sandbox/UITests/Scripts/TestPlayerViewRotation.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestPlayerViewRotation` |
+| [TestShootRecoil.cs](../Assets/Development/Sandbox/UITests/Scripts/TestShootRecoil.cs) | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. | `TestShootRecoil` |
 
 ## `Assets/Game/Scripts/Editor/NoiseTools`
 
@@ -37,11 +37,14 @@ Validasi pertandingan, batch runner, build, dan sinkronisasi bank audio.
 
 ## `Assets/Game/Scripts/Editor/Project`
 
-Validasi struktur, scene build, dan identitas aset.
+Validasi struktur/GUID; pembuatan aset presentasi robot dan pengujian menu.
 
 | File | Peran | Tipe yang dideklarasikan |
 | --- | --- | --- |
+| [PresentationSmokeBatch.cs](../Assets/Game/Scripts/Editor/Project/PresentationSmokeBatch.cs) | Uji Play Mode untuk opening, navigasi menu, dan layout dua resolusi. | `PresentationSmokeBatch`, `Report` |
 | [ProjectStructureValidation.cs](../Assets/Game/Scripts/Editor/Project/ProjectStructureValidation.cs) | Validasi GUID, scene, pemisahan kode, dan bank audio. | `ProjectStructureValidation`, `AssetIdentity`, `IdentityManifest`, `ValidationResult` |
+| [RobotPresentationSetup.cs](../Assets/Game/Scripts/Editor/Project/RobotPresentationSetup.cs) | Membentuk prefab/material/potret robot serta scene opening dan menu. | `RobotPresentationSetup` |
+| [RobotPresentationValidation.cs](../Assets/Game/Scripts/Editor/Project/RobotPresentationValidation.cs) | Memeriksa identitas, dependensi rilis, model robot, material, dan shader. | `RobotPresentationValidation`, `Report` |
 
 ## `Assets/Game/Scripts/Runtime/Authoring`
 
@@ -278,7 +281,7 @@ Perpindahan scene dan urutan opening/loading.
 | [LoadManager.cs](../Assets/Game/Scripts/Runtime/Loading/LoadManager.cs) | Perpindahan scene dan urutan opening/loading. | `LoadManager` |
 | [LoadUtils.cs](../Assets/Game/Scripts/Runtime/Loading/LoadUtils.cs) | Perpindahan scene dan urutan opening/loading. | `LoadUtils` |
 | [SceneLoader.cs](../Assets/Game/Scripts/Runtime/Loading/SceneLoader.cs) | Perpindahan scene dan urutan opening/loading. | `SceneID`, `SceneLoader` |
-| [VideoPlayerSceneHandler.cs](../Assets/Game/Scripts/Runtime/Loading/VideoPlayerSceneHandler.cs) | Perpindahan dari video opening ke scene berikutnya. | `VideoPlayerSceneHandler` |
+| [VideoPlayerSceneHandler.cs](../Assets/Game/Scripts/Runtime/Loading/VideoPlayerSceneHandler.cs) | Controller video historis; opening rilis memakai OpeningScreenController. | `VideoPlayerSceneHandler` |
 
 ## `Assets/Game/Scripts/Runtime/Noise`
 
@@ -501,6 +504,14 @@ Controller tampilan UI Toolkit.
 | --- | --- | --- |
 | [UICentralController.cs](../Assets/Game/Scripts/Runtime/UI/UICentralController.cs) | Controller tampilan UI Toolkit. | `IUIController`, `UICentralController`, `UIState` |
 
+## `Assets/Game/Scripts/Runtime/UI/Branding`
+
+Identitas STEEL PROTOCOL yang dibagikan opening dan menu.
+
+| File | Peran | Tipe yang dideklarasikan |
+| --- | --- | --- |
+| [GameIdentity.cs](../Assets/Game/Scripts/Runtime/UI/Branding/GameIdentity.cs) | Nama produk, tagline, executable, dan label identitas bersama. | `GameIdentity` |
+
 ## `Assets/Game/Scripts/Runtime/UI/ConstantHUD`
 
 Controller tampilan UI Toolkit.
@@ -519,11 +530,12 @@ Controller tampilan UI Toolkit.
 
 ## `Assets/Game/Scripts/Runtime/UI/Loading`
 
-Controller tampilan UI Toolkit.
+Opening robot, progres pemuatan menu, dan UI loading pertandingan.
 
 | File | Peran | Tipe yang dideklarasikan |
 | --- | --- | --- |
-| [LoadingScreen.cs](../Assets/Game/Scripts/Runtime/UI/Loading/LoadingScreen.cs) | Controller tampilan UI Toolkit. | `LoadingScreen` |
+| [LoadingScreen.cs](../Assets/Game/Scripts/Runtime/UI/Loading/LoadingScreen.cs) | Opening robot, progres pemuatan menu, dan UI loading pertandingan. | `LoadingScreen` |
+| [OpeningScreenController.cs](../Assets/Game/Scripts/Runtime/UI/Loading/OpeningScreenController.cs) | Pemuatan menu nyata, progres opening, dan input Skip. | `OpeningScreenController` |
 
 ## `Assets/Game/Scripts/Runtime/UI/MainMenu`
 
@@ -532,6 +544,7 @@ Controller tampilan UI Toolkit.
 | File | Peran | Tipe yang dideklarasikan |
 | --- | --- | --- |
 | [MainMenuController.cs](../Assets/Game/Scripts/Runtime/UI/MainMenu/MainMenuController.cs) | Interaksi menu dan konfigurasi custom bot match. | `MainMenuController` |
+| [MenuRobotDisplay.cs](../Assets/Game/Scripts/Runtime/UI/MainMenu/MenuRobotDisplay.cs) | Gerakan idle ringan unit robot yang dipamerkan di menu. | `MenuRobotDisplay` |
 
 ## `Assets/Game/Scripts/Runtime/UI/PauseMenu`
 

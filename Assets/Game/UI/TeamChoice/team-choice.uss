@@ -1,21 +1,17 @@
-.team_choice_large_button {
-    background-color: rgba(0, 0, 0, 0);
-    transition-property: background-color;
-    transition-duration: 0.1s;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
-}
-
-.team_choice_large_button:hover {
-    background-color: rgba(172, 172, 172, 0.2);
-    transition-property: background-color;
-    transition-duration: 0.1s;
-}
-
-.team_choice_large_button:active {
-    background-color: rgba(233, 233, 233, 0.2);
-    transition-property: background-color;
-    transition-duration: 0.1s;
-}
+.team-screen { flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(6, 14, 22, 0.98); }
+.team-heading { font-size: 40px; -unity-font-style: bold; }
+.team-subheading { font-size: 18px; color: rgb(127, 159, 179); margin-top: 12px; margin-bottom: 35px; }
+.team-cards { flex-direction: row; justify-content: center; width: 88%; }
+.robot-team-card { width: 44%; align-items: center; padding: 28px; margin: 0 18px; border-radius: 0; border-width: 1px; color: rgb(226, 237, 245); background-color: rgb(14, 29, 41); }
+.corpo-card { border-color: rgb(151, 100, 51); }
+.natif-card { border-color: rgb(56, 130, 163); }
+.robot-team-card:hover, .robot-team-card:focus { background-color: rgb(27, 48, 63); border-width: 2px; }
+.team-name { font-size: 36px; -unity-font-style: bold; }
+.team-role { font-size: 15px; margin-top: 8px; color: rgb(145, 179, 195); }
+.corpo-card .team-role { color: rgb(232, 175, 103); }
+.robot-portrait { width: 370px; height: 370px; -unity-background-scale-mode: scale-to-fit; margin: 10px 0; }
+.corpo-portrait { background-image: url("../../Art/Branding/Portraits/CorpoRobot.png"); }
+.natif-portrait { background-image: url("../../Art/Branding/Portraits/NatifRobot.png"); }
+.team-objective { font-size: 17px; white-space: normal; -unity-text-align: middle-center; }
+.team-count { margin-top: 18px; color: rgb(126, 169, 189); font-size: 16px; }
+.spectator-button { margin-top: 32px; padding: 14px 35px; border-radius: 0; color: rgb(181, 207, 221); background-color: rgb(26, 44, 58); border-width: 1px; border-color: rgb(57, 88, 108); font-size: 18px; }

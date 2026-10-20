@@ -4,12 +4,11 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 
 | Direktori | File langsung | KiB langsung | Fungsi |
 | --- | ---: | ---: | --- |
-| `.` | 5 | 9.3 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
-| `.github` | 1 | 0.2 | Konfigurasi repositori dan workflow GitHub. |
-| `.github/workflows` | 1 | 1.0 | Konfigurasi repositori dan workflow GitHub. |
+| `.` | 5 | 10.7 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
+| `.github` | 1 | 0.2 | Panduan kode repositori; workflow CI warisan diarsipkan di luar proyek. |
 | `.vscode` | 3 | 1.7 | Pengaturan editor kode lokal yang dipertahankan. |
 | `Assets` | 14 | 3.4 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
-| `Assets/AddressableAssetsData` | 10 | 6.7 | Konfigurasi Addressables, group, alamat aset, dan builder. |
+| `Assets/AddressableAssetsData` | 9 | 6.6 | Konfigurasi Addressables, group, alamat aset, dan builder. |
 | `Assets/AddressableAssetsData/AssetGroupTemplates` | 2 | 2.4 | Konfigurasi Addressables, group, alamat aset, dan builder. |
 | `Assets/AddressableAssetsData/AssetGroups` | 3 | 1.8 | Konfigurasi Addressables, group, alamat aset, dan builder. |
 | `Assets/AddressableAssetsData/AssetGroups/Schemas` | 4 | 2.5 | Konfigurasi Addressables, group, alamat aset, dan builder. |
@@ -18,17 +17,17 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Development/ArtIntegration` | 2 | 8.4 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
 | `Assets/Development/Sandbox` | 5 | 41.8 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
 | `Assets/Development/Sandbox/GameplayTestScene` | 2 | 30.8 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo` | 4 | 0.7 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo/Materials` | 8 | 41.9 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo/Prefabs` | 4 | 20.8 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo/Scenes` | 3 | 28.5 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo/Scenes/AnotherScene` | 2 | 5.1 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Theo/Scripts` | 8 | 8.7 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Timotee` | 3 | 45.0 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
-| `Assets/Development/Sandbox/Timotee/RoundManagerTest` | 2 | 11.3 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/RoundTests` | 3 | 45.0 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/RoundTests/RoundManagerTest` | 2 | 11.3 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests` | 4 | 0.7 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests/Materials` | 8 | 41.9 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests/Prefabs` | 4 | 20.8 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests/Scenes` | 3 | 28.5 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests/Scenes/AnotherScene` | 2 | 5.1 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
+| `Assets/Development/Sandbox/UITests/Scripts` | 8 | 8.7 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
 | `Assets/Development/Scenes` | 2 | 11.3 | Scene/prototipe yang dipertahankan dan tidak masuk daftar build utama. |
 | `Assets/Game` | 11 | 2.3 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
-| `Assets/Game/Art` | 15 | 2.6 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
+| `Assets/Game/Art` | 16 | 2.8 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Animations` | 1 | 0.2 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Animations/PhysicalElements` | 1 | 0.2 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Animations/PhysicalElements/Characters` | 4 | 4.4 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
@@ -193,6 +192,11 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Reload` | 14 | 2838.6 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Throw` | 8 | 1554.3 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Animations/PhysicalElements/Characters/Natif/Tps/Walk` | 8 | 1498.1 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
+| `Assets/Game/Art/Branding` | 4 | 0.7 | Aset presentasi STEEL PROTOCOL yang dibuat dari sumber robot proyek. |
+| `Assets/Game/Art/Branding/Animations` | 2 | 2.2 | Controller idle robot untuk menu dan potret UI. |
+| `Assets/Game/Art/Branding/Materials` | 12 | 15.1 | Material armor dua tim, platform, panel, dan lampu ruang persiapan. |
+| `Assets/Game/Art/Branding/Meshes` | 2 | 14.5 | Mesh cincin cahaya platform robot. |
+| `Assets/Game/Art/Branding/Portraits` | 4 | 359.3 | Potret robot Corpo/Natif untuk pilihan tim, HUD, dan ikon produk. |
 | `Assets/Game/Art/CharacterAnimations` | 9 | 42232.3 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/CharacterAnimations/Weapon` | 16 | 44640.5 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Cinematic` | 7 | 140.6 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
@@ -286,7 +290,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Art/Prefabs_VFX/prefab export/muzzle` | 28 | 1380.8 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Prefabs_VFX/prefab export/weapon` | 6 | 3268.3 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Shaders` | 16 | 360.4 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
-| `Assets/Game/Art/SplashScreen` | 14 | 29102.4 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
+| `Assets/Game/Art/SplashScreen` | 14 | 29102.4 | Aset opening asal yang dipertahankan; video/logo lama tidak dipakai scene pembuka. |
 | `Assets/Game/Art/Textures` | 9 | 872.5 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Textures/Noises` | 10 | 648.4 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
 | `Assets/Game/Art/Textures/PhysicalElements` | 5 | 0.9 | Aset visual: model, tekstur, material, animasi, opening, dan VFX. |
@@ -456,17 +460,18 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Physics` | 6 | 1.7 | Konfigurasi material fisika game. |
 | `Assets/Game/Prefabs` | 31 | 8790.6 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Audio` | 2 | 3.9 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
-| `Assets/Game/Prefabs/Character` | 10 | 153.0 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
+| `Assets/Game/Prefabs/Character` | 11 | 153.1 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Character/Corpo` | 5 | 79.2 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Character/Corpo/Collider` | 20 | 22.6 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Character/Natif` | 5 | 77.3 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Character/Natif/Collider` | 20 | 22.5 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
+| `Assets/Game/Prefabs/Character/Robots` | 8 | 225.5 | Empat prefab robot FPS/TPS untuk kedua tim dalam rilis. |
 | `Assets/Game/Prefabs/Colliders` | 52 | 1679.8 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Environment` | 6 | 8.2 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Environments` | 129 | 6746.9 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Environments/Rocks` | 21 | 27.9 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Environments/Rocks/New_Rocks` | 18 | 25.3 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
-| `Assets/Game/Prefabs/Managers` | 8 | 22.1 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
+| `Assets/Game/Prefabs/Managers` | 8 | 22.5 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Netcode` | 4 | 4.8 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Physics` | 2 | 3.1 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/Sandbox` | 8 | 24.2 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
@@ -482,9 +487,10 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Prefabs/_EnAttende d integration (graph)/Mag` | 12 | 18.4 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/_EnAttende d integration (graph)/Projectiles` | 8 | 13.7 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
 | `Assets/Game/Prefabs/_EnAttende d integration (graph)/Viseurs` | 2 | 28.4 | Prefab gameplay dan presentasi yang dirujuk scene/sistem. |
-| `Assets/Game/Rendering` | 1 | 0.2 | Shader, material, dan render target efek gameplay. |
+| `Assets/Game/Rendering` | 2 | 0.3 | Shader, material, dan render target efek gameplay. |
 | `Assets/Game/Rendering/GameplayShaders` | 34 | 371.9 | Shader, material, dan render target efek gameplay. |
-| `Assets/Game/Scenes` | 9 | 8446.8 | Scene utama dan data presentasi pendamping. |
+| `Assets/Game/Rendering/Robots` | 2 | 6.4 | Shader URP untuk pewarnaan armor robot tanpa mengubah tekstur asal. |
+| `Assets/Game/Scenes` | 9 | 8566.2 | Scene utama dan data presentasi pendamping. |
 | `Assets/Game/Scenes/Gameplay` | 815 | 3942910.8 | Lightmap, lighting data, dan volume pendamping scene pertandingan. |
 | `Assets/Game/Scenes/Gameplay/ProBuilder Meshes` | 524 | 3033.2 | Lightmap, lighting data, dan volume pendamping scene pertandingan. |
 | `Assets/Game/Scenes/MainMenu` | 2 | 7.0 | Scene utama dan data presentasi pendamping. |
@@ -492,15 +498,15 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Scripts` | 4 | 1.2 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
 | `Assets/Game/Scripts/Editor` | 3 | 0.5 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
 | `Assets/Game/Scripts/Editor/NoiseTools` | 6 | 16.5 | Alat Editor pembuat/penggabung noise, dengan assembly tersendiri. |
-| `Assets/Game/Scripts/Editor/Offline` | 6 | 64.7 | Validasi pertandingan, batch runner, build, dan sinkronisasi bank audio. |
-| `Assets/Game/Scripts/Editor/Project` | 2 | 6.7 | Validasi struktur, scene build, dan identitas aset. |
+| `Assets/Game/Scripts/Editor/Offline` | 6 | 67.2 | Validasi pertandingan, batch runner, build, dan sinkronisasi bank audio. |
+| `Assets/Game/Scripts/Editor/Project` | 8 | 46.1 | Validasi struktur/GUID; pembuatan aset presentasi robot dan pengujian menu. |
 | `Assets/Game/Scripts/Runtime` | 17 | 2.9 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
 | `Assets/Game/Scripts/Runtime/Authoring` | 28 | 36.7 | Komponen authoring dan Baker ECS. |
 | `Assets/Game/Scripts/Runtime/Authoring/Character` | 18 | 11.1 | Komponen authoring dan Baker ECS. |
 | `Assets/Game/Scripts/Runtime/Authoring/Stuff` | 8 | 4.7 | Komponen authoring dan Baker ECS. |
 | `Assets/Game/Scripts/Runtime/Behaviours` | 8 | 4.1 | Komponen GameObject untuk kamera, decal, audio, dan presentasi. |
 | `Assets/Game/Scripts/Runtime/Behaviours/Character` | 4 | 0.4 | Komponen GameObject untuk kamera, decal, audio, dan presentasi. |
-| `Assets/Game/Scripts/Runtime/Behaviours/Sound` | 6 | 4.5 | Komponen GameObject untuk kamera, decal, audio, dan presentasi. |
+| `Assets/Game/Scripts/Runtime/Behaviours/Sound` | 6 | 4.6 | Komponen GameObject untuk kamera, decal, audio, dan presentasi. |
 | `Assets/Game/Scripts/Runtime/Components` | 59 | 31.4 | Definisi data, tag, dan buffer ECS. |
 | `Assets/Game/Scripts/Runtime/Components/Character` | 16 | 8.4 | Definisi data, tag, dan buffer ECS. |
 | `Assets/Game/Scripts/Runtime/Data` | 5 | 0.8 | Definisi C# ScriptableObject; instance dipisah di Game/Data. |
@@ -536,11 +542,12 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Scripts/Runtime/Systems/Simulation` | 8 | 5.7 | Sistem pengelolaan simulasi dan pesan internal. |
 | `Assets/Game/Scripts/Runtime/Systems/Stuff` | 18 | 79.2 | Sistem senjata, inventori, tembakan, reload, dan pergantian perlengkapan. |
 | `Assets/Game/Scripts/Runtime/Systems/UI` | 16 | 17.6 | Penghubung state simulasi dengan HUD dan UI. |
-| `Assets/Game/Scripts/Runtime/UI` | 10 | 9.1 | Controller tampilan UI Toolkit. |
+| `Assets/Game/Scripts/Runtime/UI` | 11 | 9.3 | Controller tampilan UI Toolkit. |
+| `Assets/Game/Scripts/Runtime/UI/Branding` | 2 | 0.6 | Identitas STEEL PROTOCOL yang dibagikan opening dan menu. |
 | `Assets/Game/Scripts/Runtime/UI/ConstantHUD` | 2 | 34.3 | Controller tampilan UI Toolkit. |
 | `Assets/Game/Scripts/Runtime/UI/ErrorsMenu` | 2 | 1.5 | Controller tampilan UI Toolkit. |
-| `Assets/Game/Scripts/Runtime/UI/Loading` | 2 | 1.5 | Controller tampilan UI Toolkit. |
-| `Assets/Game/Scripts/Runtime/UI/MainMenu` | 2 | 8.2 | Controller tampilan UI Toolkit. |
+| `Assets/Game/Scripts/Runtime/UI/Loading` | 4 | 4.5 | Opening robot, progres pemuatan menu, dan UI loading pertandingan. |
+| `Assets/Game/Scripts/Runtime/UI/MainMenu` | 4 | 8.2 | Controller tampilan UI Toolkit. |
 | `Assets/Game/Scripts/Runtime/UI/PauseMenu` | 2 | 3.2 | Controller tampilan UI Toolkit. |
 | `Assets/Game/Scripts/Runtime/UI/SettingsMenu` | 2 | 3.9 | Controller tampilan UI Toolkit. |
 | `Assets/Game/Scripts/Runtime/UI/StuffShop` | 2 | 7.4 | Controller tampilan UI Toolkit. |
@@ -548,19 +555,20 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Game/Scripts/Runtime/Utilities` | 25 | 39.8 | Fungsi dan komponen pendukung yang digunakan bersama. |
 | `Assets/Game/Scripts/Runtime/Utilities/Character` | 14 | 19.7 | Fungsi dan komponen pendukung yang digunakan bersama. |
 | `Assets/Game/Scripts/Runtime/Utilities/Stuff` | 2 | 11.2 | Fungsi dan komponen pendukung yang digunakan bersama. |
-| `Assets/Game/Scripts/Runtime/Utilities/UI` | 6 | 9.7 | Fungsi dan komponen pendukung yang digunakan bersama. |
+| `Assets/Game/Scripts/Runtime/Utilities/UI` | 6 | 10.1 | Fungsi dan komponen pendukung yang digunakan bersama. |
 | `Assets/Game/Scripts/Runtime/Utilities/UI/SinglePurposeElement` | 4 | 7.4 | Fungsi dan komponen pendukung yang digunakan bersama. |
 | `Assets/Game/Scripts/Runtime/Utilities/UI/VisualElements` | 2 | 5.5 | Fungsi dan komponen pendukung yang digunakan bersama. |
-| `Assets/Game/UI` | 10 | 1.7 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
+| `Assets/Game/UI` | 11 | 1.8 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
+| `Assets/Game/UI/Branding` | 4 | 2.8 | Style identitas dan pengaturan skala panel menu/opening. |
 | `Assets/Game/UI/ConstantHUD` | 2 | 31.4 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
-| `Assets/Game/UI/Credits` | 2 | 15.3 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Game/UI/ErrorsMenu` | 2 | 0.7 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
-| `Assets/Game/UI/MainMenu` | 4 | 9.7 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
+| `Assets/Game/UI/Loading` | 4 | 3.2 | Layout dan style layar boot/loading pertama. |
+| `Assets/Game/UI/MainMenu` | 4 | 10.2 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Game/UI/PauseMenu` | 4 | 4.1 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
-| `Assets/Game/UI/SettingsMenu` | 2 | 3.8 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
+| `Assets/Game/UI/SettingsMenu` | 4 | 4.1 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Game/UI/Shared` | 4 | 2.3 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Game/UI/StuffShop` | 4 | 8.5 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
-| `Assets/Game/UI/TeamChoice` | 4 | 8.1 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
+| `Assets/Game/UI/TeamChoice` | 4 | 3.7 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Game/UI/WeaponsIcon` | 2 | 1.5 | Layout UXML dan stylesheet USS; controller dipisahkan ke Scripts/Runtime/UI. |
 | `Assets/Gizmos` | 2 | 472.3 | Ikon/gambar gizmo Editor. |
 | `Assets/Resources` | 8 | 6.4 | Aset yang dapat dimuat melalui mekanisme Resources Unity. |
@@ -601,7 +609,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Samples/Visual Effect Graph/17.0.3/VisualEffectGraph Additions/Textures/Generic` | 12 | 1030.9 | Sample package yang masih dibutuhkan atau dipertahankan bersama aset asal. |
 | `Assets/Samples/Visual Effect Graph/17.0.3/VisualEffectGraph Additions/Textures/Smoke` | 16 | 7865.3 | Sample package yang masih dibutuhkan atau dipertahankan bersama aset asal. |
 | `Assets/Samples/Visual Effect Graph/17.0.3/VisualEffectGraph Additions/VFX` | 10 | 1430.8 | Sample package yang masih dibutuhkan atau dipertahankan bersama aset asal. |
-| `Assets/Settings` | 15 | 73.5 | Pengaturan URP, kualitas rendering, dan volume global. |
+| `Assets/Settings` | 14 | 73.3 | Pengaturan URP, kualitas rendering, dan volume global. |
 | `Assets/StreamingAssets` | 3 | 0.6 | File yang disertakan untuk pemuatan lokal saat runtime, termasuk bank audio. |
 | `Assets/StreamingAssets/Audio` | 1 | 0.2 | File yang disertakan untuk pemuatan lokal saat runtime, termasuk bank audio. |
 | `Assets/StreamingAssets/Audio/GeneratedSoundBanks` | 4 | 6.0 | File yang disertakan untuk pemuatan lokal saat runtime, termasuk bank audio. |
@@ -614,7 +622,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/TextMesh Pro/Shaders` | 46 | 1270.9 | Font, shader, resource, dan material TextMesh Pro. |
 | `Assets/TextMesh Pro/Sprites` | 6 | 124.2 | Font, shader, resource, dan material TextMesh Pro. |
 | `Assets/ThirdParty` | 4 | 0.7 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
-| `Assets/ThirdParty/PlaceholderAssets` | 3 | 0.5 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
+| `Assets/ThirdParty/PlaceholderAssets` | 2 | 0.4 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/PlaceholderAssets/Characters` | 1 | 0.2 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/PlaceholderAssets/Characters/Basic Motions` | 5 | 5.1 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/PlaceholderAssets/Characters/Basic Motions/Animations` | 1 | 0.2 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
@@ -678,6 +686,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Materials` | 2 | 0.4 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Materials/Guards` | 2 | 4.3 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Materials/Hits` | 32 | 69.3 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
+| `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Pipeline Upgrade` | 1 | 0.0 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Prefabs` | 2 | 0.4 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Prefabs/Guards` | 2 | 121.9 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
 | `Assets/ThirdParty/TravisGameAssets/Hit Impact Effects/Prefabs/Hits` | 8 | 2029.1 | Aset pihak ketiga; struktur internal dan metadata vendor dipertahankan. |
@@ -764,7 +773,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile` | 2 | 4167.6 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release` | 2 | 3219.1 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/API/Runtime/WwiseTypes` | 5 | 1.5 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
-| `Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects` | 24 | 37.6 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
+| `Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects` | 24 | 37.8 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjectsManagers` | 2 | 3.3 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes` | 24 | 48.7 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/Documentation` | 2 | 0.4 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
@@ -779,6 +788,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Wwise/Documentation/Windows/ko` | 2 | 6200.7 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/Documentation/Windows/zh` | 2 | 6754.0 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/Editor` | 1 | 0.2 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
+| `Assets/Wwise/Editor/ProjectData` | 1 | 0.0 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/Gizmos` | 4 | 15.0 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/MonoBehaviour` | 10 | 3.8 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/MonoBehaviour/Editor` | 44 | 94.1 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
@@ -800,6 +810,7 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Assets/Wwise/ProjectDatabase/Runtime/Plugins/Windows/x86_64` | 1 | 0.2 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/ProjectDatabase/Runtime/Plugins/Windows/x86_64/DSP` | 2 | 713.4 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/ScriptableObjects` | 10 | 16.0 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
+| `Assets/Wwise/ScriptableObjects/AuxBus` | 1 | 0.0 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/ScriptableObjects/Event` | 88 | 32.8 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/ScriptableObjects/GameParameter` | 2 | 0.7 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
 | `Assets/Wwise/ScriptableObjects/Soundbank` | 6 | 2.1 | Integrasi Wwise, plugin native, reference asset, dan alat audio Editor. |
@@ -843,12 +854,10 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Audio/WwiseProject/Switches` | 1 | 0.3 | Authoring Wwise, audio original, konfigurasi mixer, dan bank hasil generasi. |
 | `Audio/WwiseProject/Triggers` | 1 | 0.3 | Authoring Wwise, audio original, konfigurasi mixer, dan bank hasil generasi. |
 | `Audio/WwiseProject/Virtual Acoustics` | 1 | 0.3 | Authoring Wwise, audio original, konfigurasi mixer, dan bank hasil generasi. |
-| `Builds` | 1 | 0.5 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
-| `Docs` | 8 | 25.8 | Panduan proyek, arsitektur, indeks, dan hasil validasi. |
-| `Docs/Credits` | 1 | 24.2 | Dokumentasi dan kontribusi proyek asal. |
-| `Docs/Images` | 18 | 37189.3 | Gambar untuk dokumentasi dan kredit asal. |
-| `Docs/Validation` | 14 | 2190.7 | Manifest identitas aset dan laporan pemeriksaan penataan. |
-| `Docs/Validation/History` | 9 | 650.4 | Bukti pengujian historis, bukan hasil uji yang baru dijalankan. |
+| `Builds` | 1 | 0.6 | File root atau data pendukung proyek; lihat jenis file dan nama sumber. |
+| `Docs` | 9 | 41.5 | Panduan proyek, arsitektur, indeks, dan hasil validasi. |
+| `Docs/Validation` | 33 | 5242.5 | Manifest identitas aset dan laporan pemeriksaan penataan. |
+| `Docs/Validation/History` | 9 | 650.3 | Bukti pengujian historis, bukan hasil uji yang baru dijalankan. |
 | `Packages` | 2 | 21.2 | Manifest/lockfile package dan source package embedded. |
 | `Packages/com.merry-yellow.code-assist` | 11 | 54.9 | Manifest/lockfile package dan source package embedded. |
 | `Packages/com.merry-yellow.code-assist/Editor` | 41 | 155.0 | Manifest/lockfile package dan source package embedded. |
@@ -863,12 +872,12 @@ Jumlah file/ukuran pada tabel adalah isi langsung; subdirektori memiliki baris s
 | `Packages/com.unity.render-pipelines.universal-config/Runtime` | 6 | 2.3 | Manifest/lockfile package dan source package embedded. |
 | `Packages/com.unity.render-pipelines.universal-config/Tests` | 2 | 0.2 | Manifest/lockfile package dan source package embedded. |
 | `Packages/com.unity.render-pipelines.universal-config/Tests/Editor` | 4 | 1.0 | Manifest/lockfile package dan source package embedded. |
-| `ProjectSettings` | 32 | 65.3 | Konfigurasi Unity proyek yang dibagikan. |
+| `ProjectSettings` | 32 | 65.2 | Konfigurasi Unity proyek yang dibagikan. |
 | `ProjectSettings/Packages` | 0 | 0.0 | Konfigurasi Unity proyek yang dibagikan. |
 | `ProjectSettings/Packages/com.unity.dedicated-server` | 2 | 1.1 | Konfigurasi Unity proyek yang dibagikan. |
 | `ProjectSettings/Packages/com.unity.multiplayer.tools` | 1 | 0.4 | Konfigurasi Unity proyek yang dibagikan. |
 | `ProjectSettings/Packages/com.unity.probuilder` | 1 | 3.7 | Konfigurasi Unity proyek yang dibagikan. |
 | `ProjectSettings/Packages/com.unity.testtools.codecoverage` | 1 | 0.1 | Konfigurasi Unity proyek yang dibagikan. |
-| `Tools` | 1 | 0.5 | Alat pendukung maintenance di luar kompilasi Unity. |
-| `Tools/Project` | 2 | 15.5 | Perintah pembaruan dokumentasi dan pemeriksaan proyek. |
+| `Tools` | 1 | 0.7 | Alat pendukung maintenance di luar kompilasi Unity. |
+| `Tools/Project` | 3 | 26.6 | Perintah pembaruan dokumentasi dan pemeriksaan proyek. |
 | `Tools/ThirdPartySources` | 2 | 35966.2 | Arsip source SDK integrasi Wwise yang dipertahankan. |

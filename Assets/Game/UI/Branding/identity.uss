@@ -1,0 +1,17 @@
+.identity-font {
+    -unity-font-definition: url("project://database/Assets/Game/Art/Fonts/Nasalization%20Rg.otf?fileID=12800000&guid=06393c2b6298fae42b401ef0082880d0&type=3#Nasalization Rg");
+    color: rgb(235, 242, 246);
+}
+.game-title { -unity-font-style: bold; margin: 0; padding: 0; }
+.game-tagline { color: rgb(119, 206, 219); font-size: 18px; margin: 0; padding: 0; }
+.robot-mark {
+    width: 112px; height: 98px;
+    border-width: 3px; border-color: rgb(87, 209, 227);
+    background-color: rgb(10, 22, 30);
+    border-top-left-radius: 22px; border-top-right-radius: 22px;
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+    align-items: center; justify-content: center;
+}
+.robot-eyes { flex-direction: row; }
+.robot-eye { width: 25px; height: 10px; margin: 0 8px; background-color: rgb(93, 227, 246); }
+.robot-jaw { width: 42px; height: 5px; margin-top: 18px; background-color: rgb(245, 175, 77); }

@@ -225,6 +225,12 @@ public class WwiseEventReference : WwiseObjectReference
 #if UNITY_EDITOR
 	public void UpdateIsUserDefinedSoundBank()
 	{
+		// A queued database refresh can outlive an asset unloaded during a scene change.
+		if (this == null)
+		{
+			WwiseProjectDatabase.SoundBankDirectoryUpdated -= UpdateIsUserDefinedSoundBank;
+			return;
+		}
 		if (WwiseProjectDatabase.ProjectInfoExists)
 		{
 			WwiseSoundBankRef soundBankRef = new WwiseSoundBankRef(DisplayName, "Event");
